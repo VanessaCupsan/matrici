@@ -46,16 +46,73 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="accesareElemente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="accesareElemente.Designer.cs">
+      <DependentUpon>accesareElemente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="declarareMatrici.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="declarareMatrici.Designer.cs">
+      <DependentUpon>declarareMatrici.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="generareMatrici.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="generareMatrici.Designer.cs">
+      <DependentUpon>generareMatrici.cs</DependentUpon>
+    </Compile>
+    <Compile Include="matriciPatratice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="matriciPatratice.Designer.cs">
+      <DependentUpon>matriciPatratice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="parcurgereMatrici.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="parcurgereMatrici.Designer.cs">
+      <DependentUpon>parcurgereMatrici.cs</DependentUpon>
+    </Compile>
+    <Compile Include="problemeDiverse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="problemeDiverse.Designer.cs">
+      <DependentUpon>problemeDiverse.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="suportTeoretic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="suportTeoretic.Designer.cs">
+      <DependentUpon>suportTeoretic.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="accesareElemente.resx">
+      <DependentUpon>accesareElemente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="declarareMatrici.resx">
+      <DependentUpon>declarareMatrici.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="generareMatrici.resx">
+      <DependentUpon>generareMatrici.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="matriciPatratice.resx">
+      <DependentUpon>matriciPatratice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="problemeDiverse.resx">
+      <DependentUpon>problemeDiverse.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -67,6 +124,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="suportTeoretic.resx">
+      <DependentUpon>suportTeoretic.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -139,6 +199,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\DIVERSITATE.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backround.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backround 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TEORIE POZA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TEORIE POZA1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\POZA EXERSARE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SUPORT TEORETIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TESTARE.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

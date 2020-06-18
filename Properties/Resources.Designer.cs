@@ -103,6 +103,26 @@ namespace matrici.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap backround {
+            get {
+                object obj = ResourceManager.GetObject("backround", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap backround_2 {
+            get {
+                object obj = ResourceManager.GetObject("backround 2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap buton_1_poza {
             get {
                 object obj = ResourceManager.GetObject("buton 1 poza", resourceCulture);
@@ -236,6 +256,56 @@ namespace matrici.Properties {
         internal static System.Drawing.Bitmap PATRATE_2 {
             get {
                 object obj = ResourceManager.GetObject("PATRATE 2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap POZA_EXERSARE {
+            get {
+                object obj = ResourceManager.GetObject("POZA EXERSARE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SUPORT_TEORETIC {
+            get {
+                object obj = ResourceManager.GetObject("SUPORT TEORETIC", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TEORIE_POZA {
+            get {
+                object obj = ResourceManager.GetObject("TEORIE POZA", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TEORIE_POZA1 {
+            get {
+                object obj = ResourceManager.GetObject("TEORIE POZA1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TESTARE {
+            get {
+                object obj = ResourceManager.GetObject("TESTARE", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

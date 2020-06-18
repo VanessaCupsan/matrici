@@ -21,5 +21,41 @@ namespace matrici
         {
 
         }
+
+        private void declarareMatrici_Click(object sender, EventArgs e)
+        {
+            declarareMatrici p = new declarareMatrici();
+            p.ShowDialog();
+        }
+
+        private void accesareaElementelor_Click(object sender, EventArgs e)
+        {
+            accesareElemente t = new accesareElemente();
+            t.ShowDialog();
+        }
+
+        private void matriciPatratice_Click(object sender, EventArgs e)
+        {
+            parcurgereMatrici m = new parcurgereMatrici();
+            m.ShowDialog();
+        }
+
+        private void generareMatrici_Click(object sender, EventArgs e)
+        {
+            matriciPatratice s = new matriciPatratice();
+            s.ShowDialog();
+        }
+
+        private void parcurgereMatriciOarecare_Click(object sender, EventArgs e)
+        {
+            generareMatrici v = new generareMatrici();
+            v.ShowDialog();
+        }
+
+        private void problemeDiverse_Click(object sender, EventArgs e)
+        {
+            problemeDiverse w = new problemeDiverse();
+            w.ShowDialog();
+        }
     }
 }

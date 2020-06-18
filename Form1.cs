@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace matrici
 {
-    public partial class Form1 : Form
+    public partial class matrici : Form
     {
-        public Form1()
+        public matrici()
         {
             InitializeComponent();
         }

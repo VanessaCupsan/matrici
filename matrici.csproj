@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +79,66 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\declarareMatrici.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\declarare_matrici.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buton 1 poza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ultima incercare.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ultima incercare1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\acces_pixeli.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\accesare matrici.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\acces matrici 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\declarare matrici bun.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DECLARARE.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DECLARARE1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\INERCARE 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PATRATE 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PARCURGEREA MATRICILOR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOADING 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GENERARE PIXELI.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GENERAR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GENERAR 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DIVERSITATE.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

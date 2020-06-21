@@ -19,8 +19,20 @@ namespace matrici
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            suportTeoretic s = new suportTeoretic();
+            suportTeoretic1 s = new suportTeoretic1();
             s.ShowDialog();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            exersare1 v = new exersare1();
+            v.ShowDialog();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            testare1 r = new testare1();
+            r.ShowDialog();
         }
     }
 }

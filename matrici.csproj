@@ -58,6 +58,12 @@
     <Compile Include="declarareMatrici.Designer.cs">
       <DependentUpon>declarareMatrici.cs</DependentUpon>
     </Compile>
+    <Compile Include="exersare1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="exersare1.Designer.cs">
+      <DependentUpon>exersare1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,11 +102,26 @@
     <Compile Include="suportTeoretic.Designer.cs">
       <DependentUpon>suportTeoretic.cs</DependentUpon>
     </Compile>
+    <Compile Include="suportTeoretic1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="suportTeoretic1.Designer.cs">
+      <DependentUpon>suportTeoretic1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="testare1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="testare1.Designer.cs">
+      <DependentUpon>testare1.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="accesareElemente.resx">
       <DependentUpon>accesareElemente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="declarareMatrici.resx">
       <DependentUpon>declarareMatrici.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="exersare1.resx">
+      <DependentUpon>exersare1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -126,6 +147,12 @@
     </Compile>
     <EmbeddedResource Include="suportTeoretic.resx">
       <DependentUpon>suportTeoretic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="suportTeoretic1.resx">
+      <DependentUpon>suportTeoretic1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="testare1.resx">
+      <DependentUpon>testare1.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -220,6 +247,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\TESTARE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gradient.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tabel 1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tabel 11.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tabel 12.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tabel 13.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tabel 1 bun.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poza tabel 2 bun.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -272,5 +272,26 @@
   <ItemGroup>
     <None Include="Resources\poza pixeli buna.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exersare ex 1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exersare ex 1 bun.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exersare ex 1 bun1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gradient1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gradient2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gradient3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tabel.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

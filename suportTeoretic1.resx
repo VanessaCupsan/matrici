@@ -117,21 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="richTextBox2.Text" xml:space="preserve">
-    <value>   
-
-          MATRICILE joacă un rol important în viața de zi cu zi, chiar dacă mulți dintre noi nu suntem conștienți de acest lucru. Utilizând structura matricilor au fost concepute diverse siteme și tehnologii fără de care, în vremea noastră, multe dintre activitățile zilnice nu s-ar putea desfășura.
-
-                MATRICILE STAU LA BAZA CREĂRII TUTUROR JOCURILOR CE AU LA BAZĂ ALGORITMI DE PERMUTĂRI, ARANJAMENTE ETC.:
-
-                    Realizarea jocurilor de șah pe calculator- cea mai simplă metodă de reprezentare a tablei de șah     este o matrice de dimensiuni 8*8. În această reprezentare fiecare element al matricei este un pătrat al tablei de     joc și valoarea elementului este tipul piesei din pătratul respectiv.
-                    Cubul lui Rubik- Acesta constă dintr-o matrice 3*3*3 de cuburi mai mici. Fețele cuburilor mici sunt colorate diferit, iar fețele cubului mare sunt fixate pe pivoți , astfel încât să se poată roti în diferite direcții. Obiectivul jocului este de a da fiecarei fețe a cubului mare o singură culoare. 
-
-                MATRICILE STAU LA BAZA CREĂRII FOTOGRAFIILOR
-
-                    Pentru a putea fi prelucrate (cu calculatorul), imaginile grafice trebuie mai întâi să fie digitalizate, adică împărțite în multe elemente mici (de exemplu ca o tablă de șah, sau și după alte sisteme), și anume atât de mărunt, încât fiecare element să aibă o singură culoare, sau măcar o singură culoare clar dominantă. Atunci fiecare astfel de element, numit pixel, posedă trei atribute care se pot exprima digital (numeric): culoare, opacitate (transparență) și poziție în matricea în care se divide imaginea.
-</value>
-  </data>
   <data name="richTextBox1.Text" xml:space="preserve">
     <value>                                                                                    DEFINIȚIE
 
@@ -163,6 +148,21 @@
 Matricea are:
 5 linii, indexate (numerotate) de la 0 la 4 –sunt evidențiate liniile cu indici 1 și 3;
 6 coloane, indexate de la 0 la 5 – sunt evidențiate coloanele cu indici 0 și 4;
+</value>
+  </data>
+  <data name="richTextBox2.Text" xml:space="preserve">
+    <value>   
+
+          MATRICILE joacă un rol important în viața de zi cu zi, chiar dacă mulți dintre noi nu suntem conștienți de acest lucru. Utilizând structura matricilor au fost concepute diverse siteme și tehnologii fără de care, în vremea noastră, multe dintre activitățile zilnice nu s-ar putea desfășura.
+
+                MATRICILE STAU LA BAZA CREĂRII TUTUROR JOCURILOR CE AU LA BAZĂ ALGORITMI DE PERMUTĂRI, ARANJAMENTE ETC.:
+
+                    Realizarea jocurilor de șah pe calculator- cea mai simplă metodă de reprezentare a tablei de șah     este o matrice de dimensiuni 8*8. În această reprezentare fiecare element al matricei este un pătrat al tablei de     joc și valoarea elementului este tipul piesei din pătratul respectiv.
+                    Cubul lui Rubik- Acesta constă dintr-o matrice 3*3*3 de cuburi mai mici. Fețele cuburilor mici sunt colorate diferit, iar fețele cubului mare sunt fixate pe pivoți , astfel încât să se poată roti în diferite direcții. Obiectivul jocului este de a da fiecarei fețe a cubului mare o singură culoare. 
+
+                MATRICILE STAU LA BAZA CREĂRII FOTOGRAFIILOR
+
+                    Pentru a putea fi prelucrate (cu calculatorul), imaginile grafice trebuie mai întâi să fie digitalizate, adică împărțite în multe elemente mici (de exemplu ca o tablă de șah, sau și după alte sisteme), și anume atât de mărunt, încât fiecare element să aibă o singură culoare, sau măcar o singură culoare clar dominantă. Atunci fiecare astfel de element, numit pixel, posedă trei atribute care se pot exprima digital (numeric): culoare, opacitate (transparență) și poziție în matricea în care se divide imaginea.
 </value>
   </data>
 </root>

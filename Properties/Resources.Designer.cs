@@ -193,6 +193,36 @@ namespace matrici.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap exersare_ex_1 {
+            get {
+                object obj = ResourceManager.GetObject("exersare ex 1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap exersare_ex_1_bun {
+            get {
+                object obj = ResourceManager.GetObject("exersare ex 1 bun", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap exersare_ex_1_bun1 {
+            get {
+                object obj = ResourceManager.GetObject("exersare ex 1 bun1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap GENERAR {
             get {
                 object obj = ResourceManager.GetObject("GENERAR", resourceCulture);
@@ -226,6 +256,36 @@ namespace matrici.Properties {
         internal static System.Drawing.Bitmap gradient {
             get {
                 object obj = ResourceManager.GetObject("gradient", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gradient1 {
+            get {
+                object obj = ResourceManager.GetObject("gradient1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gradient2 {
+            get {
+                object obj = ResourceManager.GetObject("gradient2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gradient3 {
+            get {
+                object obj = ResourceManager.GetObject("gradient3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -306,6 +366,16 @@ namespace matrici.Properties {
         internal static System.Drawing.Bitmap SUPORT_TEORETIC {
             get {
                 object obj = ResourceManager.GetObject("SUPORT TEORETIC", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tabel {
+            get {
+                object obj = ResourceManager.GetObject("tabel", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

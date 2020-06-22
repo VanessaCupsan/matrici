@@ -117,4 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>    a) o matrice pătratică cu 100 de elemente numere întregi.
+
+    b) o matrice oarecare cu 200 de elemente întregi.
+
+    c) o matrice cu 20 de linii și 10 coloane
+
+    d) o matrice cu 20 de coloane și 10 linii
+</value>
+  </data>
 </root>

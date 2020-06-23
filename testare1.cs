@@ -12,8 +12,10 @@ namespace matrici
 {
     public partial class testare1 : Form
     {
+        TextBox[,] a;
+        int oriz = 15, vert = 115, latura = 24, pas = 24;
         int[] t = new int[10];
-        int nIntrebare2,nIntrebare21,nIntrebare3;
+        int nIntrebare2,nIntrebare21,nIntrebare3,nIntrebare4;
         public testare1()
         {
             InitializeComponent();
@@ -21,6 +23,22 @@ namespace matrici
 
         private void testare1_Load(object sender, EventArgs e)
         {
+            //generare matrice
+            a = new TextBox[12, 12];
+            for (int i = 0; i <= 10; i++)
+                for (int j = 0; j <= 10; j++)
+                {
+                    a[i, j] = new TextBox();
+                    tabPage4.Controls.Add(a[i, j]);
+                    a[i, j].Left = oriz + j * pas;
+                    a[i, j].Top = vert + i * pas;
+                    a[i, j].Width = latura;
+                    a[i, j].Height = 2 * latura;
+                    if (i == 0) { a[i, j].BackColor = Color.Red; a[i, j].Text = (j - 1).ToString(); a[i, j].ReadOnly = true; }
+                    if (j == 0) { a[i, j].BackColor = Color.Yellow; a[i, j].Text = (i - 1).ToString(); a[i, j].ReadOnly = true; }
+                    a[i, j].Visible = false;
+                }
+            //test
             for (int i = 0; i <= 9; i++)
                 t[i] = 0;
             Random r = new Random();
@@ -31,7 +49,9 @@ namespace matrici
             //generez intrebarea 3
             nIntrebare3 = r.Next(3, 50);
             intrebare3.Text = " Cum se poate nota o matrice oarecare cu exact " + (nIntrebare3 * 10).ToString() + " de elemente numere întregi?";
-
+            //genrez intrebarea 4
+            nIntrebare4 = r.Next(3, 10);
+            intrebare4.Text = " Construiți, folosind instrumentul de mai jos, un tablou bidimensioanl oarecare cu " + (nIntrebare4 * 10).ToString() + " elemente.";
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -58,6 +78,62 @@ namespace matrici
                 t[1] = 1;
             else t[1] = 0;
             tabControl1.SelectTab(1);
+        }
+
+        private void nrLinii4_ValueChanged(object sender, EventArgs e)
+        {
+            for (int i = 0; i <= 10; i++)
+                for (int j = 0; j <= 10; j++)
+                {
+                    a[0, 0].Visible = false;
+                    a[i, j].Visible = (i <= nrLinii4.Value && j <= nrColoane4.Value);
+                }
+        }
+
+        private void nrColoane4_ValueChanged(object sender, EventArgs e)
+        {
+            for (int i = 0; i <= 10; i++)
+                for (int j = 0; j <= 10; j++)
+                {
+                    a[0, 0].Visible = false;
+                    a[i, j].Visible = (i <= nrLinii4.Value && j <= nrColoane4.Value);
+                }
+        }
+
+        private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            for (int i = 0; i <= 10; i++)
+                for (int j = 0; j <= 10; j++)
+                {
+                    a[0, 0].Visible = false;
+                    a[i, j].Visible = (i <= nrLinii4.Value && j <= nrColoane4.Value);
+                }
+        }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (radioButton5.Checked)
+                t[5] = 1;
+            else t[5] = 0;
+            tabControl1.SelectTab(5);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if ((nrLinii4.Value) * (nrColoane4.Value) == nIntrebare4 * 10)
+                t[4] = 1;
+            else t[4] = 0;
+            tabControl1.SelectTab(4);
+        }
+
+        private void tabPage6_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -99,6 +175,11 @@ namespace matrici
                 t[3] = 1;
             else t[3] = 0;
             tabControl1.SelectTab(3);
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void intrebare3_Click(object sender, EventArgs e)

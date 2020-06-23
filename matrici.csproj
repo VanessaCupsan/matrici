@@ -293,5 +293,8 @@
   <ItemGroup>
     <None Include="Resources\tabel.PNG" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gradient4.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

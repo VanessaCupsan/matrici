@@ -136,6 +136,16 @@ namespace matrici
 
         }
 
+        private void button4_Click(object sender, EventArgs e)
+        {
+            //evaluare raspuns
+            if (checkBox1.Checked && checkBox3.Checked && checkBox5.Checked && checkBox8.Checked && checkBox12.Checked)
+                t[6] = 1;
+            else t[6] = 0;
+            tabControl1.SelectTab(6);
+
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             //evaluare raspuns

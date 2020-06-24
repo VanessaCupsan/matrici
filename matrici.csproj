@@ -296,5 +296,11 @@
   <ItemGroup>
     <None Include="Resources\gradient4.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tabel testare.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tabel memorie bun bun.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

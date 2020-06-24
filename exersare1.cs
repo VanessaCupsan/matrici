@@ -13,6 +13,9 @@ namespace matrici
 {
     public partial class exersare1 : Form
     {
+        TextBox[,] a;
+        int oriz = 15, vert = 115, latura = 24, pas = 24;
+        int[] t = new int[10];
         int nIntrebare2;
         public exersare1()
         {
@@ -21,7 +24,21 @@ namespace matrici
 
         private void exersare1_Load(object sender, EventArgs e)
         {
-            
+            //generare matrice
+            a = new TextBox[12, 12];
+            for (int i = 0; i <= 10; i++)
+                for (int j = 0; j <= 10; j++)
+                {
+                    a[i, j] = new TextBox();
+                    tabPage4.Controls.Add(a[i, j]);
+                    a[i, j].Left = oriz + j * pas;
+                    a[i, j].Top = vert + i * pas;
+                    a[i, j].Width = latura;
+                    a[i, j].Height = 2 * latura;
+                    if (i == 0) { a[i, j].BackColor = Color.Red; a[i, j].Text = (j - 1).ToString(); a[i, j].ReadOnly = true; }
+                    if (j == 0) { a[i, j].BackColor = Color.Yellow; a[i, j].Text = (i - 1).ToString(); a[i, j].ReadOnly = true; }
+                    a[i, j].Visible = false;
+                }
             Random r = new Random();
             nIntrebare2 = r.Next(3, 200);
             intrebare2.Text = " Fiind dat un tablou bidimensional cu " + nIntrebare2.ToString() + " de linii și " + nIntrebare2.ToString() + " de coloane, câte elemente se găsesc strict deasupra diagonalei secundare a tabloului ?";
@@ -73,6 +90,26 @@ namespace matrici
 
         }
 
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+            for (int i = 0; i <= 10; i++)
+                for (int j = 0; j <= 10; j++)
+                {
+                    a[0, 0].Visible = false;
+                    a[i, j].Visible = (i <= numericUpDown1.Value && j <= numericUpDown2.Value);
+                }
+        }
+
+        private void numericUpDown2_ValueChanged(object sender, EventArgs e)
+        {
+            for (int i = 0; i <= 10; i++)
+                for (int j = 0; j <= 10; j++)
+                {
+                    a[0, 0].Visible = false;
+                    a[i, j].Visible = (i <= numericUpDown1.Value && j <= numericUpDown2.Value);
+                }
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             if (raspuns31.Text == "F" && raspuns32.Text == "A" && raspuns33.Text == "A" && raspuns34.Text == "F")
@@ -85,6 +122,11 @@ namespace matrici
             if (checkBox1.Checked && checkBox6.Checked && checkBox11.Checked && checkBox12.Checked)
                 MessageBox.Show("Răspuns corect.");
             else MessageBox.Show("Trebuiau bifate: prima și al patra căsuță pe orizontală și a doua și a treia căsuță pe verticală. ");
+        }
+
+        private void tabPage4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

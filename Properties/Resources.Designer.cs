@@ -443,6 +443,26 @@ namespace matrici.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap tabel_memorie_bun_bun {
+            get {
+                object obj = ResourceManager.GetObject("tabel memorie bun bun", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tabel_testare {
+            get {
+                object obj = ResourceManager.GetObject("tabel testare", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap TEORIE_POZA {
             get {
                 object obj = ResourceManager.GetObject("TEORIE POZA", resourceCulture);

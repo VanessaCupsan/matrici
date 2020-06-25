@@ -64,6 +64,12 @@
     <Compile Include="exersare1.Designer.cs">
       <DependentUpon>exersare1.cs</DependentUpon>
     </Compile>
+    <Compile Include="exersare2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="exersare2.Designer.cs">
+      <DependentUpon>exersare2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,11 +114,23 @@
     <Compile Include="suportTeoretic1.Designer.cs">
       <DependentUpon>suportTeoretic1.cs</DependentUpon>
     </Compile>
+    <Compile Include="suportTeoretic2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="suportTeoretic2.Designer.cs">
+      <DependentUpon>suportTeoretic2.cs</DependentUpon>
+    </Compile>
     <Compile Include="testare1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="testare1.Designer.cs">
       <DependentUpon>testare1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="testare2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="testare2.Designer.cs">
+      <DependentUpon>testare2.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="accesareElemente.resx">
       <DependentUpon>accesareElemente.cs</DependentUpon>
@@ -150,6 +168,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="suportTeoretic1.resx">
       <DependentUpon>suportTeoretic1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="suportTeoretic2.resx">
+      <DependentUpon>suportTeoretic2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="testare1.resx">
       <DependentUpon>testare1.cs</DependentUpon>
@@ -301,6 +322,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\tabel memorie bun bun.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gradient5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ultima incercare2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tabel suport teoretic2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tabel vecini bun.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -303,6 +303,16 @@ namespace matrici.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap gradient5 {
+            get {
+                object obj = ResourceManager.GetObject("gradient5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap INERCARE_2 {
             get {
                 object obj = ResourceManager.GetObject("INERCARE 2", resourceCulture);
@@ -453,9 +463,29 @@ namespace matrici.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap tabel_suport_teoretic2 {
+            get {
+                object obj = ResourceManager.GetObject("tabel suport teoretic2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap tabel_testare {
             get {
                 object obj = ResourceManager.GetObject("tabel testare", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tabel_vecini_bun {
+            get {
+                object obj = ResourceManager.GetObject("tabel vecini bun", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -506,6 +536,16 @@ namespace matrici.Properties {
         internal static System.Drawing.Bitmap ultima_incercare1 {
             get {
                 object obj = ResourceManager.GetObject("ultima incercare1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ultima_incercare2 {
+            get {
+                object obj = ResourceManager.GetObject("ultima incercare2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

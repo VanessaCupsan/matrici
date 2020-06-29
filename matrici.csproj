@@ -350,5 +350,8 @@
   <ItemGroup>
     <None Include="Resources\tabel exersare ex5.PNG" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poza testare accesare matrici.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

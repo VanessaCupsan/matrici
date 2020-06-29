@@ -15,6 +15,11 @@ namespace matrici
         int[,] a = { { 45, 6, 4, -354, 78 }, { 5, 64, 34, 5, 0 }, { 88, 56, 455, 24, 689 }, { 68, 6756, 56, 56, 4 }, { 68, 0, 24, 7, 5 }, { 7455, 45, 4, -98, -10 }, { 39, 0, 1, 7, 4 } };
         int nIntrebare1,nIntrebare12,nIntrebare2,nIntrebare21,nIntrebare22,nIntrebare3,nIntrebare31,nIntrebare4,nIntrebare41,nIntrebare42,nIntrebare50,nIntrebare51,nIntrebare52,nIntrebare53;
 
+        private void intrebare4_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void button3_Click(object sender, EventArgs e)
         {
             if (raspuns34.Checked)

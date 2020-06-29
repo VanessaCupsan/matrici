@@ -32,7 +32,6 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
             this.raspuns1Coloana = new System.Windows.Forms.MaskedTextBox();
             this.raspuns1Linie = new System.Windows.Forms.MaskedTextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -40,13 +39,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.intrebare22 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.raspuns22 = new System.Windows.Forms.MaskedTextBox();
             this.raspuns21 = new System.Windows.Forms.MaskedTextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.intrebare2 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.button3 = new System.Windows.Forms.Button();
             this.raspuns32 = new System.Windows.Forms.RadioButton();
             this.raspuns34 = new System.Windows.Forms.RadioButton();
             this.raspuns33 = new System.Windows.Forms.RadioButton();
@@ -86,25 +83,28 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.intrebare4 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button4 = new System.Windows.Forms.Button();
             this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.button5 = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.raspuns2 = new System.Windows.Forms.MaskedTextBox();
             this.raspuns1 = new System.Windows.Forms.MaskedTextBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.intrebare52 = new System.Windows.Forms.Label();
             this.intrebare51 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.tabPage4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabPage5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -162,20 +162,6 @@
             this.label3.TabIndex = 9;
             this.label3.Text = "ATENȚIE!!";
             // 
-            // button2
-            // 
-            this.button2.BackgroundImage = global::matrici.Properties.Resources.gradient1;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(315, 325);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(111, 49);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "Verifică";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
             // raspuns1Coloana
             // 
             this.raspuns1Coloana.Location = new System.Drawing.Point(335, 161);
@@ -224,11 +210,11 @@
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.intrebare22);
-            this.tabPage2.Controls.Add(this.button1);
             this.tabPage2.Controls.Add(this.raspuns22);
             this.tabPage2.Controls.Add(this.raspuns21);
             this.tabPage2.Controls.Add(this.label5);
             this.tabPage2.Controls.Add(this.intrebare2);
+            this.tabPage2.Controls.Add(this.button1);
             this.tabPage2.Location = new System.Drawing.Point(4, 29);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
@@ -245,20 +231,6 @@
             this.intrebare22.Size = new System.Drawing.Size(60, 20);
             this.intrebare22.TabIndex = 10;
             this.intrebare22.Text = "label12";
-            // 
-            // button1
-            // 
-            this.button1.BackgroundImage = global::matrici.Properties.Resources.gradient1;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(336, 326);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(111, 49);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "Verifică";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // raspuns22
             // 
@@ -318,20 +290,6 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Exercițiul 3";
             this.tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.BackgroundImage = global::matrici.Properties.Resources.gradient1;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button3.Location = new System.Drawing.Point(313, 341);
-            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(111, 49);
-            this.button3.TabIndex = 11;
-            this.button3.Text = "Verifică";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // raspuns32
             // 
@@ -737,28 +695,7 @@
             this.intrebare4.Name = "intrebare4";
             this.intrebare4.Size = new System.Drawing.Size(779, 82);
             this.intrebare4.TabIndex = 0;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::matrici.Properties.Resources.tabelexersare_2_bun_bun;
-            this.pictureBox1.Location = new System.Drawing.Point(340, 100);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(419, 294);
-            this.pictureBox1.TabIndex = 13;
-            this.pictureBox1.TabStop = false;
-            // 
-            // button4
-            // 
-            this.button4.BackgroundImage = global::matrici.Properties.Resources.gradient1;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button4.Location = new System.Drawing.Point(65, 269);
-            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(111, 49);
-            this.button4.TabIndex = 10;
-            this.button4.Text = "Verifică";
-            this.button4.UseVisualStyleBackColor = true;
+            this.intrebare4.Click += new System.EventHandler(this.intrebare4_Click);
             // 
             // tabPage5
             // 
@@ -779,20 +716,6 @@
             this.tabPage5.Text = "Exercițiul 5";
             this.tabPage5.UseVisualStyleBackColor = true;
             this.tabPage5.Click += new System.EventHandler(this.tabPage5_Click);
-            // 
-            // button5
-            // 
-            this.button5.BackgroundImage = global::matrici.Properties.Resources.gradient1;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button5.Location = new System.Drawing.Point(168, 340);
-            this.button5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(111, 49);
-            this.button5.TabIndex = 12;
-            this.button5.Text = "Verifică";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // label11
             // 
@@ -830,15 +753,6 @@
             this.raspuns1.TabIndex = 4;
             this.raspuns1.ValidatingType = typeof(int);
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::matrici.Properties.Resources.tabel_exersare_ex5;
-            this.pictureBox2.Location = new System.Drawing.Point(447, 3);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(339, 413);
-            this.pictureBox2.TabIndex = 3;
-            this.pictureBox2.TabStop = false;
-            // 
             // intrebare52
             // 
             this.intrebare52.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -865,6 +779,93 @@
             this.label9.TabIndex = 0;
             this.label9.Text = "Se dă matricea a[7][5], ilustrată mai jos. Răspundeți următoarelor cerințe :";
             // 
+            // button2
+            // 
+            this.button2.BackgroundImage = global::matrici.Properties.Resources.gradient1;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button2.Location = new System.Drawing.Point(315, 325);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(111, 49);
+            this.button2.TabIndex = 8;
+            this.button2.Text = "Verifică";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackgroundImage = global::matrici.Properties.Resources.gradient1;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.Location = new System.Drawing.Point(336, 326);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(111, 49);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "Verifică";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button3
+            // 
+            this.button3.BackgroundImage = global::matrici.Properties.Resources.gradient1;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button3.Location = new System.Drawing.Point(313, 341);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(111, 49);
+            this.button3.TabIndex = 11;
+            this.button3.Text = "Verifică";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::matrici.Properties.Resources.tabelexersare_2_bun_bun;
+            this.pictureBox1.Location = new System.Drawing.Point(340, 100);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(419, 294);
+            this.pictureBox1.TabIndex = 13;
+            this.pictureBox1.TabStop = false;
+            // 
+            // button4
+            // 
+            this.button4.BackgroundImage = global::matrici.Properties.Resources.gradient1;
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button4.Location = new System.Drawing.Point(65, 269);
+            this.button4.Margin = new System.Windows.Forms.Padding(2);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(111, 49);
+            this.button4.TabIndex = 10;
+            this.button4.Text = "Verifică";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.BackgroundImage = global::matrici.Properties.Resources.gradient1;
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button5.Location = new System.Drawing.Point(168, 340);
+            this.button5.Margin = new System.Windows.Forms.Padding(2);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(111, 49);
+            this.button5.TabIndex = 12;
+            this.button5.Text = "Verifică";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::matrici.Properties.Resources.tabel_exersare_ex5;
+            this.pictureBox2.Location = new System.Drawing.Point(447, 3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(339, 413);
+            this.pictureBox2.TabIndex = 3;
+            this.pictureBox2.TabStop = false;
+            // 
             // exersare2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -883,9 +884,9 @@
             this.tabPage3.PerformLayout();
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabPage5.ResumeLayout(false);
             this.tabPage5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 

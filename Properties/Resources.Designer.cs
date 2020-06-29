@@ -383,6 +383,16 @@ namespace matrici.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap poza_testare_accesare_matrici {
+            get {
+                object obj = ResourceManager.GetObject("poza testare accesare matrici", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap SUPORT_TEORETIC {
             get {
                 object obj = ResourceManager.GetObject("SUPORT TEORETIC", resourceCulture);

@@ -453,6 +453,26 @@ namespace matrici.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap tabel_exersare_2_bun {
+            get {
+                object obj = ResourceManager.GetObject("tabel exersare 2 bun", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tabel_exersare_ex5 {
+            get {
+                object obj = ResourceManager.GetObject("tabel exersare ex5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap tabel_memorie_bun_bun {
             get {
                 object obj = ResourceManager.GetObject("tabel memorie bun bun", resourceCulture);
@@ -486,6 +506,16 @@ namespace matrici.Properties {
         internal static System.Drawing.Bitmap tabel_vecini_bun {
             get {
                 object obj = ResourceManager.GetObject("tabel vecini bun", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tabelexersare_2_bun_bun {
+            get {
+                object obj = ResourceManager.GetObject("tabelexersare 2 bun bun", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

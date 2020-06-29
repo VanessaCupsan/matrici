@@ -141,6 +141,9 @@
     <EmbeddedResource Include="exersare1.resx">
       <DependentUpon>exersare1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="exersare2.resx">
+      <DependentUpon>exersare2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -334,6 +337,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\tabel vecini bun.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tabel exersare 2 bun.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tabelexersare 2 bun bun.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tabel exersare ex5.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

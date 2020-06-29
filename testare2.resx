@@ -117,7 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label14.Text" xml:space="preserve">
-    <value>Ionel trebuie să memoreze într-o structură de date o imagine formată doar din puncte albe și negre. Imaginea are o dimensiune de x linii și y coloane. Care din declarațiile de mai jos este cea mai potrivită pentru a memora datele lui Ionel, știind că se dorește utilizarea unui spațiu de memorie cât mai mic?</value>
-  </data>
 </root>

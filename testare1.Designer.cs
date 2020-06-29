@@ -28,10 +28,27 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(testare1));
             this.button6 = new System.Windows.Forms.Button();
             this.tabPage8 = new System.Windows.Forms.TabPage();
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.button4 = new System.Windows.Forms.Button();
+            this.checkBox14 = new System.Windows.Forms.CheckBox();
+            this.checkBox13 = new System.Windows.Forms.CheckBox();
+            this.checkBox12 = new System.Windows.Forms.CheckBox();
+            this.checkBox11 = new System.Windows.Forms.CheckBox();
+            this.checkBox10 = new System.Windows.Forms.CheckBox();
+            this.checkBox9 = new System.Windows.Forms.CheckBox();
+            this.checkBox8 = new System.Windows.Forms.CheckBox();
+            this.checkBox7 = new System.Windows.Forms.CheckBox();
+            this.checkBox6 = new System.Windows.Forms.CheckBox();
+            this.checkBox5 = new System.Windows.Forms.CheckBox();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -44,6 +61,7 @@
             this.radioButton5 = new System.Windows.Forms.RadioButton();
             this.label10 = new System.Windows.Forms.Label();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.raspuns4 = new System.Windows.Forms.Button();
             this.nrColoane4 = new System.Windows.Forms.NumericUpDown();
             this.nrLinii4 = new System.Windows.Forms.NumericUpDown();
             this.label9 = new System.Windows.Forms.Label();
@@ -74,24 +92,29 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage9 = new System.Windows.Forms.TabPage();
             this.label14 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.checkBox10 = new System.Windows.Forms.CheckBox();
-            this.checkBox11 = new System.Windows.Forms.CheckBox();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
-            this.checkBox13 = new System.Windows.Forms.CheckBox();
-            this.checkBox14 = new System.Windows.Forms.CheckBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.intrebare7 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.raspuns7 = new System.Windows.Forms.MaskedTextBox();
             this.button2 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.intrebare8 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.button7 = new System.Windows.Forms.Button();
+            this.nrLinii8 = new System.Windows.Forms.NumericUpDown();
+            this.nrColoane8 = new System.Windows.Forms.NumericUpDown();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.radioButton10 = new System.Windows.Forms.RadioButton();
+            this.radioButton11 = new System.Windows.Forms.RadioButton();
+            this.radioButton12 = new System.Windows.Forms.RadioButton();
+            this.radioButton13 = new System.Windows.Forms.RadioButton();
+            this.button8 = new System.Windows.Forms.Button();
+            this.tabPage8.SuspendLayout();
+            this.tabPage7.SuspendLayout();
             this.tabPage6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabPage5.SuspendLayout();
             this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nrColoane4)).BeginInit();
@@ -101,7 +124,8 @@
             this.tabPage1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nrLinii8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nrColoane8)).BeginInit();
             this.SuspendLayout();
             // 
             // button6
@@ -117,20 +141,31 @@
             // 
             // tabPage8
             // 
+            this.tabPage8.Controls.Add(this.nrColoane8);
+            this.tabPage8.Controls.Add(this.nrLinii8);
+            this.tabPage8.Controls.Add(this.button7);
+            this.tabPage8.Controls.Add(this.label16);
+            this.tabPage8.Controls.Add(this.intrebare8);
             this.tabPage8.Location = new System.Drawing.Point(4, 29);
             this.tabPage8.Name = "tabPage8";
             this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage8.Size = new System.Drawing.Size(856, 333);
+            this.tabPage8.Size = new System.Drawing.Size(856, 360);
             this.tabPage8.TabIndex = 7;
             this.tabPage8.Text = "Întrebarea8";
             this.tabPage8.UseVisualStyleBackColor = true;
+            this.tabPage8.Click += new System.EventHandler(this.tabPage8_Click);
             // 
             // tabPage7
             // 
+            this.tabPage7.Controls.Add(this.button2);
+            this.tabPage7.Controls.Add(this.raspuns7);
+            this.tabPage7.Controls.Add(this.label17);
+            this.tabPage7.Controls.Add(this.intrebare7);
+            this.tabPage7.Controls.Add(this.label15);
             this.tabPage7.Location = new System.Drawing.Point(4, 29);
             this.tabPage7.Name = "tabPage7";
             this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(856, 333);
+            this.tabPage7.Size = new System.Drawing.Size(856, 360);
             this.tabPage7.TabIndex = 6;
             this.tabPage7.Text = "Întrebarea7";
             this.tabPage7.UseVisualStyleBackColor = true;
@@ -164,6 +199,151 @@
             this.tabPage6.Text = "Întrebarea6";
             this.tabPage6.UseVisualStyleBackColor = true;
             this.tabPage6.Click += new System.EventHandler(this.tabPage6_Click);
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(91, 281);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(92, 36);
+            this.button4.TabIndex = 34;
+            this.button4.Text = "Răspunde";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // checkBox14
+            // 
+            this.checkBox14.AutoSize = true;
+            this.checkBox14.Location = new System.Drawing.Point(718, 6);
+            this.checkBox14.Name = "checkBox14";
+            this.checkBox14.Size = new System.Drawing.Size(15, 14);
+            this.checkBox14.TabIndex = 33;
+            this.checkBox14.UseVisualStyleBackColor = true;
+            // 
+            // checkBox13
+            // 
+            this.checkBox13.AutoSize = true;
+            this.checkBox13.Location = new System.Drawing.Point(666, 6);
+            this.checkBox13.Name = "checkBox13";
+            this.checkBox13.Size = new System.Drawing.Size(15, 14);
+            this.checkBox13.TabIndex = 32;
+            this.checkBox13.UseVisualStyleBackColor = true;
+            // 
+            // checkBox12
+            // 
+            this.checkBox12.AutoSize = true;
+            this.checkBox12.Location = new System.Drawing.Point(617, 6);
+            this.checkBox12.Name = "checkBox12";
+            this.checkBox12.Size = new System.Drawing.Size(15, 14);
+            this.checkBox12.TabIndex = 31;
+            this.checkBox12.UseVisualStyleBackColor = true;
+            // 
+            // checkBox11
+            // 
+            this.checkBox11.AutoSize = true;
+            this.checkBox11.Location = new System.Drawing.Point(573, 6);
+            this.checkBox11.Name = "checkBox11";
+            this.checkBox11.Size = new System.Drawing.Size(15, 14);
+            this.checkBox11.TabIndex = 30;
+            this.checkBox11.UseVisualStyleBackColor = true;
+            // 
+            // checkBox10
+            // 
+            this.checkBox10.AutoSize = true;
+            this.checkBox10.Location = new System.Drawing.Point(525, 6);
+            this.checkBox10.Name = "checkBox10";
+            this.checkBox10.Size = new System.Drawing.Size(15, 14);
+            this.checkBox10.TabIndex = 29;
+            this.checkBox10.UseVisualStyleBackColor = true;
+            // 
+            // checkBox9
+            // 
+            this.checkBox9.AutoSize = true;
+            this.checkBox9.Location = new System.Drawing.Point(477, 6);
+            this.checkBox9.Name = "checkBox9";
+            this.checkBox9.Size = new System.Drawing.Size(15, 14);
+            this.checkBox9.TabIndex = 28;
+            this.checkBox9.UseVisualStyleBackColor = true;
+            // 
+            // checkBox8
+            // 
+            this.checkBox8.AutoSize = true;
+            this.checkBox8.Location = new System.Drawing.Point(423, 6);
+            this.checkBox8.Name = "checkBox8";
+            this.checkBox8.Size = new System.Drawing.Size(15, 14);
+            this.checkBox8.TabIndex = 27;
+            this.checkBox8.UseVisualStyleBackColor = true;
+            // 
+            // checkBox7
+            // 
+            this.checkBox7.AutoSize = true;
+            this.checkBox7.Location = new System.Drawing.Point(383, 6);
+            this.checkBox7.Name = "checkBox7";
+            this.checkBox7.Size = new System.Drawing.Size(15, 14);
+            this.checkBox7.TabIndex = 26;
+            this.checkBox7.UseVisualStyleBackColor = true;
+            // 
+            // checkBox6
+            // 
+            this.checkBox6.AutoSize = true;
+            this.checkBox6.Location = new System.Drawing.Point(329, 286);
+            this.checkBox6.Name = "checkBox6";
+            this.checkBox6.Size = new System.Drawing.Size(15, 14);
+            this.checkBox6.TabIndex = 25;
+            this.checkBox6.UseVisualStyleBackColor = true;
+            // 
+            // checkBox5
+            // 
+            this.checkBox5.AutoSize = true;
+            this.checkBox5.Location = new System.Drawing.Point(329, 238);
+            this.checkBox5.Name = "checkBox5";
+            this.checkBox5.Size = new System.Drawing.Size(15, 14);
+            this.checkBox5.TabIndex = 24;
+            this.checkBox5.UseVisualStyleBackColor = true;
+            // 
+            // checkBox4
+            // 
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.Location = new System.Drawing.Point(329, 188);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(15, 14);
+            this.checkBox4.TabIndex = 23;
+            this.checkBox4.UseVisualStyleBackColor = true;
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Location = new System.Drawing.Point(329, 148);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(15, 14);
+            this.checkBox3.TabIndex = 22;
+            this.checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(329, 96);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(15, 14);
+            this.checkBox2.TabIndex = 21;
+            this.checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(329, 50);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(15, 14);
+            this.checkBox1.TabIndex = 20;
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::matrici.Properties.Resources.tabel_testare;
+            this.pictureBox1.Location = new System.Drawing.Point(363, 32);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(388, 285);
+            this.pictureBox1.TabIndex = 19;
+            this.pictureBox1.TabStop = false;
             // 
             // label13
             // 
@@ -289,7 +469,7 @@
             // 
             // tabPage4
             // 
-            this.tabPage4.Controls.Add(this.button2);
+            this.tabPage4.Controls.Add(this.raspuns4);
             this.tabPage4.Controls.Add(this.nrColoane4);
             this.tabPage4.Controls.Add(this.nrLinii4);
             this.tabPage4.Controls.Add(this.label9);
@@ -302,6 +482,16 @@
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Întrebarea4";
             this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // raspuns4
+            // 
+            this.raspuns4.Location = new System.Drawing.Point(350, 287);
+            this.raspuns4.Name = "raspuns4";
+            this.raspuns4.Size = new System.Drawing.Size(99, 39);
+            this.raspuns4.TabIndex = 6;
+            this.raspuns4.Text = "Răspunde";
+            this.raspuns4.UseVisualStyleBackColor = true;
+            this.raspuns4.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // nrColoane4
             // 
@@ -520,7 +710,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 29);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(856, 333);
+            this.tabPage1.Size = new System.Drawing.Size(856, 360);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Întrebarea1";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -623,11 +813,20 @@
             // 
             // tabPage9
             // 
+            this.tabPage9.Controls.Add(this.button8);
+            this.tabPage9.Controls.Add(this.radioButton13);
+            this.tabPage9.Controls.Add(this.radioButton12);
+            this.tabPage9.Controls.Add(this.radioButton11);
+            this.tabPage9.Controls.Add(this.radioButton10);
+            this.tabPage9.Controls.Add(this.label21);
+            this.tabPage9.Controls.Add(this.label20);
+            this.tabPage9.Controls.Add(this.label19);
+            this.tabPage9.Controls.Add(this.label18);
             this.tabPage9.Controls.Add(this.label14);
             this.tabPage9.Location = new System.Drawing.Point(4, 29);
             this.tabPage9.Name = "tabPage9";
             this.tabPage9.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage9.Size = new System.Drawing.Size(856, 333);
+            this.tabPage9.Size = new System.Drawing.Size(856, 360);
             this.tabPage9.TabIndex = 8;
             this.tabPage9.Text = "Întrebarea9";
             this.tabPage9.UseVisualStyleBackColor = true;
@@ -635,166 +834,217 @@
             // 
             // label14
             // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(57, 44);
+            this.label14.Location = new System.Drawing.Point(15, 35);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(60, 20);
+            this.label14.Size = new System.Drawing.Size(838, 140);
             this.label14.TabIndex = 0;
-            this.label14.Text = "label14";
+            this.label14.Text = resources.GetString("label14.Text");
             // 
-            // pictureBox1
+            // label15
             // 
-            this.pictureBox1.BackgroundImage = global::matrici.Properties.Resources.tabel_testare;
-            this.pictureBox1.Location = new System.Drawing.Point(363, 32);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(388, 285);
-            this.pictureBox1.TabIndex = 19;
-            this.pictureBox1.TabStop = false;
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(41, 35);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(376, 20);
+            this.label15.TabIndex = 0;
+            this.label15.Text = " Câtă memorie ocupă matricea A, declarată mai jos?";
             // 
-            // checkBox1
+            // intrebare7
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(329, 50);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(15, 14);
-            this.checkBox1.TabIndex = 20;
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.intrebare7.AutoSize = true;
+            this.intrebare7.Location = new System.Drawing.Point(73, 78);
+            this.intrebare7.Name = "intrebare7";
+            this.intrebare7.Size = new System.Drawing.Size(60, 20);
+            this.intrebare7.TabIndex = 1;
+            this.intrebare7.Text = "label16";
             // 
-            // checkBox2
+            // label17
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(329, 96);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(15, 14);
-            this.checkBox2.TabIndex = 21;
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(73, 282);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(184, 20);
+            this.label17.TabIndex = 2;
+            this.label17.Text = " Scrie răspunsul tău aici :";
             // 
-            // checkBox3
+            // raspuns7
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(329, 148);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(15, 14);
-            this.checkBox3.TabIndex = 22;
-            this.checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // checkBox4
-            // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(329, 188);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(15, 14);
-            this.checkBox4.TabIndex = 23;
-            this.checkBox4.UseVisualStyleBackColor = true;
-            // 
-            // checkBox5
-            // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(329, 238);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(15, 14);
-            this.checkBox5.TabIndex = 24;
-            this.checkBox5.UseVisualStyleBackColor = true;
-            // 
-            // checkBox6
-            // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(329, 286);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(15, 14);
-            this.checkBox6.TabIndex = 25;
-            this.checkBox6.UseVisualStyleBackColor = true;
-            // 
-            // checkBox7
-            // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Location = new System.Drawing.Point(383, 6);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(15, 14);
-            this.checkBox7.TabIndex = 26;
-            this.checkBox7.UseVisualStyleBackColor = true;
-            // 
-            // checkBox8
-            // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Location = new System.Drawing.Point(423, 6);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(15, 14);
-            this.checkBox8.TabIndex = 27;
-            this.checkBox8.UseVisualStyleBackColor = true;
-            // 
-            // checkBox9
-            // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.Location = new System.Drawing.Point(477, 6);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(15, 14);
-            this.checkBox9.TabIndex = 28;
-            this.checkBox9.UseVisualStyleBackColor = true;
-            // 
-            // checkBox10
-            // 
-            this.checkBox10.AutoSize = true;
-            this.checkBox10.Location = new System.Drawing.Point(525, 6);
-            this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Size = new System.Drawing.Size(15, 14);
-            this.checkBox10.TabIndex = 29;
-            this.checkBox10.UseVisualStyleBackColor = true;
-            // 
-            // checkBox11
-            // 
-            this.checkBox11.AutoSize = true;
-            this.checkBox11.Location = new System.Drawing.Point(573, 6);
-            this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Size = new System.Drawing.Size(15, 14);
-            this.checkBox11.TabIndex = 30;
-            this.checkBox11.UseVisualStyleBackColor = true;
-            // 
-            // checkBox12
-            // 
-            this.checkBox12.AutoSize = true;
-            this.checkBox12.Location = new System.Drawing.Point(617, 6);
-            this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(15, 14);
-            this.checkBox12.TabIndex = 31;
-            this.checkBox12.UseVisualStyleBackColor = true;
-            // 
-            // checkBox13
-            // 
-            this.checkBox13.AutoSize = true;
-            this.checkBox13.Location = new System.Drawing.Point(666, 6);
-            this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(15, 14);
-            this.checkBox13.TabIndex = 32;
-            this.checkBox13.UseVisualStyleBackColor = true;
-            // 
-            // checkBox14
-            // 
-            this.checkBox14.AutoSize = true;
-            this.checkBox14.Location = new System.Drawing.Point(718, 6);
-            this.checkBox14.Name = "checkBox14";
-            this.checkBox14.Size = new System.Drawing.Size(15, 14);
-            this.checkBox14.TabIndex = 33;
-            this.checkBox14.UseVisualStyleBackColor = true;
+            this.raspuns7.Location = new System.Drawing.Point(263, 282);
+            this.raspuns7.Mask = "0000000000";
+            this.raspuns7.Name = "raspuns7";
+            this.raspuns7.Size = new System.Drawing.Size(73, 26);
+            this.raspuns7.TabIndex = 3;
+            this.raspuns7.ValidatingType = typeof(int);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(350, 287);
+            this.button2.Location = new System.Drawing.Point(423, 277);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(99, 39);
-            this.button2.TabIndex = 6;
+            this.button2.Size = new System.Drawing.Size(92, 36);
+            this.button2.TabIndex = 35;
             this.button2.Text = "Răspunde";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button4
+            // intrebare8
             // 
-            this.button4.Location = new System.Drawing.Point(91, 281);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(92, 36);
-            this.button4.TabIndex = 34;
-            this.button4.Text = "Răspunde";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.intrebare8.AutoSize = true;
+            this.intrebare8.Location = new System.Drawing.Point(34, 30);
+            this.intrebare8.Name = "intrebare8";
+            this.intrebare8.Size = new System.Drawing.Size(60, 20);
+            this.intrebare8.TabIndex = 0;
+            this.intrebare8.Text = "label16";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(34, 71);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(236, 20);
+            this.label16.TabIndex = 1;
+            this.label16.Text = "unsigned int a[              ][              ]";
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(350, 292);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(99, 39);
+            this.button7.TabIndex = 7;
+            this.button7.Text = "Răspunde";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // nrLinii8
+            // 
+            this.nrLinii8.Location = new System.Drawing.Point(148, 72);
+            this.nrLinii8.Maximum = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
+            this.nrLinii8.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nrLinii8.Name = "nrLinii8";
+            this.nrLinii8.Size = new System.Drawing.Size(42, 26);
+            this.nrLinii8.TabIndex = 8;
+            this.nrLinii8.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nrLinii8.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
+            // 
+            // nrColoane8
+            // 
+            this.nrColoane8.Location = new System.Drawing.Point(213, 71);
+            this.nrColoane8.Maximum = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
+            this.nrColoane8.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nrColoane8.Name = "nrColoane8";
+            this.nrColoane8.Size = new System.Drawing.Size(42, 26);
+            this.nrColoane8.TabIndex = 9;
+            this.nrColoane8.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nrColoane8.ValueChanged += new System.EventHandler(this.nrColoane8_ValueChanged);
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(138, 131);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(66, 20);
+            this.label18.TabIndex = 1;
+            this.label18.Text = "short int";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(138, 175);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(26, 20);
+            this.label19.TabIndex = 2;
+            this.label19.Text = "int";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(138, 226);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(40, 20);
+            this.label20.TabIndex = 3;
+            this.label20.Text = "char";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(138, 273);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(40, 20);
+            this.label21.TabIndex = 4;
+            this.label21.Text = "float";
+            // 
+            // radioButton10
+            // 
+            this.radioButton10.AutoSize = true;
+            this.radioButton10.Location = new System.Drawing.Point(96, 133);
+            this.radioButton10.Name = "radioButton10";
+            this.radioButton10.Size = new System.Drawing.Size(14, 13);
+            this.radioButton10.TabIndex = 5;
+            this.radioButton10.TabStop = true;
+            this.radioButton10.UseVisualStyleBackColor = true;
+            // 
+            // radioButton11
+            // 
+            this.radioButton11.AutoSize = true;
+            this.radioButton11.Location = new System.Drawing.Point(96, 179);
+            this.radioButton11.Name = "radioButton11";
+            this.radioButton11.Size = new System.Drawing.Size(14, 13);
+            this.radioButton11.TabIndex = 6;
+            this.radioButton11.TabStop = true;
+            this.radioButton11.UseVisualStyleBackColor = true;
+            // 
+            // radioButton12
+            // 
+            this.radioButton12.AutoSize = true;
+            this.radioButton12.Location = new System.Drawing.Point(96, 222);
+            this.radioButton12.Name = "radioButton12";
+            this.radioButton12.Size = new System.Drawing.Size(14, 13);
+            this.radioButton12.TabIndex = 7;
+            this.radioButton12.TabStop = true;
+            this.radioButton12.UseVisualStyleBackColor = true;
+            // 
+            // radioButton13
+            // 
+            this.radioButton13.AutoSize = true;
+            this.radioButton13.Location = new System.Drawing.Point(96, 273);
+            this.radioButton13.Name = "radioButton13";
+            this.radioButton13.Size = new System.Drawing.Size(14, 13);
+            this.radioButton13.TabIndex = 8;
+            this.radioButton13.TabStop = true;
+            this.radioButton13.UseVisualStyleBackColor = true;
+            // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(482, 196);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(99, 39);
+            this.button8.TabIndex = 9;
+            this.button8.Text = "Răspunde";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // testare1
             // 
@@ -807,8 +1057,13 @@
             this.Name = "testare1";
             this.Text = "testare1";
             this.Load += new System.EventHandler(this.testare1_Load);
+            this.tabPage8.ResumeLayout(false);
+            this.tabPage8.PerformLayout();
+            this.tabPage7.ResumeLayout(false);
+            this.tabPage7.PerformLayout();
             this.tabPage6.ResumeLayout(false);
             this.tabPage6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabPage5.ResumeLayout(false);
             this.tabPage5.PerformLayout();
             this.tabPage4.ResumeLayout(false);
@@ -824,7 +1079,8 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPage9.ResumeLayout(false);
             this.tabPage9.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nrLinii8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nrColoane8)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -892,6 +1148,25 @@
         private System.Windows.Forms.CheckBox checkBox3;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Button raspuns4;
+        private System.Windows.Forms.MaskedTextBox raspuns7;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label intrebare7;
+        private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label intrebare8;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.NumericUpDown nrColoane8;
+        private System.Windows.Forms.NumericUpDown nrLinii8;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.RadioButton radioButton13;
+        private System.Windows.Forms.RadioButton radioButton12;
+        private System.Windows.Forms.RadioButton radioButton11;
+        private System.Windows.Forms.RadioButton radioButton10;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label18;
     }
 }

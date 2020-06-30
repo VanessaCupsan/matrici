@@ -463,6 +463,16 @@ namespace matrici.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap tabel_ex_6_exersare2 {
+            get {
+                object obj = ResourceManager.GetObject("tabel ex 6 exersare2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap tabel_exersare_2_bun {
             get {
                 object obj = ResourceManager.GetObject("tabel exersare 2 bun", resourceCulture);
@@ -506,6 +516,16 @@ namespace matrici.Properties {
         internal static System.Drawing.Bitmap tabel_testare {
             get {
                 object obj = ResourceManager.GetObject("tabel testare", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tabel_testare_ex_5 {
+            get {
+                object obj = ResourceManager.GetObject("tabel testare ex 5", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

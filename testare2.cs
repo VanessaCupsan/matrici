@@ -14,7 +14,24 @@ namespace matrici
     {
         int[,] a = { { -576, -56, 6, 78, 34, -7 }, { 0, 7, 9, -12, 34, -789 }, { 45, 34, 67, 7, -78, -6 }, { 0, 45, 3, 5, -9, 56 }, { 5566, 56, -123, 34, -8, 0 } };
         int[] t = new int[10];
+        bool[] r = { false, false, false, false, false, false, false, false, false, false };
         int nIntrebare10, nIntrebare11, nIntrebare12,nIntrebare20,nIntrebare21,nIntrebare22,nIntrebare30,nIntrebare31,nIntrebare40,nIntrebare41,nIntrebare42,nIntrebare50,nIntrebare51,nIntrebare52,nIntrebare53,nIntrebare70,nIntrebare71,nIntrebare72,nIntrebare73;
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            int linie = nIntrebare41, coloana = nIntrebare42;
+            if (nIntrebare40 == Convert.ToInt32(v[linie, coloana].Text))
+                t[4] = 1;
+            else t[4] = 0;
+            tabControl1.SelectTab(4);
+        }
+
+        MaskedTextBox[,] v; 
+
+        private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
 
         private void button8_Click(object sender, EventArgs e)
         {
@@ -195,6 +212,11 @@ namespace matrici
                 t[2] = 1;
             else t[2] = 0;
             tabControl1.SelectTab(2);
+            r[1] = true;
+            bool x = false;
+            for (int i = 0; i <= 9; i++)
+                x = x && r[i];
+            evaluare.Enabled = x;
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -243,6 +265,11 @@ namespace matrici
                 else t[1] = 0;
             }
             tabControl1.SelectTab(1);
+            r[0] = true;
+            bool x = false;
+            for (int i = 0; i<= 9;i++)
+                x=x && r[i];
+            evaluare.Enabled = x;
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -286,10 +313,31 @@ namespace matrici
             varianta3.Text = " m( 3, i ) * m( j," + (nIntrebare30 - 2).ToString() + " ) ;";
             varianta4.Text = " m( i )( 3 ) * m( " + (nIntrebare31 - 2).ToString() + " )( j ) ;";
             //generare intrebare 4
-            nIntrebare40 = r.Next(300, 1000);
-            nIntrebare41 = r.Next(3, 100);
-            nIntrebare42 = r.Next(3, 100);
+            nIntrebare40 = r.Next(1, 999);
+            nIntrebare41 = r.Next(0,4);
+            nIntrebare42 = r.Next(0,5);
             intrebare4.Text = " Scrieți numărul " + nIntrebare40.ToString() + " în căsuța corespunzătoare elementului a[ " + nIntrebare41.ToString() + " ][ " + nIntrebare42.ToString() + " ] a matricei.";
+            v = new MaskedTextBox[4, 5];
+            v[0, 0] = a00;
+            v[0, 1] = a01;
+            v[0, 2] = a02;
+            v[0, 3] = a03;
+            v[0, 4] = a04;
+            v[1, 0] = a10;
+            v[1, 1] = a11;
+            v[1, 2] = a12;
+            v[1, 3] = a13;
+            v[1, 4] = a14;
+            v[2, 0] = a20;
+            v[2, 1] = a21;
+            v[2, 2] = a22;
+            v[2, 3] = a23;
+            v[2, 4] = a24;
+            v[3, 0] = a30;
+            v[3, 1] = a31;
+            v[3, 2] = a32;
+            v[3, 3] = a33;
+            v[3, 4] = a34;
             //generare întrebare 5
             nIntrebare50 = r.Next(1, 3);
             nIntrebare51 = r.Next(1, 4);

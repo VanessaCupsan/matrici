@@ -14,6 +14,15 @@ namespace matrici
     {
         int[,] a = { { 45, 6, 4, -354, 78 }, { 5, 64, 34, 5, 0 }, { 88, 56, 455, 24, 689 }, { 68, 6756, 56, 56, 4 }, { 68, 0, 24, 7, 5 }, { 7455, 45, 4, -98, -10 }, { 39, 0, 1, 7, 4 } };
         int nIntrebare1,nIntrebare12,nIntrebare2,nIntrebare21,nIntrebare22,nIntrebare3,nIntrebare31,nIntrebare4,nIntrebare41,nIntrebare42,nIntrebare50,nIntrebare51,nIntrebare52,nIntrebare53;
+        MaskedTextBox[,] v;
+        private void button4_Click(object sender, EventArgs e)
+        {
+            int linie = nIntrebare4, coloana = nIntrebare41;
+            if (nIntrebare42 == Convert.ToInt32(v[linie, coloana].Text))
+                MessageBox.Show(" Răspuns corect.");
+            else MessageBox.Show(" Numărul " + nIntrebare42.ToString() + " trebuie pus în căsuța de pe linia" + nIntrebare4.ToString() + " și coloana " + nIntrebare41.ToString() + ".");
+                
+        }
 
         private void intrebare4_Click(object sender, EventArgs e)
         {
@@ -119,6 +128,31 @@ namespace matrici
             nIntrebare41 = r.Next(0, 5);
             nIntrebare42 = r.Next(1000, 5000);
             intrebare4.Text = " Scrieți numărul " + nIntrebare42.ToString() + " în căsuța corespunzătoare elementului a[" + nIntrebare4.ToString() + "][" + nIntrebare41.ToString() + "] a matricei :";
+            v = new MaskedTextBox[4, 6];
+            v[0, 0] = a00;
+            v[0, 1] = a01;
+            v[0, 2] = a02;
+            v[0, 3] = a03;
+            v[0, 4] = a04;
+            v[0, 5] = a05;
+            v[1, 0] = a10;
+            v[1, 1] = a11;
+            v[1, 2] = a12;
+            v[1, 3] = a13;
+            v[1, 4] = a14;
+            v[1, 5] = a15;
+            v[2, 0] = a20;
+            v[2, 1] = a21;
+            v[2, 2] = a22;
+            v[2, 3] = a23;
+            v[2, 4] = a24;
+            v[2, 5] = a25;
+            v[3, 0] = a30;
+            v[3, 1] = a31;
+            v[3, 2] = a32;
+            v[3, 3] = a33;
+            v[3, 4] = a34;
+            v[3, 5] = a35;
             //creare intrebare 5
             nIntrebare50 = r.Next(1, 5);
             nIntrebare51 = r.Next(1, 3);

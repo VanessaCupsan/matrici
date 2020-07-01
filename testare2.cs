@@ -13,9 +13,46 @@ namespace matrici
     public partial class testare2 : Form
     {
         int[,] a = { { -576, -56, 6, 78, 34, -7 }, { 0, 7, 9, -12, 34, -789 }, { 45, 34, 67, 7, -78, -6 }, { 0, 45, 3, 5, -9, 56 }, { 5566, 56, -123, 34, -8, 0 } };
+        int[,] b = { { 455, 5, 67, 34 }, { 0, 678, 456, 3 }, { 44, 51, 66, 234 }, { 39, 471, 33, 62 } };
         int[] t = new int[10];
         bool[] r = { false, false, false, false, false, false, false, false, false, false };
-        int nIntrebare10, nIntrebare11, nIntrebare12,nIntrebare20,nIntrebare21,nIntrebare22,nIntrebare30,nIntrebare31,nIntrebare40,nIntrebare41,nIntrebare42,nIntrebare50,nIntrebare51,nIntrebare52,nIntrebare53,nIntrebare70,nIntrebare71,nIntrebare72,nIntrebare73;
+        int nIntrebare10, nIntrebare11, nIntrebare12,nIntrebare20,nIntrebare21,nIntrebare22,nIntrebare30,nIntrebare31,nIntrebare40,nIntrebare41,nIntrebare42,nIntrebare50,nIntrebare51,nIntrebare52,nIntrebare53,nIntrebare70,nIntrebare71,nIntrebare72,nIntrebare73,nIntrebare80,nIntrebare81,nIntrebare82,nIntrebare90,nIntrebare91,nIntrebare92,nIntrebare93;
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            if (Int32.Parse(raspuns90.Text) == nIntrebare92 && Int32.Parse(raspuns91.Text) == nIntrebare93)
+                t[9] = 1;
+            else
+            {
+                t[9] = 0;
+                MessageBox.Show("NU");
+            }
+            r[8] = true;
+            bool x = false;
+            for (int i = 0; i <= 9; i++)
+                x = x && r[i];
+            evaluare.Enabled = x;
+
+        }
+
+        private void button6_Click_1(object sender, EventArgs e)
+        {
+            if (Int32.Parse(raspuns80.Text) == nIntrebare80 && Int32.Parse(raspuns81.Text) == nIntrebare81)
+                t[8] = 1;
+            else
+                t[8] = 0;
+            r[7] = true;
+            bool x = false;
+            for (int i = 0; i <= 9; i++)
+                x = x && r[i];
+            evaluare.Enabled = x;
+            tabControl1.SelectTab(8);
+        }
+
+        private void label14_Click(object sender, EventArgs e)
+        {
+
+        }
 
         private void button3_Click(object sender, EventArgs e)
         {
@@ -23,6 +60,11 @@ namespace matrici
             if (nIntrebare40 == Convert.ToInt32(v[linie, coloana].Text))
                 t[4] = 1;
             else t[4] = 0;
+            r[3] = true;
+            bool x = false;
+            for (int i = 0; i <= 9; i++)
+                x = x && r[i];
+            evaluare.Enabled = x;
             tabControl1.SelectTab(4);
         }
 
@@ -68,6 +110,11 @@ namespace matrici
             if (n == nIntrebare72 && m == nIntrebare73 && ok == 1)
                 t[7] = 1;
             else t[7] = 0;
+            r[6] = true;
+            bool x = false;
+            for (int i = 0; i <= 9; i++)
+                x = x && r[i];
+            evaluare.Enabled = x;
             tabControl1.SelectTab(7);
         }
 
@@ -78,18 +125,18 @@ namespace matrici
 
         private void button7_Click(object sender, EventArgs e)
         {
-            int a, b, c, d, x, f, g, h, i, j, k,l,m,n,o,p;
+            int a, b, c, d, z, f, g, h, y, j, k,l,m,n,o,p;
             try
             {
                 a = Int32.Parse(raspuns00.Text);
                 b = Int32.Parse(raspuns01.Text);
                 c = Int32.Parse(raspuns02.Text);
                 d = Int32.Parse(raspuns03.Text);
-                x = Int32.Parse(raspuns04.Text);
+                z = Int32.Parse(raspuns04.Text);
                 f = Int32.Parse(raspuns05.Text);
                 g = Int32.Parse(raspuns06.Text);
                 h = Int32.Parse(raspuns07.Text);
-                i = Int32.Parse(raspuns08.Text);
+                y = Int32.Parse(raspuns08.Text);
                 j = Int32.Parse(raspuns09.Text);
                 k = Int32.Parse(raspuns010.Text);
                 l = Int32.Parse(raspuns011.Text);
@@ -100,17 +147,22 @@ namespace matrici
             }
             catch
             {
-                a = b = c = d = x = f = g = h = i = j = k = l = m = n = o = p = 0;
+                a = b = c = d = z = f = g = h = y = j = k = l = m = n = o = p = 0;
             }
-            if ((a + b + c + d + h + l + p + o + n + m + i + x) == 15 && (f * g * j * k) == 24)
+            if ((a + b + c + d + h + l + p + o + n + m + y + z) == 15 && (f * g * j * k) == 24)
                 t[6] = 1;
             else t[6] = 0;
+            r[5] = true;
+            bool x = false;
+            for (int i = 0; i <= 9; i++)
+                x = x && r[i];
+            evaluare.Enabled = x;
             tabControl1.SelectTab(6);
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            int n, m,d1=2,p1=1,x=a[nIntrebare50,nIntrebare51-1],s=0,y=a[nIntrebare50, nIntrebare51 + 1],d2=2,p2=1, z = a[nIntrebare50-1, nIntrebare51],d3=2,p3=1,u = a[nIntrebare50 + 1, nIntrebare51],d4=2,p4=1,nr=0;
+            int n, m,d1=2,p1=1,d=a[nIntrebare50,nIntrebare51-1],s=0,y=a[nIntrebare50, nIntrebare51 + 1],d2=2,p2=1, z = a[nIntrebare50-1, nIntrebare51],d3=2,p3=1,u = a[nIntrebare50 + 1, nIntrebare51],d4=2,p4=1,nr=0;
             int b = a[nIntrebare52, nIntrebare53 - 1], c = a[nIntrebare52, nIntrebare53 + 1], v = a[nIntrebare52 - 1, nIntrebare53], f = a[nIntrebare52 + 1, nIntrebare53];
             try
             {
@@ -122,13 +174,21 @@ namespace matrici
                 n = 0;
                 m = 0;
             }
-            while(d1<=(x/2))
+            if (d < 0)
+                d = -d;
+            if (y < 0)
+                y = -y;
+            if (z < 0)
+                z = -z;
+            if (u < 0)
+                u = -u;
+            while(d1<=(d/2))
             {
-                if (x % d1 == 0)
+                if (d % d1 == 0)
                     p1 = 0;
                 d1++;
             }
-            if (p1 == 1 && x != 0 && x != 1)
+            if (p1 == 1 && d != 0 && d != 1)
                 nr++;
 
             while (d2 <= (y / 2))
@@ -171,8 +231,12 @@ namespace matrici
             else
             {
                 t[5] = 0;
-                MessageBox.Show(nr.ToString() + " " + s.ToString());
             }
+            r[4] = true;
+            bool x = false;
+            for (int i = 0; i <= 9; i++)
+                x = x && r[i];
+            evaluare.Enabled = x;
             tabControl1.SelectTab(5);
 
         }
@@ -182,6 +246,11 @@ namespace matrici
             if (radioButton2.Checked)
                 t[3] = 1;
             else t[3] = 0;
+            r[2] = true;
+            bool x = false;
+            for (int i = 0; i <= 9; i++)
+                x = x && r[i];
+            evaluare.Enabled = x;
             tabControl1.SelectTab(3);
         }
 
@@ -352,6 +421,18 @@ namespace matrici
             nIntrebare73 = r.Next(0, nIntrebare71);
             intrebare70.Text = " int a[ " + nIntrebare70.ToString() + " ][ " + nIntrebare71.ToString() + " ] ;";
             intrebare71.Text = " Declarați elementul de pe linia " + nIntrebare72.ToString() + " și coloana " + nIntrebare73.ToString() + " și precizați câți vecini are acesta.";
+            //generare intrebare 8
+            nIntrebare80 = r.Next(0, 3);
+            nIntrebare81 = r.Next(0, 3);
+            nIntrebare82 = b[nIntrebare80, nIntrebare81];
+            intrebare80.Text = " Scrieți coordonatele elementului " + nIntrebare82.ToString() + " din matricea a, declarată mai jos.";
+            //generare intrebarea 9
+            nIntrebare90 = r.Next(3, 100);
+            nIntrebare91 = r.Next(3, 100);
+            nIntrebare92 = r.Next(0, nIntrebare90);
+            nIntrebare93 = r.Next(0, nIntrebare91);
+            intrebare90.Text = " Declarați elementul de pe linia " + nIntrebare92.ToString() + " și coloana " + nIntrebare93.ToString() + " a matricei declarată mai jos.";
+            intrebare91.Text = " int a[ " + nIntrebare90.ToString() + " ][ " + nIntrebare91.ToString() + " ] ;";
         }
     }
 }

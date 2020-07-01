@@ -359,5 +359,8 @@
   <ItemGroup>
     <None Include="Resources\tabel ex 6 exersare2.PNG" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tabel testare 2 ex 8.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

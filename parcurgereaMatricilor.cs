@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace matrici
 {
-    public partial class parcurgereMatrici : Form
+    public partial class parcurgereaMatricilor : Form
     {
-        public parcurgereMatrici()
+        public parcurgereaMatricilor()
         {
             InitializeComponent();
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            suportTeoretic3 x = new suportTeoretic3();
-            x.ShowDialog();
         }
     }
 }

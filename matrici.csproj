@@ -88,6 +88,12 @@
     <Compile Include="matriciPatratice.Designer.cs">
       <DependentUpon>matriciPatratice.cs</DependentUpon>
     </Compile>
+    <Compile Include="parcurgereaMatricilor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="parcurgereaMatricilor.Designer.cs">
+      <DependentUpon>parcurgereaMatricilor.cs</DependentUpon>
+    </Compile>
     <Compile Include="parcurgereMatrici.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,6 +125,12 @@
     </Compile>
     <Compile Include="suportTeoretic2.Designer.cs">
       <DependentUpon>suportTeoretic2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="suportTeoretic3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="suportTeoretic3.Designer.cs">
+      <DependentUpon>suportTeoretic3.cs</DependentUpon>
     </Compile>
     <Compile Include="testare1.cs">
       <SubType>Form</SubType>
@@ -153,6 +165,9 @@
     <EmbeddedResource Include="matriciPatratice.resx">
       <DependentUpon>matriciPatratice.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="parcurgereMatrici.resx">
+      <DependentUpon>parcurgereMatrici.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="problemeDiverse.resx">
       <DependentUpon>problemeDiverse.cs</DependentUpon>
     </EmbeddedResource>
@@ -174,6 +189,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="suportTeoretic2.resx">
       <DependentUpon>suportTeoretic2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="suportTeoretic3.resx">
+      <DependentUpon>suportTeoretic3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="testare1.resx">
       <DependentUpon>testare1.cs</DependentUpon>
@@ -361,6 +379,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\tabel testare 2 ex 8.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gradient6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\POZA PARCURGERE BUN 1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poza parcurgere bun bun.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\POZA PARCURGERE BUN 11.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poza parcurgere 2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poza parcurgere 2 bun bun.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poza parcurgere coloana.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poza parcurgere linii si coloane.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poza parcurgere linii si coloane 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tabel parcurgere linii si coloane.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

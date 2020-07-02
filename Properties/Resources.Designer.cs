@@ -313,6 +313,16 @@ namespace matrici.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap gradient6 {
+            get {
+                object obj = ResourceManager.GetObject("gradient6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap INERCARE_2 {
             get {
                 object obj = ResourceManager.GetObject("INERCARE 2", resourceCulture);
@@ -356,6 +366,86 @@ namespace matrici.Properties {
         internal static System.Drawing.Bitmap POZA_EXERSARE {
             get {
                 object obj = ResourceManager.GetObject("POZA EXERSARE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap poza_parcurgere_2 {
+            get {
+                object obj = ResourceManager.GetObject("poza parcurgere 2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap poza_parcurgere_2_bun_bun {
+            get {
+                object obj = ResourceManager.GetObject("poza parcurgere 2 bun bun", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap POZA_PARCURGERE_BUN_1 {
+            get {
+                object obj = ResourceManager.GetObject("POZA PARCURGERE BUN 1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap POZA_PARCURGERE_BUN_11 {
+            get {
+                object obj = ResourceManager.GetObject("POZA PARCURGERE BUN 11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap poza_parcurgere_bun_bun {
+            get {
+                object obj = ResourceManager.GetObject("poza parcurgere bun bun", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap poza_parcurgere_coloana {
+            get {
+                object obj = ResourceManager.GetObject("poza parcurgere coloana", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap poza_parcurgere_linii_si_coloane {
+            get {
+                object obj = ResourceManager.GetObject("poza parcurgere linii si coloane", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap poza_parcurgere_linii_si_coloane_2 {
+            get {
+                object obj = ResourceManager.GetObject("poza parcurgere linii si coloane 2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -496,6 +586,16 @@ namespace matrici.Properties {
         internal static System.Drawing.Bitmap tabel_memorie_bun_bun {
             get {
                 object obj = ResourceManager.GetObject("tabel memorie bun bun", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tabel_parcurgere_linii_si_coloane {
+            get {
+                object obj = ResourceManager.GetObject("tabel parcurgere linii si coloane", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -70,6 +70,12 @@
     <Compile Include="exersare2.Designer.cs">
       <DependentUpon>exersare2.cs</DependentUpon>
     </Compile>
+    <Compile Include="exersare3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="exersare3.Designer.cs">
+      <DependentUpon>exersare3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -155,6 +161,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="exersare2.resx">
       <DependentUpon>exersare2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="exersare3.resx">
+      <DependentUpon>exersare3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -409,6 +418,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\tabel parcurgere linii si coloane.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tabel ex 2 exersare bun.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poza ex 2.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -363,6 +363,16 @@ namespace matrici.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap poza_ex_2 {
+            get {
+                object obj = ResourceManager.GetObject("poza ex 2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap POZA_EXERSARE {
             get {
                 object obj = ResourceManager.GetObject("POZA EXERSARE", resourceCulture);
@@ -546,6 +556,16 @@ namespace matrici.Properties {
         internal static System.Drawing.Bitmap tabel_13 {
             get {
                 object obj = ResourceManager.GetObject("tabel 13", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tabel_ex_2_exersare_bun {
+            get {
+                object obj = ResourceManager.GetObject("tabel ex 2 exersare bun", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

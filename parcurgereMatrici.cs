@@ -22,5 +22,11 @@ namespace matrici
             suportTeoretic3 x = new suportTeoretic3();
             x.ShowDialog();
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            exersare3 s = new exersare3();
+            s.ShowDialog();
+        }
     }
 }

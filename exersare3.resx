@@ -117,10 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label5.Text" xml:space="preserve">
+    <value> Care dintre instrucțiunile de mai jos poate înlocui punctele de suspensie din secvența de program următoare, astfel încât executarea acesteia să determine memorarea în variabila p a valorii produsului elementelor pare aflate în interiorul matricei?</value>
+  </data>
   <data name="label1.Text" xml:space="preserve">
     <value> În secvența de mai jos, variabilele i și j sunt de tip întreg, iar variabila v memorează o matrice în care prima linie și prima coloană sunt numerotate cu 1.Toate elementele matricei primesc valori în urma executării secvenței. </value>
-  </data>
-  <data name="label5.Text" xml:space="preserve">
-    <value> Care dintre instrucțiunile de mai jos poate înlocui punctele de suspensie din secvența de program următoare, astfel încât executarea acesteia să determine memorarea în variabila p a valorii produsului elementelor aflate în interiorul matricei?</value>
   </data>
 </root>

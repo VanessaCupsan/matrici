@@ -25,7 +25,6 @@ namespace matrici
             else
             {
                 t[9] = 0;
-                MessageBox.Show("NU");
             }
             r[8] = true;
             bool x = false;

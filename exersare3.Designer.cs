@@ -61,19 +61,19 @@
             this.intrebare31 = new System.Windows.Forms.Label();
             this.intrebare30 = new System.Windows.Forms.Label();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.intrebare40 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.rEx4 = new System.Windows.Forms.RichTextBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton7 = new System.Windows.Forms.RadioButton();
-            this.radioButton8 = new System.Windows.Forms.RadioButton();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.radioButton8 = new System.Windows.Forms.RadioButton();
+            this.radioButton7 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.rEx4 = new System.Windows.Forms.RichTextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.intrebare40 = new System.Windows.Forms.Label();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -383,9 +383,9 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(96, 163);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(98, 20);
+            this.label3.Size = new System.Drawing.Size(110, 20);
             this.label3.TabIndex = 3;
-            this.label3.Text = "a[ i,j ] = i+j-1 ;";
+            this.label3.Text = "a[ i ][ j ] = i+j-1 ;";
             // 
             // intrebare32
             // 
@@ -435,121 +435,6 @@
             this.tabPage4.Text = "Exercițiul4";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
-            // tabPage5
-            // 
-            this.tabPage5.Location = new System.Drawing.Point(4, 29);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(792, 421);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "Exercițiul5";
-            this.tabPage5.UseVisualStyleBackColor = true;
-            // 
-            // intrebare40
-            // 
-            this.intrebare40.Location = new System.Drawing.Point(33, 25);
-            this.intrebare40.Name = "intrebare40";
-            this.intrebare40.Size = new System.Drawing.Size(750, 52);
-            this.intrebare40.TabIndex = 0;
-            this.intrebare40.Text = "label5";
-            // 
-            // label5
-            // 
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Location = new System.Drawing.Point(15, 77);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(781, 117);
-            this.label5.TabIndex = 1;
-            this.label5.Text = resources.GetString("label5.Text");
-            // 
-            // rEx4
-            // 
-            this.rEx4.Location = new System.Drawing.Point(117, 143);
-            this.rEx4.Name = "rEx4";
-            this.rEx4.Size = new System.Drawing.Size(366, 68);
-            this.rEx4.TabIndex = 2;
-            this.rEx4.Text = "";
-            // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(49, 234);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(41, 24);
-            this.radioButton1.TabIndex = 3;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "a)";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(49, 299);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(41, 24);
-            this.radioButton2.TabIndex = 4;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "b)";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // radioButton7
-            // 
-            this.radioButton7.AutoSize = true;
-            this.radioButton7.Location = new System.Drawing.Point(316, 232);
-            this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(40, 24);
-            this.radioButton7.TabIndex = 5;
-            this.radioButton7.TabStop = true;
-            this.radioButton7.Text = "c)";
-            this.radioButton7.UseVisualStyleBackColor = true;
-            // 
-            // radioButton8
-            // 
-            this.radioButton8.AutoSize = true;
-            this.radioButton8.Location = new System.Drawing.Point(315, 323);
-            this.radioButton8.Name = "radioButton8";
-            this.radioButton8.Size = new System.Drawing.Size(41, 24);
-            this.radioButton8.TabIndex = 6;
-            this.radioButton8.TabStop = true;
-            this.radioButton8.Text = "d)";
-            this.radioButton8.UseVisualStyleBackColor = true;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(95, 234);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(125, 40);
-            this.label6.TabIndex = 7;
-            this.label6.Text = "if( a[i][j] % 2 ==1)\r\n         p+=a[i][j-1] ;";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(95, 314);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(124, 100);
-            this.label7.TabIndex = 8;
-            this.label7.Text = "if( a[i][j] %2 == 0)\r\n{\r\n         p = a[i][j] ;\r\n         p*=p;\r\n}";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(362, 236);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(130, 40);
-            this.label8.TabIndex = 9;
-            this.label8.Text = "if( a[i-1][j]%2==0)\r\n         p* = a[i-1][j] ;";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(359, 325);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(124, 40);
-            this.label9.TabIndex = 10;
-            this.label9.Text = "if( a[i][j]%2 == 0 )\r\n         p*=a[i][j];";
-            // 
             // button4
             // 
             this.button4.BackgroundImage = global::matrici.Properties.Resources.gradient1;
@@ -563,6 +448,121 @@
             this.button4.Text = "Verifică";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(359, 325);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(124, 40);
+            this.label9.TabIndex = 10;
+            this.label9.Text = "if( a[i][j]%2 == 0 )\r\n         p*=a[i][j];";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(362, 236);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(130, 40);
+            this.label8.TabIndex = 9;
+            this.label8.Text = "if( a[i-1][j]%2==0)\r\n         p* = a[i-1][j] ;";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(95, 314);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(124, 100);
+            this.label7.TabIndex = 8;
+            this.label7.Text = "if( a[i][j] %2 == 0)\r\n{\r\n         p = a[i][j] ;\r\n         p*=p;\r\n}";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(95, 234);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(125, 40);
+            this.label6.TabIndex = 7;
+            this.label6.Text = "if( a[i][j] % 2 ==1)\r\n         p+=a[i][j-1] ;";
+            // 
+            // radioButton8
+            // 
+            this.radioButton8.AutoSize = true;
+            this.radioButton8.Location = new System.Drawing.Point(315, 323);
+            this.radioButton8.Name = "radioButton8";
+            this.radioButton8.Size = new System.Drawing.Size(41, 24);
+            this.radioButton8.TabIndex = 6;
+            this.radioButton8.TabStop = true;
+            this.radioButton8.Text = "d)";
+            this.radioButton8.UseVisualStyleBackColor = true;
+            // 
+            // radioButton7
+            // 
+            this.radioButton7.AutoSize = true;
+            this.radioButton7.Location = new System.Drawing.Point(316, 232);
+            this.radioButton7.Name = "radioButton7";
+            this.radioButton7.Size = new System.Drawing.Size(40, 24);
+            this.radioButton7.TabIndex = 5;
+            this.radioButton7.TabStop = true;
+            this.radioButton7.Text = "c)";
+            this.radioButton7.UseVisualStyleBackColor = true;
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(49, 299);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(41, 24);
+            this.radioButton2.TabIndex = 4;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "b)";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(49, 234);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(41, 24);
+            this.radioButton1.TabIndex = 3;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "a)";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // rEx4
+            // 
+            this.rEx4.Location = new System.Drawing.Point(117, 143);
+            this.rEx4.Name = "rEx4";
+            this.rEx4.Size = new System.Drawing.Size(366, 68);
+            this.rEx4.TabIndex = 2;
+            this.rEx4.Text = "";
+            // 
+            // label5
+            // 
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Location = new System.Drawing.Point(15, 77);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(781, 117);
+            this.label5.TabIndex = 1;
+            this.label5.Text = resources.GetString("label5.Text");
+            // 
+            // intrebare40
+            // 
+            this.intrebare40.Location = new System.Drawing.Point(33, 25);
+            this.intrebare40.Name = "intrebare40";
+            this.intrebare40.Size = new System.Drawing.Size(750, 52);
+            this.intrebare40.TabIndex = 0;
+            this.intrebare40.Text = "label5";
+            // 
+            // tabPage5
+            // 
+            this.tabPage5.Location = new System.Drawing.Point(4, 29);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage5.Size = new System.Drawing.Size(792, 421);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "Exercițiul5";
+            this.tabPage5.UseVisualStyleBackColor = true;
             // 
             // exersare3
             // 

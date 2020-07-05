@@ -28,5 +28,11 @@ namespace matrici
             exersare3 s = new exersare3();
             s.ShowDialog();
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            testare3 c = new testare3();
+            c.ShowDialog();
+        }
     }
 }

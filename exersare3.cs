@@ -67,7 +67,45 @@ namespace matrici
             nIntrebare40 = r.Next(3, 15);
             nIntrebare41 = r.Next(3, 15);
             intrebare40.Text = " În secvența de mai jos, variabila a memorează un tablou bidimensional cu n=" + nIntrebare40.ToString() + " linii și m=" + nIntrebare40.ToString() + " coloane, numerotate de la 1, cu elemente reale.Variabila p este reală, iar i este de tip întreg.";
-            rEx4.LoadFile("ex4.rtf");
+            rEx4.LoadFile("ex4e3.rtf");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         }
 
         private void button2_Click(object sender, EventArgs e)

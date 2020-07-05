@@ -68,7 +68,7 @@
             this.pictureBox3.BackgroundImage = global::matrici.Properties.Resources.TESTARE;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox3.Location = new System.Drawing.Point(694, 75);
+            this.pictureBox3.Location = new System.Drawing.Point(690, 75);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(305, 360);

@@ -74,6 +74,7 @@
             this.pictureBox3.Size = new System.Drawing.Size(305, 360);
             this.pictureBox3.TabIndex = 4;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // parcurgereMatrici
             // 

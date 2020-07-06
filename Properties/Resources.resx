@@ -145,6 +145,9 @@
   <data name="ultima incercare1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ultima incercare1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="tabel intrebare1 testare 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tabel intrebare1 testare 3.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="SUPORT TEORETIC" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SUPORT TEORETIC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -322,7 +325,7 @@
   <data name="DECLARARE" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DECLARARE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="tabel intrebare1 testare 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tabel intrebare1 testare 3.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="poza suport teoretic 30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\poza suport teoretic 30.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

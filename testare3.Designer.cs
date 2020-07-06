@@ -51,7 +51,6 @@
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
@@ -81,12 +80,15 @@
             this.rEx42 = new System.Windows.Forms.RichTextBox();
             this.rEx41 = new System.Windows.Forms.RichTextBox();
             this.button3 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.intrebare50 = new System.Windows.Forms.Label();
             this.tab.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabPage3.SuspendLayout();
             this.tabPage4.SuspendLayout();
+            this.tabPage5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // tab
@@ -123,7 +125,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 29);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(860, 343);
+            this.tabPage1.Size = new System.Drawing.Size(920, 444);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Întrebarea1";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -237,13 +239,13 @@
             this.tabPage2.Controls.Add(this.radioButton3);
             this.tabPage2.Controls.Add(this.radioButton2);
             this.tabPage2.Controls.Add(this.radioButton1);
-            this.tabPage2.Controls.Add(this.pictureBox1);
             this.tabPage2.Controls.Add(this.label2);
+            this.tabPage2.Controls.Add(this.pictureBox1);
             this.tabPage2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabPage2.Location = new System.Drawing.Point(4, 29);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(860, 343);
+            this.tabPage2.Size = new System.Drawing.Size(920, 444);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Întrebarea2";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -325,16 +327,6 @@
             this.radioButton1.Text = "a)";
             this.radioButton1.UseVisualStyleBackColor = true;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::matrici.Properties.Resources.tabel_intrebare1_testare_3;
-            this.pictureBox1.Location = new System.Drawing.Point(26, 78);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(252, 170);
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
-            // 
             // label2
             // 
             this.label2.Location = new System.Drawing.Point(22, 21);
@@ -357,7 +349,7 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 29);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(860, 343);
+            this.tabPage3.Size = new System.Drawing.Size(920, 444);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Întrebarea3";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -386,10 +378,11 @@
             // 
             // tabPage5
             // 
+            this.tabPage5.Controls.Add(this.intrebare50);
             this.tabPage5.Location = new System.Drawing.Point(4, 29);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(860, 343);
+            this.tabPage5.Size = new System.Drawing.Size(920, 444);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Întrebarea5";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -399,7 +392,7 @@
             this.tabPage6.Location = new System.Drawing.Point(4, 29);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(860, 343);
+            this.tabPage6.Size = new System.Drawing.Size(920, 444);
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "Întrebarea6";
             this.tabPage6.UseVisualStyleBackColor = true;
@@ -409,7 +402,7 @@
             this.tabPage7.Location = new System.Drawing.Point(4, 29);
             this.tabPage7.Name = "tabPage7";
             this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(860, 343);
+            this.tabPage7.Size = new System.Drawing.Size(920, 444);
             this.tabPage7.TabIndex = 6;
             this.tabPage7.Text = "Întrebarea7";
             this.tabPage7.UseVisualStyleBackColor = true;
@@ -419,7 +412,7 @@
             this.tabPage8.Location = new System.Drawing.Point(4, 29);
             this.tabPage8.Name = "tabPage8";
             this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage8.Size = new System.Drawing.Size(860, 343);
+            this.tabPage8.Size = new System.Drawing.Size(920, 444);
             this.tabPage8.TabIndex = 7;
             this.tabPage8.Text = "Întrebarea8";
             this.tabPage8.UseVisualStyleBackColor = true;
@@ -429,7 +422,7 @@
             this.tabPage9.Location = new System.Drawing.Point(4, 29);
             this.tabPage9.Name = "tabPage9";
             this.tabPage9.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage9.Size = new System.Drawing.Size(860, 343);
+            this.tabPage9.Size = new System.Drawing.Size(920, 444);
             this.tabPage9.TabIndex = 8;
             this.tabPage9.Text = "Întrebarea9";
             this.tabPage9.UseVisualStyleBackColor = true;
@@ -638,6 +631,24 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::matrici.Properties.Resources.tabel_intrebare1_testare_3;
+            this.pictureBox1.Location = new System.Drawing.Point(26, 78);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(252, 170);
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            // 
+            // intrebare50
+            // 
+            this.intrebare50.Location = new System.Drawing.Point(22, 18);
+            this.intrebare50.Name = "intrebare50";
+            this.intrebare50.Size = new System.Drawing.Size(898, 93);
+            this.intrebare50.TabIndex = 0;
+            this.intrebare50.Text = "label";
+            // 
             // testare3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -653,11 +664,12 @@
             this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
+            this.tabPage5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -716,5 +728,6 @@
         private System.Windows.Forms.RichTextBox rEx42;
         private System.Windows.Forms.RichTextBox rEx43;
         private System.Windows.Forms.RichTextBox rEx40;
+        private System.Windows.Forms.Label intrebare50;
     }
 }

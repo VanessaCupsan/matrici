@@ -473,6 +473,16 @@ namespace matrici.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap poza_suport_teoretic_30 {
+            get {
+                object obj = ResourceManager.GetObject("poza suport teoretic 30", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap poza_tabel_2_bun {
             get {
                 object obj = ResourceManager.GetObject("poza tabel 2 bun", resourceCulture);

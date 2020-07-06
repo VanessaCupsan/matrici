@@ -14,7 +14,7 @@ namespace matrici
     {
         int[] t = new int[10];
         bool[] r = { false, false, false, false, false, false, false, false, false, false };
-        int nIntrebare12,nIntrebare30,nIntrebare31,nIntrebare40,nIntrebare41;
+        int nIntrebare12,nIntrebare30,nIntrebare31,nIntrebare40,nIntrebare41,nIntrebare50,nIntrebare51,nIntrebare52;
         int[,] a = { { 3,5,7,9,11 }, { 5,8,11,14,17}, { 7,11,15,19,23 }, {9,14,19,24,29}, {11,17,23,29,35},{ 13,20,27,34,41} };
         int[,] v;
 
@@ -89,6 +89,8 @@ namespace matrici
             rEx42.LoadFile("ex42t3.rtf");
             rEx43.LoadFile("ex43t3.rtf");
             rEx4.LoadFile("ex4t3.rtf");
+            //gnerare intrebarea 5
+
         }
 
         private void button2_Click(object sender, EventArgs e)

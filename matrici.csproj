@@ -437,5 +437,8 @@
   <ItemGroup>
     <None Include="Resources\tabel intrebare1 testare 3.PNG" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poza suport teoretic 30.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

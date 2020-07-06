@@ -123,6 +123,12 @@
     
      Pentru a obține aspectul specific tabloului bidimensional, după afișarea elementelor de fiecare linie vom trece la linia următoare a ecranului. Elementele fiecărei linii sunt de regulă separate printr-un spațiu:     </value>
   </data>
+  <data name="richTextBox3.Text" xml:space="preserve">
+    <value>
+                                                                       CITIREA MATRICELOR
+
+    De regulă, elementele matricei se dau în ordine: de sus în jos și de la stânga la dreapta. Citirea presupune nu doar citirea elementelor matricei, dar și citirea dimensiunilor n și m:</value>
+  </data>
   <data name="richTextBox1.Text" xml:space="preserve">
     <value>                                                                  
                                                                      
@@ -143,32 +149,5 @@
 
     Toate elementele de pe o anumită coloană au același indice de coloană și diferă prin indicele de linie. Pentru a parcurge o anumită coloană k, vom parcurge indici de linie:
 </value>
-  </data>
-  <data name="richTextBox2.Text" xml:space="preserve">
-    <value>       Parcurgerea presupune accesarea elementelor curente ale matricei, într-o anumită ordine – de regulă aceasta se face pe linii, de sus în jos și de la stânga la dreapta:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    De asemenea, o matrice poate fii parcursă și pe coloane :
-</value>
-  </data>
-  <data name="richTextBox3.Text" xml:space="preserve">
-    <value>
-                                                                       CITIREA MATRICELOR
-
-    De regulă, elementele matricei se dau în ordine: de sus în jos și de la stânga la dreapta. Citirea presupune nu doar citirea elementelor matricei, dar și citirea dimensiunilor n și m:</value>
   </data>
 </root>

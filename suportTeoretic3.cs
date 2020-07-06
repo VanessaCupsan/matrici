@@ -36,5 +36,16 @@ namespace matrici
         {
 
         }
+
+        private void suportTeoretic3_Load(object sender, EventArgs e)
+        {
+            rSuportTeoretic30.LoadFile("suportTeoretic30.rtf");
+            rSuportTeoretic31.LoadFile("suportTeoretic31.rtf");
+        }
+
+        private void richTextBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

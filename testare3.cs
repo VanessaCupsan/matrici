@@ -14,9 +14,30 @@ namespace matrici
     {
         int[] t = new int[10];
         bool[] r = { false, false, false, false, false, false, false, false, false, false };
-        int nIntrebare12,nIntrebare30,nIntrebare31,nIntrebare40,nIntrebare41,nIntrebare50,nIntrebare51,nIntrebare52;
+        int nIntrebare12, nIntrebare30, nIntrebare31, nIntrebare40, nIntrebare41, nIntrebare50, nIntrebare51, nIntrebare52, nIntrebare60, nIntrebare61, nIntrebare70, nIntrebare71, nIntrebare72, nIntrebare80, nIntrebare81, nIntrebare90,nIntrebare91;
+
+        private void tabPage9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            if (radioButton11.Checked)
+                t[9] = 1;
+            else t[9] = 0;
+        }
+
         int[,] a = { { 3,5,7,9,11 }, { 5,8,11,14,17}, { 7,11,15,19,23 }, {9,14,19,24,29}, {11,17,23,29,35},{ 13,20,27,34,41} };
         int[,] v;
+        int[,] m;
+
+        private void tabPage8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        int[] vec = new int[5];
 
         private void evaluare_Click(object sender, EventArgs e)
         {
@@ -37,6 +58,31 @@ namespace matrici
         public testare3()
         {
             InitializeComponent();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            int x = 0, nr = 1, nr0 = 0;
+            for (int i = 0; i < nIntrebare50; i++)
+                for (int j = 0; j < nIntrebare51; j++)
+                    m[i, j] = i * j + 2;
+            for (int y = 2; y < 4; y++)
+                for (int z = 1; z < 3; z++)
+                {
+                    nr = 1;
+                    x = m[z, y];
+                    while(x>=10)
+                    {
+                        x /= 10;
+                        nr++;
+                    }
+                    if(nr==1)
+                    {
+                        t[nr0] = m[z, y];
+                        nr0++;
+                    }
+                }
+            MessageBox.Show(t[0].ToString() + ", " + t[1].ToString() + ", " + t[2].ToString() + ", " + t[3].ToString());
         }
 
         private void radioButton6_CheckedChanged(object sender, EventArgs e)
@@ -90,6 +136,30 @@ namespace matrici
             rEx43.LoadFile("ex43t3.rtf");
             rEx4.LoadFile("ex4t3.rtf");
             //gnerare intrebarea 5
+            nIntrebare50 = r.Next(5, 10);
+            nIntrebare51 = r.Next(5, 10);
+            nIntrebare52 = r.Next(0, nIntrebare51);
+            intrebare50.Text = " Fie matricea a cu " + nIntrebare50.ToString() + " linii și " + nIntrebare51.ToString() + " coloane, numerotate de la 0 și i și j, numere întregi. Scrieți în căsuța de mai jos, separate printr-o virgulă și un spațiu( ca în exemplul de mai jos ), elementele ce vor fi afișate în urma rulării algoritmului următor.";
+            rEx5t3.LoadFile("ex5t3.rtf");
+            //generare intrebare 6
+            nIntrebare60 = r.Next(3,10);
+            nIntrebare61 = r.Next(3, 10);
+            intrebare6.Text = " Fie o matrice a cu n=" + nIntrebare60.ToString() + " linii și m=" + nIntrebare61.ToString() + " coloane, numerotate de la 1 și variabilele i și j declarate. Scrie o secvență de program care citește elementele matricei a.";
+            intrebare61.Text = " Scrie codul în căsuța de mai jos, fără a folosi alte variabile înafară de cele prezentate, apoi apasă butonul Răspunde.";
+            //generare intrebare 7
+            nIntrebare70 = r.Next(3, 15);
+            nIntrebare71 = r.Next(3, 15);
+            nIntrebare72 = r.Next(0, nIntrebare71);
+            intrebare70.Text = " Fie o matrice v cu n=" + nIntrebare70.ToString() + " linii și m=" + nIntrebare71.ToString() + " coloane, numerotate de la 1 și variabilele i și j declarate. Scrie o secvență care citește matricea și parcurge și afișează elementele de pe coloana c=" + nIntrebare72.ToString() + " .";
+            //generare intrebare 8
+            nIntrebare80 = r.Next(4, 9);
+            nIntrebare81 = r.Next(4, 9);
+            intrebare8.Text = " Fie o matrice b cu n=" + nIntrebare80.ToString() + " linii și m=" + nIntrebare81.ToString() + " coloane, numerotate de la 1 și variabilele i și j declarate. Scrie o secvență de program care citește tabloul bidimensional, calculează și afișează suma elementelor pare de pe linia 4 a matricei.";
+            //generare intrebare 9
+            nIntrebare90 = r.Next(5, 100);
+            nIntrebare91 = r.Next(5, 100);
+            intrebare9.Text = " Se dă matricea a cu n=" + nIntrebare90.ToString() + " linii și m=" + nIntrebare91.ToString() + " coloane, numerotate de la 0. Care este rolul bucății de cod următoare ?";
+            rEx9.LoadFile("ex9t3.rtf");
 
         }
 

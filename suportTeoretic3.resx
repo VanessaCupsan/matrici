@@ -150,4 +150,22 @@
     Toate elementele de pe o anumită coloană au același indice de coloană și diferă prin indicele de linie. Pentru a parcurge o anumită coloană k, vom parcurge indici de linie:
 </value>
   </data>
+  <data name="richTextBox2.Text" xml:space="preserve">
+    <value>    Parcurgerea presupune accesarea elementelor curente ale matricei, într-o anumită ordine – de regulă aceasta se face pe linii, de sus în jos și de la stânga la dreapta:
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    De asemena, parcurgerea se poate realiza și pe coloane.</value>
+  </data>
 </root>

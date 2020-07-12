@@ -76,6 +76,18 @@
     <Compile Include="exersare3.Designer.cs">
       <DependentUpon>exersare3.cs</DependentUpon>
     </Compile>
+    <Compile Include="exersare4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="exersare4.Designer.cs">
+      <DependentUpon>exersare4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="exersare5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="exersare5.Designer.cs">
+      <DependentUpon>exersare5.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -138,6 +150,18 @@
     <Compile Include="suportTeoretic3.Designer.cs">
       <DependentUpon>suportTeoretic3.cs</DependentUpon>
     </Compile>
+    <Compile Include="suportTeoretic4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="suportTeoretic4.Designer.cs">
+      <DependentUpon>suportTeoretic4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="suportTeoretic5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="suportTeoretic5.Designer.cs">
+      <DependentUpon>suportTeoretic5.cs</DependentUpon>
+    </Compile>
     <Compile Include="testare1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -156,6 +180,18 @@
     <Compile Include="testare3.Designer.cs">
       <DependentUpon>testare3.cs</DependentUpon>
     </Compile>
+    <Compile Include="testare4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="testare4.Designer.cs">
+      <DependentUpon>testare4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="testare5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="testare5.Designer.cs">
+      <DependentUpon>testare5.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="accesareElemente.resx">
       <DependentUpon>accesareElemente.cs</DependentUpon>
     </EmbeddedResource>
@@ -170,6 +206,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="exersare3.resx">
       <DependentUpon>exersare3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="exersare4.resx">
+      <DependentUpon>exersare4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -207,6 +246,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="suportTeoretic3.resx">
       <DependentUpon>suportTeoretic3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="suportTeoretic4.resx">
+      <DependentUpon>suportTeoretic4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="testare1.resx">
       <DependentUpon>testare1.cs</DependentUpon>
@@ -439,6 +481,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\poza suport teoretic 30.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gradient7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poza zonele matricei.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poza zone bun.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poza zone bun bun.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poza zone bun bun bun.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gradient8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tabel ex 3 exersare 4.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

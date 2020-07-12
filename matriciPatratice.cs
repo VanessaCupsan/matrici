@@ -16,5 +16,28 @@ namespace matrici
         {
             InitializeComponent();
         }
+
+        private void matriciPatratice_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            suportTeoretic4 c = new suportTeoretic4();
+            c.ShowDialog();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            exersare4 x = new exersare4();
+            x.ShowDialog();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            testare4 d = new testare4();
+            d.ShowDialog();
+        }
     }
 }

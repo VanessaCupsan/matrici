@@ -15,7 +15,7 @@ namespace matrici
         int[] t = new int[10];
         bool[] r = { false, false, false, false, false, false, false, false, false, false };
         int nIntrebare12, nIntrebare30, nIntrebare31, nIntrebare40, nIntrebare41, nIntrebare50, nIntrebare51, nIntrebare52, nIntrebare60, nIntrebare61, nIntrebare70, nIntrebare71, nIntrebare72, nIntrebare80, nIntrebare81, nIntrebare90,nIntrebare91;
-
+        int[] ok = new int[5];
         private void tabPage9_Click(object sender, EventArgs e)
         {
 
@@ -63,6 +63,8 @@ namespace matrici
         private void button4_Click(object sender, EventArgs e)
         {
             int x = 0, nr = 1, nr0 = 0;
+            m = new int[nIntrebare50, nIntrebare51];
+            ok = new int[5];
             for (int i = 0; i < nIntrebare50; i++)
                 for (int j = 0; j < nIntrebare51; j++)
                     m[i, j] = i * j + 2;
@@ -78,11 +80,14 @@ namespace matrici
                     }
                     if(nr==1)
                     {
-                        t[nr0] = m[z, y];
+                        ok[nr0] = m[z, y];
                         nr0++;
                     }
                 }
-            MessageBox.Show(t[0].ToString() + ", " + t[1].ToString() + ", " + t[2].ToString() + ", " + t[3].ToString());
+            if (textBox1.Text == "4,6,5,8")
+                t[5] = 1;
+            else t[5] = 0;
+            tab.SelectTab(5);
         }
 
         private void radioButton6_CheckedChanged(object sender, EventArgs e)
@@ -136,8 +141,8 @@ namespace matrici
             rEx43.LoadFile("ex43t3.rtf");
             rEx4.LoadFile("ex4t3.rtf");
             //gnerare intrebarea 5
-            nIntrebare50 = r.Next(5, 10);
-            nIntrebare51 = r.Next(5, 10);
+            nIntrebare50 = r.Next(5, 12);
+            nIntrebare51 = r.Next(5, 12);
             nIntrebare52 = r.Next(0, nIntrebare51);
             intrebare50.Text = " Fie matricea a cu " + nIntrebare50.ToString() + " linii și " + nIntrebare51.ToString() + " coloane, numerotate de la 0 și i și j, numere întregi. Scrieți în căsuța de mai jos, separate printr-o virgulă și un spațiu( ca în exemplul de mai jos ), elementele ce vor fi afișate în urma rulării algoritmului următor.";
             rEx5t3.LoadFile("ex5t3.rtf");

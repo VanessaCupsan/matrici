@@ -323,6 +323,26 @@ namespace matrici.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap gradient7 {
+            get {
+                object obj = ResourceManager.GetObject("gradient7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gradient8 {
+            get {
+                object obj = ResourceManager.GetObject("gradient8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap INERCARE_2 {
             get {
                 object obj = ResourceManager.GetObject("INERCARE 2", resourceCulture);
@@ -503,6 +523,46 @@ namespace matrici.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap poza_zone_bun {
+            get {
+                object obj = ResourceManager.GetObject("poza zone bun", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap poza_zone_bun_bun {
+            get {
+                object obj = ResourceManager.GetObject("poza zone bun bun", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap poza_zone_bun_bun_bun {
+            get {
+                object obj = ResourceManager.GetObject("poza zone bun bun bun", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap poza_zonele_matricei {
+            get {
+                object obj = ResourceManager.GetObject("poza zonele matricei", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap SUPORT_TEORETIC {
             get {
                 object obj = ResourceManager.GetObject("SUPORT TEORETIC", resourceCulture);
@@ -576,6 +636,16 @@ namespace matrici.Properties {
         internal static System.Drawing.Bitmap tabel_ex_2_exersare_bun {
             get {
                 object obj = ResourceManager.GetObject("tabel ex 2 exersare bun", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tabel_ex_3_exersare_4 {
+            get {
+                object obj = ResourceManager.GetObject("tabel ex 3 exersare 4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -12,8 +12,8 @@ namespace matrici
 {
     public partial class exersare4 : Form
     {
-        int nExercitiul10,nExercitiul2,nExercitiul3,nExercitiul4;
-        int[,] v;
+        int nExercitiul10,nExercitiul2,nExercitiul3,nExercitiul4,nExercitiul5;
+        int[,] a;
         public exersare4()
         {
             InitializeComponent();
@@ -37,13 +37,45 @@ namespace matrici
             exercitiul3.Text = " Care este ultima cifră a produsului numerelor aflate sub diagonala secundară (exclusiv diagonala secundară), în cazul unui tabel bidimensional cu " + nExercitiul3.ToString() + " linii și " + nExercitiul3.ToString() + " coloane generat după aceeași regulă ?";
             //generare exercitiul 4
             nExercitiul4 = r.Next(3, 6);
-            exercitiul4.Text = " În secvența de mai jos, variabila a memorează elementele unui tablou bidimensional cu n=" + nExercitiul4.ToString() + " linii și " + nExercitiul4.ToString() + ", indexate de la 0, iar toate celelalte variabile sunt de tip întreg.";
+            exercitiul4.Text = " În secvența de mai jos, variabila a memorează elementele unui tablou bidimensional cu n=" + nExercitiul4.ToString() + " linii și n=" + nExercitiul4.ToString() + " coloane, indexate de la 0, iar toate celelalte variabile sunt de tip întreg.";
             rEx4.LoadFile("ex4exersare4.rtf");
+            //generare exercitiul 5
+            nExercitiul5 = r.Next(3, 100);
+            exercitiul5.Text = " În secvența de program următoare, variabila t memorează o matrice cu n=" + nExercitiul5.ToString() + " linii și n=" + nExercitiul5.ToString() + " coloane, numerotate de la 0 la " + (nExercitiul5 - 1).ToString() + ", cu elemente numere întregi, iar celelalte variabile sunt întregi.";
+            rEx5.LoadFile("ex5exersare4.rtf");
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            if (radioButton8.Checked)
+                MessageBox.Show(" Răspuns corect.");
+            else MessageBox.Show(" Răspunsul corect este b).");
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            v = new int[nExercitiul4, nExercitiul4];
+            a = new int[nExercitiul4, nExercitiul4];
+            int i, j, x=1, s = 0;
+            for(i=0;i<nExercitiul4;i++)
+                for(j=0;j<nExercitiul4;j++)
+                {
+                    if (i == j)
+                    {
+                        a[i, j] = 2 * x;
+                        s += a[i, j];
+
+                    }
+                    else a[i, j] = x;
+                    x++;
+                }
+            if (Int32.Parse(raspunsEx4.Text) == s)
+                MessageBox.Show(" Răspuns corect.");
+            else MessageBox.Show(" Răspunsul corect este " + s.ToString());
         }
 
         private void button3_Click(object sender, EventArgs e)

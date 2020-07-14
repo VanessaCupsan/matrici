@@ -76,41 +76,42 @@
             this.label5 = new System.Windows.Forms.Label();
             this.intrebare40 = new System.Windows.Forms.Label();
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.button4 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.rEx5t3 = new System.Windows.Forms.RichTextBox();
             this.intrebare50 = new System.Windows.Forms.Label();
             this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.tabPage7 = new System.Windows.Forms.TabPage();
-            this.tabPage8 = new System.Windows.Forms.TabPage();
-            this.tabPage9 = new System.Windows.Forms.TabPage();
-            this.evaluare = new System.Windows.Forms.Button();
-            this.rEx5t3 = new System.Windows.Forms.RichTextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.intrebare6 = new System.Windows.Forms.Label();
-            this.intrebare61 = new System.Windows.Forms.Label();
-            this.intrebare70 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.rEx6t3 = new System.Windows.Forms.RichTextBox();
-            this.button6 = new System.Windows.Forms.Button();
-            this.rEx7t3 = new System.Windows.Forms.RichTextBox();
-            this.button7 = new System.Windows.Forms.Button();
-            this.intrebare8 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.button8 = new System.Windows.Forms.Button();
-            this.intrebare9 = new System.Windows.Forms.Label();
             this.rEx9 = new System.Windows.Forms.RichTextBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.radioButton9 = new System.Windows.Forms.RadioButton();
-            this.radioButton10 = new System.Windows.Forms.RadioButton();
-            this.radioButton11 = new System.Windows.Forms.RadioButton();
-            this.radioButton12 = new System.Windows.Forms.RadioButton();
             this.button9 = new System.Windows.Forms.Button();
+            this.radioButton12 = new System.Windows.Forms.RadioButton();
+            this.radioButton11 = new System.Windows.Forms.RadioButton();
+            this.radioButton10 = new System.Windows.Forms.RadioButton();
+            this.radioButton9 = new System.Windows.Forms.RadioButton();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.intrebare9 = new System.Windows.Forms.Label();
+            this.button6 = new System.Windows.Forms.Button();
+            this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.button7 = new System.Windows.Forms.Button();
+            this.rtLinie = new System.Windows.Forms.RichTextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.cerLinie = new System.Windows.Forms.Label();
+            this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.button8 = new System.Windows.Forms.Button();
+            this.rtColoana = new System.Windows.Forms.RichTextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.cerColoana = new System.Windows.Forms.Label();
+            this.tabPage9 = new System.Windows.Forms.TabPage();
+            this.label16 = new System.Windows.Forms.Label();
+            this.button10 = new System.Windows.Forms.Button();
+            this.cerArie = new System.Windows.Forms.Label();
+            this.rtArie = new System.Windows.Forms.RichTextBox();
+            this.evaluare = new System.Windows.Forms.Button();
             this.tab.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -136,10 +137,11 @@
             this.tab.Controls.Add(this.tabPage8);
             this.tab.Controls.Add(this.tabPage9);
             this.tab.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tab.Location = new System.Drawing.Point(-2, -1);
+            this.tab.Location = new System.Drawing.Point(-3, -1);
+            this.tab.Margin = new System.Windows.Forms.Padding(4);
             this.tab.Name = "tab";
             this.tab.SelectedIndex = 0;
-            this.tab.Size = new System.Drawing.Size(928, 477);
+            this.tab.Size = new System.Drawing.Size(1237, 587);
             this.tab.TabIndex = 0;
             // 
             // tabPage1
@@ -155,64 +157,71 @@
             this.tabPage1.Controls.Add(this.intrebare11);
             this.tabPage1.Controls.Add(this.intrebare10);
             this.tabPage1.Controls.Add(this.label1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 29);
+            this.tabPage1.Location = new System.Drawing.Point(4, 34);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(920, 444);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(4);
+            this.tabPage1.Size = new System.Drawing.Size(1229, 549);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Întrebarea1";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // raspuns12
             // 
-            this.raspuns12.Location = new System.Drawing.Point(188, 274);
+            this.raspuns12.Location = new System.Drawing.Point(251, 337);
+            this.raspuns12.Margin = new System.Windows.Forms.Padding(4);
             this.raspuns12.Mask = "000000000";
             this.raspuns12.Name = "raspuns12";
-            this.raspuns12.Size = new System.Drawing.Size(38, 26);
+            this.raspuns12.Size = new System.Drawing.Size(49, 30);
             this.raspuns12.TabIndex = 16;
             this.raspuns12.ValidatingType = typeof(int);
             // 
             // raspuns13
             // 
-            this.raspuns13.Location = new System.Drawing.Point(263, 274);
+            this.raspuns13.Location = new System.Drawing.Point(351, 337);
+            this.raspuns13.Margin = new System.Windows.Forms.Padding(4);
             this.raspuns13.Mask = "000000000";
             this.raspuns13.Name = "raspuns13";
-            this.raspuns13.Size = new System.Drawing.Size(38, 26);
+            this.raspuns13.Size = new System.Drawing.Size(49, 30);
             this.raspuns13.TabIndex = 15;
             this.raspuns13.ValidatingType = typeof(int);
             // 
             // raspuns14
             // 
-            this.raspuns14.Location = new System.Drawing.Point(339, 274);
+            this.raspuns14.Location = new System.Drawing.Point(452, 337);
+            this.raspuns14.Margin = new System.Windows.Forms.Padding(4);
             this.raspuns14.Mask = "000000000";
             this.raspuns14.Name = "raspuns14";
-            this.raspuns14.Size = new System.Drawing.Size(38, 26);
+            this.raspuns14.Size = new System.Drawing.Size(49, 30);
             this.raspuns14.TabIndex = 14;
             this.raspuns14.ValidatingType = typeof(int);
             // 
             // raspuns15
             // 
-            this.raspuns15.Location = new System.Drawing.Point(413, 274);
+            this.raspuns15.Location = new System.Drawing.Point(551, 337);
+            this.raspuns15.Margin = new System.Windows.Forms.Padding(4);
             this.raspuns15.Mask = "000000000";
             this.raspuns15.Name = "raspuns15";
-            this.raspuns15.Size = new System.Drawing.Size(38, 26);
+            this.raspuns15.Size = new System.Drawing.Size(49, 30);
             this.raspuns15.TabIndex = 13;
             this.raspuns15.ValidatingType = typeof(int);
             // 
             // raspuns10
             // 
-            this.raspuns10.Location = new System.Drawing.Point(109, 274);
+            this.raspuns10.Location = new System.Drawing.Point(145, 337);
+            this.raspuns10.Margin = new System.Windows.Forms.Padding(4);
             this.raspuns10.Mask = "000000000";
             this.raspuns10.Name = "raspuns10";
-            this.raspuns10.Size = new System.Drawing.Size(38, 26);
+            this.raspuns10.Size = new System.Drawing.Size(49, 30);
             this.raspuns10.TabIndex = 11;
             this.raspuns10.ValidatingType = typeof(int);
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(642, 182);
+            this.button5.Location = new System.Drawing.Point(856, 224);
+            this.button5.Margin = new System.Windows.Forms.Padding(4);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(96, 44);
+            this.button5.Size = new System.Drawing.Size(128, 54);
             this.button5.TabIndex = 10;
             this.button5.Text = "Răspunde";
             this.button5.UseVisualStyleBackColor = true;
@@ -220,44 +229,49 @@
             // 
             // rIntrebare1
             // 
-            this.rIntrebare1.Location = new System.Drawing.Point(22, 118);
+            this.rIntrebare1.Location = new System.Drawing.Point(29, 145);
+            this.rIntrebare1.Margin = new System.Windows.Forms.Padding(4);
             this.rIntrebare1.Name = "rIntrebare1";
-            this.rIntrebare1.Size = new System.Drawing.Size(305, 58);
+            this.rIntrebare1.Size = new System.Drawing.Size(405, 70);
             this.rIntrebare1.TabIndex = 5;
             this.rIntrebare1.Text = "";
             // 
             // intrebare12
             // 
             this.intrebare12.AutoSize = true;
-            this.intrebare12.Location = new System.Drawing.Point(23, 230);
+            this.intrebare12.Location = new System.Drawing.Point(31, 283);
+            this.intrebare12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.intrebare12.Name = "intrebare12";
-            this.intrebare12.Size = new System.Drawing.Size(51, 20);
+            this.intrebare12.Size = new System.Drawing.Size(64, 25);
             this.intrebare12.TabIndex = 4;
             this.intrebare12.Text = "label4";
             // 
             // intrebare11
             // 
             this.intrebare11.AutoSize = true;
-            this.intrebare11.Location = new System.Drawing.Point(23, 95);
+            this.intrebare11.Location = new System.Drawing.Point(31, 117);
+            this.intrebare11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.intrebare11.Name = "intrebare11";
-            this.intrebare11.Size = new System.Drawing.Size(51, 20);
+            this.intrebare11.Size = new System.Drawing.Size(64, 25);
             this.intrebare11.TabIndex = 3;
             this.intrebare11.Text = "label3";
             // 
             // intrebare10
             // 
             this.intrebare10.AutoSize = true;
-            this.intrebare10.Location = new System.Drawing.Point(23, 57);
+            this.intrebare10.Location = new System.Drawing.Point(31, 70);
+            this.intrebare10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.intrebare10.Name = "intrebare10";
-            this.intrebare10.Size = new System.Drawing.Size(51, 20);
+            this.intrebare10.Size = new System.Drawing.Size(64, 25);
             this.intrebare10.TabIndex = 2;
             this.intrebare10.Text = "label2";
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(18, 13);
+            this.label1.Location = new System.Drawing.Point(24, 16);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(842, 64);
+            this.label1.Size = new System.Drawing.Size(1123, 79);
             this.label1.TabIndex = 1;
             this.label1.Text = resources.GetString("label1.Text");
             // 
@@ -275,10 +289,11 @@
             this.tabPage2.Controls.Add(this.label2);
             this.tabPage2.Controls.Add(this.pictureBox1);
             this.tabPage2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabPage2.Location = new System.Drawing.Point(4, 29);
+            this.tabPage2.Location = new System.Drawing.Point(4, 34);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(920, 444);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(4);
+            this.tabPage2.Size = new System.Drawing.Size(1229, 549);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Întrebarea2";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -286,9 +301,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(94, 279);
+            this.button1.Location = new System.Drawing.Point(125, 343);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(96, 44);
+            this.button1.Size = new System.Drawing.Size(128, 54);
             this.button1.TabIndex = 11;
             this.button1.Text = "Răspunde";
             this.button1.UseVisualStyleBackColor = true;
@@ -296,42 +312,47 @@
             // 
             // rEx23
             // 
-            this.rEx23.Location = new System.Drawing.Point(442, 278);
+            this.rEx23.Location = new System.Drawing.Point(589, 342);
+            this.rEx23.Margin = new System.Windows.Forms.Padding(4);
             this.rEx23.Name = "rEx23";
-            this.rEx23.Size = new System.Drawing.Size(312, 59);
+            this.rEx23.Size = new System.Drawing.Size(415, 72);
             this.rEx23.TabIndex = 10;
             this.rEx23.Text = "";
             // 
             // rEx22
             // 
-            this.rEx22.Location = new System.Drawing.Point(442, 203);
+            this.rEx22.Location = new System.Drawing.Point(589, 250);
+            this.rEx22.Margin = new System.Windows.Forms.Padding(4);
             this.rEx22.Name = "rEx22";
-            this.rEx22.Size = new System.Drawing.Size(312, 59);
+            this.rEx22.Size = new System.Drawing.Size(415, 72);
             this.rEx22.TabIndex = 9;
             this.rEx22.Text = "";
             // 
             // rEx21
             // 
-            this.rEx21.Location = new System.Drawing.Point(442, 135);
+            this.rEx21.Location = new System.Drawing.Point(589, 166);
+            this.rEx21.Margin = new System.Windows.Forms.Padding(4);
             this.rEx21.Name = "rEx21";
-            this.rEx21.Size = new System.Drawing.Size(312, 59);
+            this.rEx21.Size = new System.Drawing.Size(415, 72);
             this.rEx21.TabIndex = 8;
             this.rEx21.Text = "";
             // 
             // rEx20
             // 
-            this.rEx20.Location = new System.Drawing.Point(442, 63);
+            this.rEx20.Location = new System.Drawing.Point(589, 78);
+            this.rEx20.Margin = new System.Windows.Forms.Padding(4);
             this.rEx20.Name = "rEx20";
-            this.rEx20.Size = new System.Drawing.Size(312, 59);
+            this.rEx20.Size = new System.Drawing.Size(415, 72);
             this.rEx20.TabIndex = 7;
             this.rEx20.Text = "";
             // 
             // radioButton4
             // 
             this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(385, 279);
+            this.radioButton4.Location = new System.Drawing.Point(513, 343);
+            this.radioButton4.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(41, 24);
+            this.radioButton4.Size = new System.Drawing.Size(51, 29);
             this.radioButton4.TabIndex = 6;
             this.radioButton4.TabStop = true;
             this.radioButton4.Text = "d)";
@@ -340,9 +361,10 @@
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(385, 207);
+            this.radioButton3.Location = new System.Drawing.Point(513, 255);
+            this.radioButton3.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(40, 24);
+            this.radioButton3.Size = new System.Drawing.Size(50, 29);
             this.radioButton3.TabIndex = 5;
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "c)";
@@ -351,9 +373,10 @@
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(384, 136);
+            this.radioButton2.Location = new System.Drawing.Point(512, 167);
+            this.radioButton2.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(41, 24);
+            this.radioButton2.Size = new System.Drawing.Size(51, 29);
             this.radioButton2.TabIndex = 4;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "b)";
@@ -362,9 +385,10 @@
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(385, 63);
+            this.radioButton1.Location = new System.Drawing.Point(513, 78);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(41, 24);
+            this.radioButton1.Size = new System.Drawing.Size(51, 29);
             this.radioButton1.TabIndex = 3;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "a)";
@@ -372,9 +396,10 @@
             // 
             // label2
             // 
-            this.label2.Location = new System.Drawing.Point(22, 21);
+            this.label2.Location = new System.Drawing.Point(29, 26);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(835, 55);
+            this.label2.Size = new System.Drawing.Size(1113, 68);
             this.label2.TabIndex = 1;
             this.label2.Text = "Fie matricea a cu n linii și m coloane, numeroatate începând cu 1. Care dintre ur" +
     "mătoarii algoritmi parcurg aria colorată cu verde din imaginea de mai jos?";
@@ -382,10 +407,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::matrici.Properties.Resources.tabel_intrebare1_testare_3;
-            this.pictureBox1.Location = new System.Drawing.Point(26, 78);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Location = new System.Drawing.Point(35, 96);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(252, 170);
+            this.pictureBox1.Size = new System.Drawing.Size(336, 209);
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
@@ -399,10 +424,11 @@
             this.tabPage3.Controls.Add(this.intrebare31);
             this.tabPage3.Controls.Add(this.intrebare30);
             this.tabPage3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabPage3.Location = new System.Drawing.Point(4, 29);
+            this.tabPage3.Location = new System.Drawing.Point(4, 34);
+            this.tabPage3.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(920, 444);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(4);
+            this.tabPage3.Size = new System.Drawing.Size(1229, 549);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Întrebarea3";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -410,9 +436,10 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(599, 145);
+            this.button2.Location = new System.Drawing.Point(799, 178);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(96, 44);
+            this.button2.Size = new System.Drawing.Size(128, 54);
             this.button2.TabIndex = 12;
             this.button2.Text = "Răspunde";
             this.button2.UseVisualStyleBackColor = true;
@@ -420,19 +447,21 @@
             // 
             // raspuns30
             // 
-            this.raspuns30.Location = new System.Drawing.Point(274, 253);
+            this.raspuns30.Location = new System.Drawing.Point(365, 311);
+            this.raspuns30.Margin = new System.Windows.Forms.Padding(4);
             this.raspuns30.Mask = "00000000";
             this.raspuns30.Name = "raspuns30";
-            this.raspuns30.Size = new System.Drawing.Size(66, 26);
+            this.raspuns30.Size = new System.Drawing.Size(87, 30);
             this.raspuns30.TabIndex = 5;
             this.raspuns30.ValidatingType = typeof(int);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(26, 256);
+            this.label7.Location = new System.Drawing.Point(35, 315);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(206, 20);
+            this.label7.Size = new System.Drawing.Size(250, 25);
             this.label7.TabIndex = 4;
             this.label7.Text = "Scrie răspunsul tău aici :";
             // 
@@ -440,9 +469,10 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(121, 145);
+            this.label6.Location = new System.Drawing.Point(161, 178);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(107, 20);
+            this.label6.Size = new System.Drawing.Size(142, 25);
             this.label6.TabIndex = 3;
             this.label6.Text = "a[ i ][ j ] = 5*i-j ;";
             // 
@@ -450,9 +480,10 @@
             // 
             this.intrebare32.AutoSize = true;
             this.intrebare32.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.intrebare32.Location = new System.Drawing.Point(96, 112);
+            this.intrebare32.Location = new System.Drawing.Point(128, 138);
+            this.intrebare32.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.intrebare32.Name = "intrebare32";
-            this.intrebare32.Size = new System.Drawing.Size(51, 20);
+            this.intrebare32.Size = new System.Drawing.Size(64, 25);
             this.intrebare32.TabIndex = 2;
             this.intrebare32.Text = "label5";
             // 
@@ -460,9 +491,10 @@
             // 
             this.intrebare31.AutoSize = true;
             this.intrebare31.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.intrebare31.Location = new System.Drawing.Point(81, 75);
+            this.intrebare31.Location = new System.Drawing.Point(108, 92);
+            this.intrebare31.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.intrebare31.Name = "intrebare31";
-            this.intrebare31.Size = new System.Drawing.Size(51, 20);
+            this.intrebare31.Size = new System.Drawing.Size(64, 25);
             this.intrebare31.TabIndex = 1;
             this.intrebare31.Text = "label4";
             // 
@@ -470,9 +502,10 @@
             // 
             this.intrebare30.AutoSize = true;
             this.intrebare30.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.intrebare30.Location = new System.Drawing.Point(26, 25);
+            this.intrebare30.Location = new System.Drawing.Point(35, 31);
+            this.intrebare30.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.intrebare30.Name = "intrebare30";
-            this.intrebare30.Size = new System.Drawing.Size(51, 20);
+            this.intrebare30.Size = new System.Drawing.Size(64, 25);
             this.intrebare30.TabIndex = 0;
             this.intrebare30.Text = "label3";
             // 
@@ -490,10 +523,11 @@
             this.tabPage4.Controls.Add(this.rEx4);
             this.tabPage4.Controls.Add(this.label5);
             this.tabPage4.Controls.Add(this.intrebare40);
-            this.tabPage4.Location = new System.Drawing.Point(4, 29);
+            this.tabPage4.Location = new System.Drawing.Point(4, 34);
+            this.tabPage4.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(920, 444);
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(4);
+            this.tabPage4.Size = new System.Drawing.Size(1229, 549);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Întrebarea4";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -501,9 +535,10 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(409, 365);
+            this.button3.Location = new System.Drawing.Point(545, 449);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(96, 44);
+            this.button3.Size = new System.Drawing.Size(128, 54);
             this.button3.TabIndex = 13;
             this.button3.Text = "Răspunde";
             this.button3.UseVisualStyleBackColor = true;
@@ -511,43 +546,48 @@
             // 
             // rEx41
             // 
-            this.rEx41.Location = new System.Drawing.Point(107, 331);
+            this.rEx41.Location = new System.Drawing.Point(143, 407);
+            this.rEx41.Margin = new System.Windows.Forms.Padding(4);
             this.rEx41.Name = "rEx41";
-            this.rEx41.Size = new System.Drawing.Size(271, 96);
+            this.rEx41.Size = new System.Drawing.Size(360, 117);
             this.rEx41.TabIndex = 11;
             this.rEx41.Text = "";
             // 
             // rEx42
             // 
-            this.rEx42.Location = new System.Drawing.Point(597, 195);
+            this.rEx42.Location = new System.Drawing.Point(796, 240);
+            this.rEx42.Margin = new System.Windows.Forms.Padding(4);
             this.rEx42.Name = "rEx42";
-            this.rEx42.Size = new System.Drawing.Size(270, 96);
+            this.rEx42.Size = new System.Drawing.Size(359, 117);
             this.rEx42.TabIndex = 10;
             this.rEx42.Text = "";
             // 
             // rEx43
             // 
-            this.rEx43.Location = new System.Drawing.Point(597, 331);
+            this.rEx43.Location = new System.Drawing.Point(796, 407);
+            this.rEx43.Margin = new System.Windows.Forms.Padding(4);
             this.rEx43.Name = "rEx43";
-            this.rEx43.Size = new System.Drawing.Size(270, 96);
+            this.rEx43.Size = new System.Drawing.Size(359, 117);
             this.rEx43.TabIndex = 9;
             this.rEx43.Text = "";
             this.rEx43.TextChanged += new System.EventHandler(this.richTextBox3_TextChanged);
             // 
             // rEx40
             // 
-            this.rEx40.Location = new System.Drawing.Point(107, 195);
+            this.rEx40.Location = new System.Drawing.Point(143, 240);
+            this.rEx40.Margin = new System.Windows.Forms.Padding(4);
             this.rEx40.Name = "rEx40";
-            this.rEx40.Size = new System.Drawing.Size(271, 96);
+            this.rEx40.Size = new System.Drawing.Size(360, 117);
             this.rEx40.TabIndex = 8;
             this.rEx40.Text = "";
             // 
             // radioButton8
             // 
             this.radioButton8.AutoSize = true;
-            this.radioButton8.Location = new System.Drawing.Point(23, 225);
+            this.radioButton8.Location = new System.Drawing.Point(31, 277);
+            this.radioButton8.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton8.Name = "radioButton8";
-            this.radioButton8.Size = new System.Drawing.Size(41, 24);
+            this.radioButton8.Size = new System.Drawing.Size(51, 29);
             this.radioButton8.TabIndex = 7;
             this.radioButton8.TabStop = true;
             this.radioButton8.Text = "a)";
@@ -556,9 +596,10 @@
             // radioButton7
             // 
             this.radioButton7.AutoSize = true;
-            this.radioButton7.Location = new System.Drawing.Point(23, 365);
+            this.radioButton7.Location = new System.Drawing.Point(31, 449);
+            this.radioButton7.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(41, 24);
+            this.radioButton7.Size = new System.Drawing.Size(51, 29);
             this.radioButton7.TabIndex = 6;
             this.radioButton7.TabStop = true;
             this.radioButton7.Text = "b)";
@@ -567,9 +608,10 @@
             // radioButton6
             // 
             this.radioButton6.AutoSize = true;
-            this.radioButton6.Location = new System.Drawing.Point(551, 225);
+            this.radioButton6.Location = new System.Drawing.Point(735, 277);
+            this.radioButton6.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(40, 24);
+            this.radioButton6.Size = new System.Drawing.Size(50, 29);
             this.radioButton6.TabIndex = 5;
             this.radioButton6.TabStop = true;
             this.radioButton6.Text = "c)";
@@ -579,9 +621,10 @@
             // radioButton5
             // 
             this.radioButton5.AutoSize = true;
-            this.radioButton5.Location = new System.Drawing.Point(550, 365);
+            this.radioButton5.Location = new System.Drawing.Point(733, 449);
+            this.radioButton5.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(41, 24);
+            this.radioButton5.Size = new System.Drawing.Size(51, 29);
             this.radioButton5.TabIndex = 4;
             this.radioButton5.TabStop = true;
             this.radioButton5.Text = "d)";
@@ -589,26 +632,29 @@
             // 
             // rEx4
             // 
-            this.rEx4.Location = new System.Drawing.Point(284, 121);
+            this.rEx4.Location = new System.Drawing.Point(379, 149);
+            this.rEx4.Margin = new System.Windows.Forms.Padding(4);
             this.rEx4.Name = "rEx4";
-            this.rEx4.Size = new System.Drawing.Size(366, 68);
+            this.rEx4.Size = new System.Drawing.Size(487, 83);
             this.rEx4.TabIndex = 3;
             this.rEx4.Text = "";
             // 
             // label5
             // 
             this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Location = new System.Drawing.Point(19, 57);
+            this.label5.Location = new System.Drawing.Point(25, 70);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(847, 61);
+            this.label5.Size = new System.Drawing.Size(1129, 75);
             this.label5.TabIndex = 2;
             this.label5.Text = resources.GetString("label5.Text");
             // 
             // intrebare40
             // 
-            this.intrebare40.Location = new System.Drawing.Point(19, 3);
+            this.intrebare40.Location = new System.Drawing.Point(25, 4);
+            this.intrebare40.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.intrebare40.Name = "intrebare40";
-            this.intrebare40.Size = new System.Drawing.Size(815, 66);
+            this.intrebare40.Size = new System.Drawing.Size(1087, 81);
             this.intrebare40.TabIndex = 0;
             this.intrebare40.Text = "label3";
             // 
@@ -620,370 +666,421 @@
             this.tabPage5.Controls.Add(this.label3);
             this.tabPage5.Controls.Add(this.rEx5t3);
             this.tabPage5.Controls.Add(this.intrebare50);
-            this.tabPage5.Location = new System.Drawing.Point(4, 29);
+            this.tabPage5.Location = new System.Drawing.Point(4, 34);
+            this.tabPage5.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(920, 444);
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(4);
+            this.tabPage5.Size = new System.Drawing.Size(1229, 549);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Întrebarea5";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
-            // intrebare50
-            // 
-            this.intrebare50.Location = new System.Drawing.Point(22, 18);
-            this.intrebare50.Name = "intrebare50";
-            this.intrebare50.Size = new System.Drawing.Size(898, 93);
-            this.intrebare50.TabIndex = 0;
-            this.intrebare50.Text = "label";
-            // 
-            // tabPage6
-            // 
-            this.tabPage6.Controls.Add(this.button6);
-            this.tabPage6.Controls.Add(this.rEx6t3);
-            this.tabPage6.Controls.Add(this.intrebare61);
-            this.tabPage6.Controls.Add(this.intrebare6);
-            this.tabPage6.Location = new System.Drawing.Point(4, 29);
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(920, 444);
-            this.tabPage6.TabIndex = 5;
-            this.tabPage6.Text = "Întrebarea6";
-            this.tabPage6.UseVisualStyleBackColor = true;
-            // 
-            // tabPage7
-            // 
-            this.tabPage7.Controls.Add(this.button7);
-            this.tabPage7.Controls.Add(this.rEx7t3);
-            this.tabPage7.Controls.Add(this.label9);
-            this.tabPage7.Controls.Add(this.label8);
-            this.tabPage7.Controls.Add(this.intrebare70);
-            this.tabPage7.Location = new System.Drawing.Point(4, 29);
-            this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(920, 444);
-            this.tabPage7.TabIndex = 6;
-            this.tabPage7.Text = "Întrebarea7";
-            this.tabPage7.UseVisualStyleBackColor = true;
-            // 
-            // tabPage8
-            // 
-            this.tabPage8.Controls.Add(this.button8);
-            this.tabPage8.Controls.Add(this.richTextBox1);
-            this.tabPage8.Controls.Add(this.label11);
-            this.tabPage8.Controls.Add(this.intrebare8);
-            this.tabPage8.Location = new System.Drawing.Point(4, 29);
-            this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage8.Size = new System.Drawing.Size(920, 444);
-            this.tabPage8.TabIndex = 7;
-            this.tabPage8.Text = "Întrebarea8";
-            this.tabPage8.UseVisualStyleBackColor = true;
-            this.tabPage8.Click += new System.EventHandler(this.tabPage8_Click);
-            // 
-            // tabPage9
-            // 
-            this.tabPage9.Controls.Add(this.button9);
-            this.tabPage9.Controls.Add(this.radioButton12);
-            this.tabPage9.Controls.Add(this.radioButton11);
-            this.tabPage9.Controls.Add(this.radioButton10);
-            this.tabPage9.Controls.Add(this.radioButton9);
-            this.tabPage9.Controls.Add(this.label14);
-            this.tabPage9.Controls.Add(this.label13);
-            this.tabPage9.Controls.Add(this.label12);
-            this.tabPage9.Controls.Add(this.label10);
-            this.tabPage9.Controls.Add(this.rEx9);
-            this.tabPage9.Controls.Add(this.intrebare9);
-            this.tabPage9.Location = new System.Drawing.Point(4, 29);
-            this.tabPage9.Name = "tabPage9";
-            this.tabPage9.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage9.Size = new System.Drawing.Size(920, 444);
-            this.tabPage9.TabIndex = 8;
-            this.tabPage9.Text = "Întrebarea9";
-            this.tabPage9.UseVisualStyleBackColor = true;
-            this.tabPage9.Click += new System.EventHandler(this.tabPage9_Click);
-            // 
-            // evaluare
-            // 
-            this.evaluare.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.evaluare.Location = new System.Drawing.Point(432, 496);
-            this.evaluare.Name = "evaluare";
-            this.evaluare.Size = new System.Drawing.Size(75, 30);
-            this.evaluare.TabIndex = 3;
-            this.evaluare.Text = "Evaluați";
-            this.evaluare.UseVisualStyleBackColor = true;
-            this.evaluare.Click += new System.EventHandler(this.evaluare_Click);
-            // 
-            // rEx5t3
-            // 
-            this.rEx5t3.Location = new System.Drawing.Point(113, 72);
-            this.rEx5t3.Name = "rEx5t3";
-            this.rEx5t3.Size = new System.Drawing.Size(366, 177);
-            this.rEx5t3.TabIndex = 1;
-            this.rEx5t3.Text = "";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(22, 288);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(252, 24);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Exemplu afișare :2, 5, 7, 8";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(26, 351);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(184, 20);
-            this.label4.TabIndex = 3;
-            this.label4.Text = " Scrie răspunsul tău aici :";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(216, 351);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(251, 26);
-            this.textBox1.TabIndex = 4;
-            // 
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(563, 342);
+            this.button4.Location = new System.Drawing.Point(751, 421);
+            this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(96, 44);
+            this.button4.Size = new System.Drawing.Size(128, 54);
             this.button4.TabIndex = 14;
             this.button4.Text = "Răspunde";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // intrebare6
+            // textBox1
             // 
-            this.intrebare6.Location = new System.Drawing.Point(20, 27);
-            this.intrebare6.Name = "intrebare6";
-            this.intrebare6.Size = new System.Drawing.Size(894, 47);
-            this.intrebare6.TabIndex = 0;
-            this.intrebare6.Text = "label8";
+            this.textBox1.Location = new System.Drawing.Point(288, 432);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(333, 30);
+            this.textBox1.TabIndex = 4;
             // 
-            // intrebare61
+            // label4
             // 
-            this.intrebare61.Location = new System.Drawing.Point(20, 74);
-            this.intrebare61.Name = "intrebare61";
-            this.intrebare61.Size = new System.Drawing.Size(888, 49);
-            this.intrebare61.TabIndex = 1;
-            this.intrebare61.Text = "label8";
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(35, 432);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(229, 25);
+            this.label4.TabIndex = 3;
+            this.label4.Text = " Scrie răspunsul tău aici :";
             // 
-            // intrebare70
+            // label3
             // 
-            this.intrebare70.Location = new System.Drawing.Point(23, 19);
-            this.intrebare70.Name = "intrebare70";
-            this.intrebare70.Size = new System.Drawing.Size(893, 61);
-            this.intrebare70.TabIndex = 0;
-            this.intrebare70.Text = "label8";
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(29, 354);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(312, 29);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Exemplu afișare :2, 5, 7, 8";
             // 
-            // label8
+            // rEx5t3
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(23, 60);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(825, 20);
-            this.label8.TabIndex = 1;
-            this.label8.Text = "Scrie codul în căsuța de mai jos, fără a folosi alte variabile înafară de cele pr" +
-    "ezentate, apoi apasă butonul Răspunde.";
+            this.rEx5t3.Location = new System.Drawing.Point(151, 89);
+            this.rEx5t3.Margin = new System.Windows.Forms.Padding(4);
+            this.rEx5t3.Name = "rEx5t3";
+            this.rEx5t3.Size = new System.Drawing.Size(487, 217);
+            this.rEx5t3.TabIndex = 1;
+            this.rEx5t3.Text = "";
             // 
-            // label9
+            // intrebare50
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(23, 90);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(588, 20);
-            this.label9.TabIndex = 2;
-            this.label9.Text = "OBS: Ordinea de parcurgere și afișare este de la stănga la dreapta și de sus în j" +
-    "os.";
+            this.intrebare50.Location = new System.Drawing.Point(29, 22);
+            this.intrebare50.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.intrebare50.Name = "intrebare50";
+            this.intrebare50.Size = new System.Drawing.Size(1197, 114);
+            this.intrebare50.TabIndex = 0;
+            this.intrebare50.Text = "label";
             // 
-            // rEx6t3
+            // tabPage6
             // 
-            this.rEx6t3.Location = new System.Drawing.Point(114, 156);
-            this.rEx6t3.Name = "rEx6t3";
-            this.rEx6t3.Size = new System.Drawing.Size(365, 176);
-            this.rEx6t3.TabIndex = 2;
-            this.rEx6t3.Text = "";
-            // 
-            // button6
-            // 
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(570, 217);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(96, 44);
-            this.button6.TabIndex = 13;
-            this.button6.Text = "Răspunde";
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // rEx7t3
-            // 
-            this.rEx7t3.Location = new System.Drawing.Point(199, 169);
-            this.rEx7t3.Name = "rEx7t3";
-            this.rEx7t3.Size = new System.Drawing.Size(306, 179);
-            this.rEx7t3.TabIndex = 3;
-            this.rEx7t3.Text = "";
-            // 
-            // button7
-            // 
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(608, 230);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(96, 44);
-            this.button7.TabIndex = 14;
-            this.button7.Text = "Răspunde";
-            this.button7.UseVisualStyleBackColor = true;
-            // 
-            // intrebare8
-            // 
-            this.intrebare8.AutoSize = true;
-            this.intrebare8.Location = new System.Drawing.Point(38, 28);
-            this.intrebare8.Name = "intrebare8";
-            this.intrebare8.Size = new System.Drawing.Size(60, 20);
-            this.intrebare8.TabIndex = 0;
-            this.intrebare8.Text = "label10";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(42, 77);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(825, 20);
-            this.label11.TabIndex = 1;
-            this.label11.Text = "Scrie codul în căsuța de mai jos, fără a folosi alte variabile înafară de cele pr" +
-    "ezentate, apoi apasă butonul Răspunde.";
-            // 
-            // richTextBox1
-            // 
-            this.richTextBox1.Location = new System.Drawing.Point(42, 128);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(439, 251);
-            this.richTextBox1.TabIndex = 2;
-            this.richTextBox1.Text = "";
-            // 
-            // button8
-            // 
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.Location = new System.Drawing.Point(615, 233);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(96, 44);
-            this.button8.TabIndex = 14;
-            this.button8.Text = "Răspunde";
-            this.button8.UseVisualStyleBackColor = true;
-            // 
-            // intrebare9
-            // 
-            this.intrebare9.AutoSize = true;
-            this.intrebare9.Location = new System.Drawing.Point(58, 28);
-            this.intrebare9.Name = "intrebare9";
-            this.intrebare9.Size = new System.Drawing.Size(60, 20);
-            this.intrebare9.TabIndex = 0;
-            this.intrebare9.Text = "label10";
+            this.tabPage6.Controls.Add(this.rEx9);
+            this.tabPage6.Controls.Add(this.button9);
+            this.tabPage6.Controls.Add(this.radioButton12);
+            this.tabPage6.Controls.Add(this.radioButton11);
+            this.tabPage6.Controls.Add(this.radioButton10);
+            this.tabPage6.Controls.Add(this.radioButton9);
+            this.tabPage6.Controls.Add(this.label14);
+            this.tabPage6.Controls.Add(this.label13);
+            this.tabPage6.Controls.Add(this.label12);
+            this.tabPage6.Controls.Add(this.label10);
+            this.tabPage6.Controls.Add(this.intrebare9);
+            this.tabPage6.Controls.Add(this.button6);
+            this.tabPage6.Location = new System.Drawing.Point(4, 34);
+            this.tabPage6.Margin = new System.Windows.Forms.Padding(4);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(4);
+            this.tabPage6.Size = new System.Drawing.Size(1229, 549);
+            this.tabPage6.TabIndex = 5;
+            this.tabPage6.Text = "Întrebarea6";
+            this.tabPage6.UseVisualStyleBackColor = true;
             // 
             // rEx9
             // 
-            this.rEx9.Location = new System.Drawing.Point(30, 79);
+            this.rEx9.Location = new System.Drawing.Point(69, 80);
+            this.rEx9.Margin = new System.Windows.Forms.Padding(4);
             this.rEx9.Name = "rEx9";
-            this.rEx9.Size = new System.Drawing.Size(388, 350);
-            this.rEx9.TabIndex = 1;
+            this.rEx9.Size = new System.Drawing.Size(516, 430);
+            this.rEx9.TabIndex = 25;
             this.rEx9.Text = "";
-            // 
-            // label10
-            // 
-            this.label10.Location = new System.Drawing.Point(460, 79);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(303, 56);
-            this.label10.TabIndex = 2;
-            this.label10.Text = "a)  algoritmul citește și afișează în ordine crescătoare elementele matricei";
-            // 
-            // label12
-            // 
-            this.label12.Location = new System.Drawing.Point(460, 135);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(322, 63);
-            this.label12.TabIndex = 3;
-            this.label12.Text = "b) algoritmul citește și afișează elementele de pe linia a 2-a a matricei";
-            // 
-            // label13
-            // 
-            this.label13.Location = new System.Drawing.Point(460, 184);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(322, 63);
-            this.label13.TabIndex = 4;
-            this.label13.Text = "c) algoritmul citește elementele matricei a și afișează în ordine descrecătoare e" +
-    "lementele.";
-            // 
-            // label14
-            // 
-            this.label14.Location = new System.Drawing.Point(460, 262);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(318, 92);
-            this.label14.TabIndex = 5;
-            this.label14.Text = "d) algortimul citește elementele matricei, ordonează crescător elementele de lini" +
-    "a 2, apoi afișează matricea.";
-            // 
-            // radioButton9
-            // 
-            this.radioButton9.AutoSize = true;
-            this.radioButton9.Location = new System.Drawing.Point(440, 86);
-            this.radioButton9.Name = "radioButton9";
-            this.radioButton9.Size = new System.Drawing.Size(14, 13);
-            this.radioButton9.TabIndex = 6;
-            this.radioButton9.TabStop = true;
-            this.radioButton9.UseVisualStyleBackColor = true;
-            // 
-            // radioButton10
-            // 
-            this.radioButton10.AutoSize = true;
-            this.radioButton10.Location = new System.Drawing.Point(440, 139);
-            this.radioButton10.Name = "radioButton10";
-            this.radioButton10.Size = new System.Drawing.Size(14, 13);
-            this.radioButton10.TabIndex = 7;
-            this.radioButton10.TabStop = true;
-            this.radioButton10.UseVisualStyleBackColor = true;
-            // 
-            // radioButton11
-            // 
-            this.radioButton11.AutoSize = true;
-            this.radioButton11.Location = new System.Drawing.Point(440, 266);
-            this.radioButton11.Name = "radioButton11";
-            this.radioButton11.Size = new System.Drawing.Size(14, 13);
-            this.radioButton11.TabIndex = 8;
-            this.radioButton11.TabStop = true;
-            this.radioButton11.UseVisualStyleBackColor = true;
-            // 
-            // radioButton12
-            // 
-            this.radioButton12.AutoSize = true;
-            this.radioButton12.Location = new System.Drawing.Point(440, 188);
-            this.radioButton12.Name = "radioButton12";
-            this.radioButton12.Size = new System.Drawing.Size(14, 13);
-            this.radioButton12.TabIndex = 9;
-            this.radioButton12.TabStop = true;
-            this.radioButton12.UseVisualStyleBackColor = true;
             // 
             // button9
             // 
             this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.Location = new System.Drawing.Point(542, 347);
+            this.button9.Location = new System.Drawing.Point(778, 444);
+            this.button9.Margin = new System.Windows.Forms.Padding(4);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(96, 44);
-            this.button9.TabIndex = 14;
+            this.button9.Size = new System.Drawing.Size(128, 54);
+            this.button9.TabIndex = 24;
             this.button9.Text = "Răspunde";
             this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
+            // radioButton12
+            // 
+            this.radioButton12.AutoSize = true;
+            this.radioButton12.Location = new System.Drawing.Point(642, 248);
+            this.radioButton12.Margin = new System.Windows.Forms.Padding(4);
+            this.radioButton12.Name = "radioButton12";
+            this.radioButton12.Size = new System.Drawing.Size(17, 16);
+            this.radioButton12.TabIndex = 23;
+            this.radioButton12.TabStop = true;
+            this.radioButton12.UseVisualStyleBackColor = true;
+            // 
+            // radioButton11
+            // 
+            this.radioButton11.AutoSize = true;
+            this.radioButton11.Location = new System.Drawing.Point(642, 344);
+            this.radioButton11.Margin = new System.Windows.Forms.Padding(4);
+            this.radioButton11.Name = "radioButton11";
+            this.radioButton11.Size = new System.Drawing.Size(17, 16);
+            this.radioButton11.TabIndex = 22;
+            this.radioButton11.TabStop = true;
+            this.radioButton11.UseVisualStyleBackColor = true;
+            // 
+            // radioButton10
+            // 
+            this.radioButton10.AutoSize = true;
+            this.radioButton10.Location = new System.Drawing.Point(642, 188);
+            this.radioButton10.Margin = new System.Windows.Forms.Padding(4);
+            this.radioButton10.Name = "radioButton10";
+            this.radioButton10.Size = new System.Drawing.Size(17, 16);
+            this.radioButton10.TabIndex = 21;
+            this.radioButton10.TabStop = true;
+            this.radioButton10.UseVisualStyleBackColor = true;
+            // 
+            // radioButton9
+            // 
+            this.radioButton9.AutoSize = true;
+            this.radioButton9.Location = new System.Drawing.Point(642, 123);
+            this.radioButton9.Margin = new System.Windows.Forms.Padding(4);
+            this.radioButton9.Name = "radioButton9";
+            this.radioButton9.Size = new System.Drawing.Size(17, 16);
+            this.radioButton9.TabIndex = 20;
+            this.radioButton9.TabStop = true;
+            this.radioButton9.UseVisualStyleBackColor = true;
+            // 
+            // label14
+            // 
+            this.label14.Location = new System.Drawing.Point(668, 339);
+            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(424, 113);
+            this.label14.TabIndex = 19;
+            this.label14.Text = "d) algortimul citește elementele matricei, ordonează crescător elementele de lini" +
+    "a 2, apoi afișează matricea.";
+            // 
+            // label13
+            // 
+            this.label13.Location = new System.Drawing.Point(668, 243);
+            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(429, 78);
+            this.label13.TabIndex = 18;
+            this.label13.Text = "c) algoritmul citește elementele matricei a și afișează în ordine descrecătoare e" +
+    "lementele.";
+            // 
+            // label12
+            // 
+            this.label12.Location = new System.Drawing.Point(668, 183);
+            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(429, 78);
+            this.label12.TabIndex = 17;
+            this.label12.Text = "b) algoritmul citește și afișează elementele de pe linia a 2-a a matricei";
+            // 
+            // label10
+            // 
+            this.label10.Location = new System.Drawing.Point(668, 114);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(404, 69);
+            this.label10.TabIndex = 16;
+            this.label10.Text = "a)  algoritmul citește și afișează în ordine crescătoare elementele matricei";
+            // 
+            // intrebare9
+            // 
+            this.intrebare9.AutoSize = true;
+            this.intrebare9.Location = new System.Drawing.Point(132, 51);
+            this.intrebare9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.intrebare9.Name = "intrebare9";
+            this.intrebare9.Size = new System.Drawing.Size(75, 25);
+            this.intrebare9.TabIndex = 15;
+            this.intrebare9.Text = "label10";
+            // 
+            // button6
+            // 
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Location = new System.Drawing.Point(760, 267);
+            this.button6.Margin = new System.Windows.Forms.Padding(4);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(128, 54);
+            this.button6.TabIndex = 13;
+            this.button6.Text = "Răspunde";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // tabPage7
+            // 
+            this.tabPage7.Controls.Add(this.button7);
+            this.tabPage7.Controls.Add(this.rtLinie);
+            this.tabPage7.Controls.Add(this.label9);
+            this.tabPage7.Controls.Add(this.label8);
+            this.tabPage7.Controls.Add(this.cerLinie);
+            this.tabPage7.Location = new System.Drawing.Point(4, 34);
+            this.tabPage7.Margin = new System.Windows.Forms.Padding(4);
+            this.tabPage7.Name = "tabPage7";
+            this.tabPage7.Padding = new System.Windows.Forms.Padding(4);
+            this.tabPage7.Size = new System.Drawing.Size(1229, 549);
+            this.tabPage7.TabIndex = 6;
+            this.tabPage7.Text = "Întrebarea7";
+            this.tabPage7.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.Location = new System.Drawing.Point(811, 283);
+            this.button7.Margin = new System.Windows.Forms.Padding(4);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(128, 54);
+            this.button7.TabIndex = 14;
+            this.button7.Text = "Răspunde";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // rtLinie
+            // 
+            this.rtLinie.Location = new System.Drawing.Point(60, 166);
+            this.rtLinie.Margin = new System.Windows.Forms.Padding(4);
+            this.rtLinie.Name = "rtLinie";
+            this.rtLinie.Size = new System.Drawing.Size(431, 291);
+            this.rtLinie.TabIndex = 3;
+            this.rtLinie.Text = "";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(31, 138);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(725, 25);
+            this.label9.TabIndex = 2;
+            this.label9.Text = "OBS: Ordinea de parcurgere și afișare este de la stănga la dreapta și de sus în j" +
+    "os.";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(31, 113);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(1010, 25);
+            this.label8.TabIndex = 1;
+            this.label8.Text = "Scrie codul în căsuța de mai jos, fără a folosi alte variabile înafară de cele pr" +
+    "ezentate, apoi apasă butonul Răspunde.";
+            // 
+            // cerLinie
+            // 
+            this.cerLinie.Location = new System.Drawing.Point(30, 24);
+            this.cerLinie.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.cerLinie.Name = "cerLinie";
+            this.cerLinie.Size = new System.Drawing.Size(1191, 75);
+            this.cerLinie.TabIndex = 0;
+            this.cerLinie.Text = "label8";
+            // 
+            // tabPage8
+            // 
+            this.tabPage8.Controls.Add(this.button8);
+            this.tabPage8.Controls.Add(this.rtColoana);
+            this.tabPage8.Controls.Add(this.label11);
+            this.tabPage8.Controls.Add(this.cerColoana);
+            this.tabPage8.Location = new System.Drawing.Point(4, 34);
+            this.tabPage8.Margin = new System.Windows.Forms.Padding(4);
+            this.tabPage8.Name = "tabPage8";
+            this.tabPage8.Padding = new System.Windows.Forms.Padding(4);
+            this.tabPage8.Size = new System.Drawing.Size(1229, 549);
+            this.tabPage8.TabIndex = 7;
+            this.tabPage8.Text = "Întrebarea8";
+            this.tabPage8.UseVisualStyleBackColor = true;
+            this.tabPage8.Click += new System.EventHandler(this.tabPage8_Click);
+            // 
+            // button8
+            // 
+            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.Location = new System.Drawing.Point(820, 287);
+            this.button8.Margin = new System.Windows.Forms.Padding(4);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(128, 54);
+            this.button8.TabIndex = 14;
+            this.button8.Text = "Răspunde";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
+            // rtColoana
+            // 
+            this.rtColoana.Location = new System.Drawing.Point(56, 158);
+            this.rtColoana.Margin = new System.Windows.Forms.Padding(4);
+            this.rtColoana.Name = "rtColoana";
+            this.rtColoana.Size = new System.Drawing.Size(584, 308);
+            this.rtColoana.TabIndex = 2;
+            this.rtColoana.Text = "";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(12, 129);
+            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(1010, 25);
+            this.label11.TabIndex = 1;
+            this.label11.Text = "Scrie codul în căsuța de mai jos, fără a folosi alte variabile înafară de cele pr" +
+    "ezentate, apoi apasă butonul Răspunde.";
+            this.label11.Click += new System.EventHandler(this.label11_Click);
+            // 
+            // cerColoana
+            // 
+            this.cerColoana.Location = new System.Drawing.Point(8, 24);
+            this.cerColoana.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.cerColoana.Name = "cerColoana";
+            this.cerColoana.Size = new System.Drawing.Size(1157, 105);
+            this.cerColoana.TabIndex = 0;
+            this.cerColoana.Text = "label10";
+            // 
+            // tabPage9
+            // 
+            this.tabPage9.Controls.Add(this.label16);
+            this.tabPage9.Controls.Add(this.button10);
+            this.tabPage9.Controls.Add(this.cerArie);
+            this.tabPage9.Controls.Add(this.rtArie);
+            this.tabPage9.Location = new System.Drawing.Point(4, 34);
+            this.tabPage9.Margin = new System.Windows.Forms.Padding(4);
+            this.tabPage9.Name = "tabPage9";
+            this.tabPage9.Padding = new System.Windows.Forms.Padding(4);
+            this.tabPage9.Size = new System.Drawing.Size(1229, 549);
+            this.tabPage9.TabIndex = 8;
+            this.tabPage9.Text = "Întrebarea9";
+            this.tabPage9.UseVisualStyleBackColor = true;
+            this.tabPage9.Click += new System.EventHandler(this.tabPage9_Click);
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(41, 123);
+            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(1010, 25);
+            this.label16.TabIndex = 16;
+            this.label16.Text = "Scrie codul în căsuța de mai jos, fără a folosi alte variabile înafară de cele pr" +
+    "ezentate, apoi apasă butonul Răspunde.";
+            // 
+            // button10
+            // 
+            this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button10.Location = new System.Drawing.Point(845, 325);
+            this.button10.Margin = new System.Windows.Forms.Padding(4);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(128, 54);
+            this.button10.TabIndex = 15;
+            this.button10.Text = "Răspunde";
+            this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
+            // 
+            // cerArie
+            // 
+            this.cerArie.Location = new System.Drawing.Point(51, 31);
+            this.cerArie.Name = "cerArie";
+            this.cerArie.Size = new System.Drawing.Size(1111, 99);
+            this.cerArie.TabIndex = 1;
+            this.cerArie.Text = "label15";
+            // 
+            // rtArie
+            // 
+            this.rtArie.Location = new System.Drawing.Point(56, 151);
+            this.rtArie.Name = "rtArie";
+            this.rtArie.Size = new System.Drawing.Size(521, 331);
+            this.rtArie.TabIndex = 0;
+            this.rtArie.Text = "";
+            // 
+            // evaluare
+            // 
+            this.evaluare.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.evaluare.Location = new System.Drawing.Point(576, 610);
+            this.evaluare.Margin = new System.Windows.Forms.Padding(4);
+            this.evaluare.Name = "evaluare";
+            this.evaluare.Size = new System.Drawing.Size(100, 37);
+            this.evaluare.TabIndex = 3;
+            this.evaluare.Text = "Evaluați";
+            this.evaluare.UseVisualStyleBackColor = true;
+            this.evaluare.Click += new System.EventHandler(this.evaluare_Click);
             // 
             // testare3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(926, 547);
+            this.ClientSize = new System.Drawing.Size(1235, 673);
             this.Controls.Add(this.evaluare);
             this.Controls.Add(this.tab);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "testare3";
             this.Text = "testare3";
             this.Load += new System.EventHandler(this.testare3_Load);
@@ -1000,6 +1097,7 @@
             this.tabPage5.ResumeLayout(false);
             this.tabPage5.PerformLayout();
             this.tabPage6.ResumeLayout(false);
+            this.tabPage6.PerformLayout();
             this.tabPage7.ResumeLayout(false);
             this.tabPage7.PerformLayout();
             this.tabPage8.ResumeLayout(false);
@@ -1070,21 +1168,18 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label intrebare6;
-        private System.Windows.Forms.Label intrebare61;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label intrebare70;
+        private System.Windows.Forms.Label cerLinie;
         private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.RichTextBox rEx6t3;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.RichTextBox rEx7t3;
+        private System.Windows.Forms.RichTextBox rtLinie;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox rtColoana;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label intrebare8;
-        private System.Windows.Forms.Label intrebare9;
+        private System.Windows.Forms.Label cerColoana;
         private System.Windows.Forms.RichTextBox rEx9;
+        private System.Windows.Forms.Button button9;
         private System.Windows.Forms.RadioButton radioButton12;
         private System.Windows.Forms.RadioButton radioButton11;
         private System.Windows.Forms.RadioButton radioButton10;
@@ -1093,6 +1188,10 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Label intrebare9;
+        private System.Windows.Forms.Label cerArie;
+        private System.Windows.Forms.RichTextBox rtArie;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Button button10;
     }
 }

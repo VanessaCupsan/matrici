@@ -14,7 +14,7 @@ namespace matrici
     {
         int[] t = new int[10];
         bool[] r = { false, false, false, false, false, false, false, false, false, false };
-        int nIntrebare12, nIntrebare30, nIntrebare31, nIntrebare40, nIntrebare41, nIntrebare50, nIntrebare51, nIntrebare52, nIntrebare60, nIntrebare61, nIntrebare70, nIntrebare71, nIntrebare72, nIntrebare80, nIntrebare81, nIntrebare90,nIntrebare91;
+        int nIntrebare12, nIntrebare30, nIntrebare31, nIntrebare40, nIntrebare41, nIntrebare50, nIntrebare51, nIntrebare52, nIntrebare90,nIntrebare91;
         int[] ok = new int[5];
         private void tabPage9_Click(object sender, EventArgs e)
         {
@@ -29,8 +29,86 @@ namespace matrici
         }
 
         int[,] a = { { 3,5,7,9,11 }, { 5,8,11,14,17}, { 7,11,15,19,23 }, {9,14,19,24,29}, {11,17,23,29,35},{ 13,20,27,34,41} };
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Evaluare ev = new Evaluare();
+            if (ev.EvaluareAfisare(codLinie, rtLinie.Text, n, m) == 1) t[7] = 1;
+            else t[7] = 0;
+            tab.SelectTab(7);
+        }
+        string codLinie = @"
+#include <iostream>
+#include <fstream>
+using namespace std;
+ifstream fin(""test.txt"");
+int n, m, a[100][100], i, j, s;
+int main()
+        {
+            fin >> n >> m;
+            for (i = 1; i <= n; i++)
+                for (j = 1; j <= m; j++)
+                    fin >> a[i][j];
+            for(i = 1; i<=m; i++)
+                cout <<a[$$][i]<<"" "";
+            return 0;
+        }
+            ";
+        string codColoana = @"
+#include <iostream>
+#include <fstream>
+using namespace std;
+ifstream fin(""test.txt"");
+int n, m, a[100][100], i, j, s;
+int main()
+        {
+            fin >> n >> m;
+            for (i = 1; i <= n; i++)
+                for (j = 1; j <= m; j++)
+                    fin >> a[i][j];
+            for(i = 1; i<=n; i++)
+                cout <<a[i][$$]<<"" "";
+            return 0;
+        }
+            ";
+        string codArie = @"
+#include <iostream>
+#include <fstream>
+using namespace std;
+ifstream fin(""test.txt"");
+int n, m, a[100][100], i, j, s;
+int main()
+        {
+            fin >> n >> m;
+            for (i = 1; i <= n; i++)
+                for (j = 1; j <= m; j++)
+                    fin >> a[i][j];
+            for(i = $1; i<=$2; i++)
+             {
+                for(j=$3;j<=$4;j++)
+                    cout <<a[i][j]<<"" "";
+                cout<<endl;
+             }           
+                
+            return 0;
+        }
+            ";
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Evaluare ev = new Evaluare();
+            if (ev.EvaluareAfisare(codColoana, rtColoana.Text, n, m) == 1) t[8] = 1;
+            else t[8] = 0;
+            tab.SelectTab(8);
+        }
+
         int[,] v;
-        int[,] m;
+        int[,] vector;
 
         private void tabPage8_Click(object sender, EventArgs e)
         {
@@ -60,19 +138,28 @@ namespace matrici
             InitializeComponent();
         }
 
+        private void button10_Click(object sender, EventArgs e)
+        {
+            Evaluare ev = new Evaluare();
+            if (ev.EvaluareAfisare(codArie, rtArie.Text, n, m) == 1) t[9] = 1;
+            else t[9] = 0;
+        }
+
+        int linie, coloana, linie1, linie2, coloana1, coloana2, n, m;
+
         private void button4_Click(object sender, EventArgs e)
         {
             int x = 0, nr = 1, nr0 = 0;
-            m = new int[nIntrebare50, nIntrebare51];
+            vector = new int[nIntrebare50, nIntrebare51];
             ok = new int[5];
             for (int i = 0; i < nIntrebare50; i++)
                 for (int j = 0; j < nIntrebare51; j++)
-                    m[i, j] = i * j + 2;
+                    vector[i, j] = i * j + 2;
             for (int y = 2; y < 4; y++)
                 for (int z = 1; z < 3; z++)
                 {
                     nr = 1;
-                    x = m[z, y];
+                    x = vector[z, y];
                     while(x>=10)
                     {
                         x /= 10;
@@ -80,7 +167,7 @@ namespace matrici
                     }
                     if(nr==1)
                     {
-                        ok[nr0] = m[z, y];
+                        ok[nr0] = vector[z, y];
                         nr0++;
                     }
                 }
@@ -146,21 +233,27 @@ namespace matrici
             nIntrebare52 = r.Next(0, nIntrebare51);
             intrebare50.Text = " Fie matricea a cu " + nIntrebare50.ToString() + " linii și " + nIntrebare51.ToString() + " coloane, numerotate de la 0 și i și j, numere întregi. Scrieți în căsuța de mai jos, separate printr-o virgulă și un spațiu( ca în exemplul de mai jos ), elementele ce vor fi afișate în urma rulării algoritmului următor.";
             rEx5t3.LoadFile("ex5t3.rtf");
+            //generare intrebare 7,8,9
+            n = r.Next(3, 98);
+            m = r.Next(3, 98);
+            linie = r.Next(1, n);
+            linie1 = r.Next(1, n-1);
+            linie2 = r.Next(linie1, n);
+            coloana = r.Next(1, m);
+            coloana1 = r.Next(1, m-1);
+            coloana2 = r.Next(coloana1, m);
+            string comun = @"Ai o matrice a cu " + n.ToString() + " linii și " + m.ToString() + " coloane numerotate de la 1 și variabilele i și j declarate. Scrie o secvență de program care ";
+            string comun2 = @"Scrie codul în căsuța de mai jos, fără a folosi alte variabile decât cele prezentate, apoi apasă butonul evaluare.";
+            cerLinie.Text = comun + "afișează elementele de pe linia " + linie.ToString() + ", separate prin câte un spațiu. " + comun2;
+            cerColoana.Text = comun + "afișează elementele de pe coloana " + coloana.ToString() + ", separate prin câte un spațiu. " + comun2;
+            cerArie.Text = comun + " afișează elementele din zona cuprinsă între linia " + linie1.ToString() + " și linia " + linie2.ToString() + ", respectiv coloana " + coloana1.ToString() + " și coloana " + coloana2.ToString() + ".";
+            codLinie = codLinie.Replace("$$", linie.ToString());
+            codColoana = codColoana.Replace("$$", coloana.ToString());
+            codArie = codArie.Replace("$1", linie1.ToString());
+            codArie = codArie.Replace("$2", linie2.ToString());
+            codArie = codArie.Replace("$3", coloana1.ToString());
+            codArie = codArie.Replace("$4", coloana2.ToString());
             //generare intrebare 6
-            nIntrebare60 = r.Next(3,10);
-            nIntrebare61 = r.Next(3, 10);
-            intrebare6.Text = " Fie o matrice a cu n=" + nIntrebare60.ToString() + " linii și m=" + nIntrebare61.ToString() + " coloane, numerotate de la 1 și variabilele i și j declarate. Scrie o secvență de program care citește elementele matricei a.";
-            intrebare61.Text = " Scrie codul în căsuța de mai jos, fără a folosi alte variabile înafară de cele prezentate, apoi apasă butonul Răspunde.";
-            //generare intrebare 7
-            nIntrebare70 = r.Next(3, 15);
-            nIntrebare71 = r.Next(3, 15);
-            nIntrebare72 = r.Next(0, nIntrebare71);
-            intrebare70.Text = " Fie o matrice v cu n=" + nIntrebare70.ToString() + " linii și m=" + nIntrebare71.ToString() + " coloane, numerotate de la 1 și variabilele i și j declarate. Scrie o secvență care citește matricea și parcurge și afișează elementele de pe coloana c=" + nIntrebare72.ToString() + " .";
-            //generare intrebare 8
-            nIntrebare80 = r.Next(4, 9);
-            nIntrebare81 = r.Next(4, 9);
-            intrebare8.Text = " Fie o matrice b cu n=" + nIntrebare80.ToString() + " linii și m=" + nIntrebare81.ToString() + " coloane, numerotate de la 1 și variabilele i și j declarate. Scrie o secvență de program care citește tabloul bidimensional, calculează și afișează suma elementelor pare de pe linia 4 a matricei.";
-            //generare intrebare 9
             nIntrebare90 = r.Next(5, 100);
             nIntrebare91 = r.Next(5, 100);
             intrebare9.Text = " Se dă matricea a cu n=" + nIntrebare90.ToString() + " linii și m=" + nIntrebare91.ToString() + " coloane, numerotate de la 0. Care este rolul bucății de cod următoare ?";

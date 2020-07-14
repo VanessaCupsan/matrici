@@ -58,6 +58,7 @@
     <Compile Include="declarareMatrici.Designer.cs">
       <DependentUpon>declarareMatrici.cs</DependentUpon>
     </Compile>
+    <Compile Include="Evaluare.cs" />
     <Compile Include="exersare1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -258,6 +259,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="testare3.resx">
       <DependentUpon>testare3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="testare4.resx">
+      <DependentUpon>testare4.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

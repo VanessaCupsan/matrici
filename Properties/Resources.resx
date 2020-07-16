@@ -232,6 +232,9 @@
   <data name="gradient6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gradient6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="tabel ex 3 exersare 4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tabel ex 3 exersare 4.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="gradient8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gradient8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -346,7 +349,7 @@
   <data name="DECLARARE" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DECLARARE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="tabel ex 3 exersare 4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tabel ex 3 exersare 4.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="poza intrebarea 4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\poza intrebarea 4.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

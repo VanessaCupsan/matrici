@@ -60,6 +60,9 @@
     </Compile>
     <Compile Include="Evaluare.cs" />
     <Compile Include="Evaluare2.cs" />
+    <Compile Include="Evaluare3.cs" />
+    <Compile Include="Evaluare4.cs" />
+    <Compile Include="Evaluare5.cs" />
     <Compile Include="exersare1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -507,6 +510,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\tabel ex 3 exersare 4.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poza intrebarea 4.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

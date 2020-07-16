@@ -110,6 +110,13 @@ namespace matrici
                 }
         }
 
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            if (numericUpDown1.Value == 5 && numericUpDown2.Value == 6)
+                MessageBox.Show(" Răspuns corect.");
+            else MessageBox.Show(" Răspuns incorect. Introduceți cifra 5 în prima căsuță și 6 în cea de-a doua.");
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             if (raspuns31.Text == "F" && raspuns32.Text == "A" && raspuns33.Text == "A" && raspuns34.Text == "F")

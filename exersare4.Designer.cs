@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(exersare4));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.button2 = new System.Windows.Forms.Button();
             this.raspuns1 = new System.Windows.Forms.MaskedTextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.exercitiul1 = new System.Windows.Forms.Label();
@@ -46,32 +45,34 @@
             this.exercitiul21 = new System.Windows.Forms.Label();
             this.exercitiul20 = new System.Windows.Forms.Label();
             this.exercitiul2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.raspunsEx3 = new System.Windows.Forms.MaskedTextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
             this.exercitiul3 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.button4 = new System.Windows.Forms.Button();
             this.raspunsEx4 = new System.Windows.Forms.MaskedTextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.rEx4 = new System.Windows.Forms.RichTextBox();
             this.exercitiul4 = new System.Windows.Forms.Label();
             this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.button5 = new System.Windows.Forms.Button();
-            this.cerDeasupraDiagP = new System.Windows.Forms.Label();
             this.rtDiagP = new System.Windows.Forms.RichTextBox();
+            this.cerDeasupraDiagP = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabPage4.SuspendLayout();
             this.tabPage5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -96,25 +97,11 @@
             this.tabPage1.Controls.Add(this.exercitiul1);
             this.tabPage1.Location = new System.Drawing.Point(4, 29);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(794, 466);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Exercițiul 1";
             this.tabPage1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.BackgroundImage = global::matrici.Properties.Resources.gradient1;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(304, 275);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(111, 49);
-            this.button2.TabIndex = 9;
-            this.button2.Text = "Verifică";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // raspuns1
             // 
@@ -157,7 +144,7 @@
             this.tabPage2.Controls.Add(this.button1);
             this.tabPage2.Location = new System.Drawing.Point(4, 29);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(794, 466);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Exercițiul 2";
@@ -255,31 +242,17 @@
             this.exercitiul2.TabIndex = 0;
             this.exercitiul2.Text = "label2";
             // 
-            // button1
-            // 
-            this.button1.BackgroundImage = global::matrici.Properties.Resources.gradient1;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(329, 367);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(111, 49);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "Verifică";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // tabPage3
             // 
             this.tabPage3.Controls.Add(this.raspunsEx3);
             this.tabPage3.Controls.Add(this.label4);
-            this.tabPage3.Controls.Add(this.button3);
             this.tabPage3.Controls.Add(this.exercitiul3);
-            this.tabPage3.Controls.Add(this.pictureBox1);
             this.tabPage3.Controls.Add(this.label3);
+            this.tabPage3.Controls.Add(this.button3);
+            this.tabPage3.Controls.Add(this.pictureBox1);
             this.tabPage3.Location = new System.Drawing.Point(4, 29);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage3.Size = new System.Drawing.Size(794, 466);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Exercițiul 3";
@@ -303,35 +276,12 @@
             this.label4.TabIndex = 12;
             this.label4.Text = " Scrie răspunsul tău aici :";
             // 
-            // button3
-            // 
-            this.button3.BackgroundImage = global::matrici.Properties.Resources.gradient1;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button3.Location = new System.Drawing.Point(644, 156);
-            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(111, 49);
-            this.button3.TabIndex = 11;
-            this.button3.Text = "Verifică";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
             // exercitiul3
             // 
             this.exercitiul3.Location = new System.Drawing.Point(14, 340);
             this.exercitiul3.Name = "exercitiul3";
             this.exercitiul3.Size = new System.Drawing.Size(764, 48);
             this.exercitiul3.TabIndex = 2;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::matrici.Properties.Resources.tabel_ex_3_exersare_4;
-            this.pictureBox1.Location = new System.Drawing.Point(18, 68);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(258, 257);
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
             // 
             // label3
             // 
@@ -351,25 +301,11 @@
             this.tabPage4.Controls.Add(this.exercitiul4);
             this.tabPage4.Location = new System.Drawing.Point(4, 29);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage4.Size = new System.Drawing.Size(794, 466);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Exercițiul 4";
             this.tabPage4.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.BackgroundImage = global::matrici.Properties.Resources.gradient1;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button4.Location = new System.Drawing.Point(382, 378);
-            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(111, 49);
-            this.button4.TabIndex = 11;
-            this.button4.Text = "Verifică";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // raspunsEx4
             // 
@@ -416,16 +352,98 @@
             // 
             // tabPage5
             // 
+            this.tabPage5.Controls.Add(this.label7);
             this.tabPage5.Controls.Add(this.rtDiagP);
             this.tabPage5.Controls.Add(this.cerDeasupraDiagP);
             this.tabPage5.Controls.Add(this.button5);
             this.tabPage5.Location = new System.Drawing.Point(4, 29);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage5.Size = new System.Drawing.Size(794, 466);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Exercițiul 5";
             this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // rtDiagP
+            // 
+            this.rtDiagP.Location = new System.Drawing.Point(29, 158);
+            this.rtDiagP.Name = "rtDiagP";
+            this.rtDiagP.Size = new System.Drawing.Size(371, 139);
+            this.rtDiagP.TabIndex = 14;
+            this.rtDiagP.Text = "";
+            // 
+            // cerDeasupraDiagP
+            // 
+            this.cerDeasupraDiagP.Location = new System.Drawing.Point(25, 30);
+            this.cerDeasupraDiagP.Name = "cerDeasupraDiagP";
+            this.cerDeasupraDiagP.Size = new System.Drawing.Size(759, 107);
+            this.cerDeasupraDiagP.TabIndex = 13;
+            this.cerDeasupraDiagP.Text = "label7";
+            // 
+            // button2
+            // 
+            this.button2.BackgroundImage = global::matrici.Properties.Resources.gradient1;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button2.Location = new System.Drawing.Point(304, 275);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(111, 49);
+            this.button2.TabIndex = 9;
+            this.button2.Text = "Verifică";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackgroundImage = global::matrici.Properties.Resources.gradient1;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.Location = new System.Drawing.Point(329, 367);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(111, 49);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "Verifică";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button3
+            // 
+            this.button3.BackgroundImage = global::matrici.Properties.Resources.gradient1;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button3.Location = new System.Drawing.Point(644, 156);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(111, 49);
+            this.button3.TabIndex = 11;
+            this.button3.Text = "Verifică";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::matrici.Properties.Resources.tabel_ex_3_exersare_4;
+            this.pictureBox1.Location = new System.Drawing.Point(18, 68);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(258, 257);
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
+            // button4
+            // 
+            this.button4.BackgroundImage = global::matrici.Properties.Resources.gradient1;
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button4.Location = new System.Drawing.Point(382, 378);
+            this.button4.Margin = new System.Windows.Forms.Padding(2);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(111, 49);
+            this.button4.TabIndex = 11;
+            this.button4.Text = "Verifică";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -433,7 +451,7 @@
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button5.Location = new System.Drawing.Point(325, 326);
-            this.button5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button5.Margin = new System.Windows.Forms.Padding(2);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(111, 49);
             this.button5.TabIndex = 12;
@@ -441,21 +459,14 @@
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click_1);
             // 
-            // cerDeasupraDiagP
+            // label7
             // 
-            this.cerDeasupraDiagP.Location = new System.Drawing.Point(25, 30);
-            this.cerDeasupraDiagP.Name = "cerDeasupraDiagP";
-            this.cerDeasupraDiagP.Size = new System.Drawing.Size(759, 74);
-            this.cerDeasupraDiagP.TabIndex = 13;
-            this.cerDeasupraDiagP.Text = "label7";
-            // 
-            // rtDiagP
-            // 
-            this.rtDiagP.Location = new System.Drawing.Point(29, 118);
-            this.rtDiagP.Name = "rtDiagP";
-            this.rtDiagP.Size = new System.Drawing.Size(371, 139);
-            this.rtDiagP.TabIndex = 14;
-            this.rtDiagP.Text = "";
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(25, 135);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(464, 20);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "!! În algoritm folosiți n când va referiți la numărul de linii/coloane. !!";
             // 
             // exersare4
             // 
@@ -473,10 +484,11 @@
             this.tabPage2.PerformLayout();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
             this.tabPage5.ResumeLayout(false);
+            this.tabPage5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -519,5 +531,6 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.RichTextBox rtDiagP;
         private System.Windows.Forms.Label cerDeasupraDiagP;
+        private System.Windows.Forms.Label label7;
     }
 }

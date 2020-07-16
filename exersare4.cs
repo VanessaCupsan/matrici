@@ -42,7 +42,7 @@ namespace matrici
             rEx4.LoadFile("ex4exersare4.rtf");
             //generare exercitiul 5
             n = r.Next(3, 98);
-            string comun = @"Ai o matrice a cu " + n.ToString() + " linii și " + n.ToString() + " coloane numerotate de la 1 și variabilele i și j declarate. Scrie o secvență de program care ";
+            string comun = @"Ai o matrice a cu n=" + n.ToString() + " linii și n=" + n.ToString() + " coloane numerotate de la 1 și variabilele i și j declarate. Scrie o secvență de program care ";
             string comun2 = @"Scrie codul în căsuța de mai jos, fără a folosi alte variabile decât cele prezentate, apoi apasă butonul evaluare.";
             cerDeasupraDiagP.Text = comun + "afișează elementele aflate strict deasupra diagonalei principale, separate prin câte un spațiu. " + comun2;
         }

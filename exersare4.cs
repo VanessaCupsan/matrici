@@ -12,8 +12,9 @@ namespace matrici
 {
     public partial class exersare4 : Form
     {
-        int nExercitiul10,nExercitiul2,nExercitiul3,nExercitiul4,nExercitiul5;
+        int nExercitiul10,nExercitiul2,nExercitiul3,nExercitiul4;
         int[,] a;
+        int n;
         public exersare4()
         {
             InitializeComponent();
@@ -40,9 +41,10 @@ namespace matrici
             exercitiul4.Text = " În secvența de mai jos, variabila a memorează elementele unui tablou bidimensional cu n=" + nExercitiul4.ToString() + " linii și n=" + nExercitiul4.ToString() + " coloane, indexate de la 0, iar toate celelalte variabile sunt de tip întreg.";
             rEx4.LoadFile("ex4exersare4.rtf");
             //generare exercitiul 5
-            nExercitiul5 = r.Next(3, 100);
-            exercitiul5.Text = " În secvența de program următoare, variabila t memorează o matrice cu n=" + nExercitiul5.ToString() + " linii și n=" + nExercitiul5.ToString() + " coloane, numerotate de la 0 la " + (nExercitiul5 - 1).ToString() + ", cu elemente numere întregi, iar celelalte variabile sunt întregi.";
-            rEx5.LoadFile("ex5exersare4.rtf");
+            n = r.Next(3, 98);
+            string comun = @"Ai o matrice a cu " + n.ToString() + " linii și " + n.ToString() + " coloane numerotate de la 1 și variabilele i și j declarate. Scrie o secvență de program care ";
+            string comun2 = @"Scrie codul în căsuța de mai jos, fără a folosi alte variabile decât cele prezentate, apoi apasă butonul evaluare.";
+            cerDeasupraDiagP.Text = comun + "afișează elementele aflate strict deasupra diagonalei principale, separate prin câte un spațiu. " + comun2;
         }
 
         private void label10_Click(object sender, EventArgs e)
@@ -50,12 +52,30 @@ namespace matrici
 
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void button5_Click_1(object sender, EventArgs e)
         {
-            if (radioButton8.Checked)
-                MessageBox.Show(" Răspuns corect.");
-            else MessageBox.Show(" Răspunsul corect este b).");
+            Evaluare2 ev = new Evaluare2();
+            if (ev.EvaluareAfisare(codDiagP, rtDiagP.Text, n) == 1) MessageBox.Show("Corect");
+            else MessageBox.Show("Incorect");
         }
+        string codDiagP = @"
+#include <iostream>
+#include <fstream>
+using namespace std;
+ifstream fin(""test.txt"");
+int n, a[100][100], i, j, s;
+int main()
+        {
+            fin >> n;
+            for (i = 1; i <= n; i++)
+                for (j = 1; j <= n; j++)
+                    fin >> a[i][j];
+            for(i = 1; i<=n; i++)
+                for(j= i+1; j<= n; j++)
+                cout <<a[i][j]<<"" "";
+            return 0;
+        }
+            ";
 
         private void button4_Click(object sender, EventArgs e)
         {

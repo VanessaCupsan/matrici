@@ -62,18 +62,9 @@
             this.rEx4 = new System.Windows.Forms.RichTextBox();
             this.exercitiul4 = new System.Windows.Forms.Label();
             this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.exercitiul5 = new System.Windows.Forms.Label();
-            this.rEx5 = new System.Windows.Forms.RichTextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.radioButton6 = new System.Windows.Forms.RadioButton();
-            this.radioButton7 = new System.Windows.Forms.RadioButton();
-            this.radioButton8 = new System.Windows.Forms.RadioButton();
             this.button5 = new System.Windows.Forms.Button();
+            this.cerDeasupraDiagP = new System.Windows.Forms.Label();
+            this.rtDiagP = new System.Windows.Forms.RichTextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -105,7 +96,7 @@
             this.tabPage1.Controls.Add(this.exercitiul1);
             this.tabPage1.Location = new System.Drawing.Point(4, 29);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
             this.tabPage1.Size = new System.Drawing.Size(794, 466);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Exercițiul 1";
@@ -117,7 +108,7 @@
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button2.Location = new System.Drawing.Point(304, 275);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(111, 49);
             this.button2.TabIndex = 9;
@@ -166,7 +157,7 @@
             this.tabPage2.Controls.Add(this.button1);
             this.tabPage2.Location = new System.Drawing.Point(4, 29);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
             this.tabPage2.Size = new System.Drawing.Size(794, 466);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Exercițiul 2";
@@ -270,7 +261,7 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button1.Location = new System.Drawing.Point(329, 367);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(111, 49);
             this.button1.TabIndex = 10;
@@ -288,7 +279,7 @@
             this.tabPage3.Controls.Add(this.label3);
             this.tabPage3.Location = new System.Drawing.Point(4, 29);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
             this.tabPage3.Size = new System.Drawing.Size(794, 466);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Exercițiul 3";
@@ -318,7 +309,7 @@
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button3.Location = new System.Drawing.Point(644, 156);
-            this.button3.Margin = new System.Windows.Forms.Padding(2);
+            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(111, 49);
             this.button3.TabIndex = 11;
@@ -360,7 +351,7 @@
             this.tabPage4.Controls.Add(this.exercitiul4);
             this.tabPage4.Location = new System.Drawing.Point(4, 29);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
             this.tabPage4.Size = new System.Drawing.Size(794, 466);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Exercițiul 4";
@@ -372,7 +363,7 @@
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button4.Location = new System.Drawing.Point(382, 378);
-            this.button4.Margin = new System.Windows.Forms.Padding(2);
+            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(111, 49);
             this.button4.TabIndex = 11;
@@ -425,142 +416,46 @@
             // 
             // tabPage5
             // 
+            this.tabPage5.Controls.Add(this.rtDiagP);
+            this.tabPage5.Controls.Add(this.cerDeasupraDiagP);
             this.tabPage5.Controls.Add(this.button5);
-            this.tabPage5.Controls.Add(this.radioButton8);
-            this.tabPage5.Controls.Add(this.radioButton7);
-            this.tabPage5.Controls.Add(this.radioButton6);
-            this.tabPage5.Controls.Add(this.radioButton5);
-            this.tabPage5.Controls.Add(this.label11);
-            this.tabPage5.Controls.Add(this.label10);
-            this.tabPage5.Controls.Add(this.label9);
-            this.tabPage5.Controls.Add(this.label8);
-            this.tabPage5.Controls.Add(this.label7);
-            this.tabPage5.Controls.Add(this.rEx5);
-            this.tabPage5.Controls.Add(this.exercitiul5);
             this.tabPage5.Location = new System.Drawing.Point(4, 29);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
             this.tabPage5.Size = new System.Drawing.Size(794, 466);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Exercițiul 5";
             this.tabPage5.UseVisualStyleBackColor = true;
-            // 
-            // exercitiul5
-            // 
-            this.exercitiul5.Location = new System.Drawing.Point(16, 12);
-            this.exercitiul5.Name = "exercitiul5";
-            this.exercitiul5.Size = new System.Drawing.Size(775, 64);
-            this.exercitiul5.TabIndex = 0;
-            this.exercitiul5.Text = "label7";
-            // 
-            // rEx5
-            // 
-            this.rEx5.Location = new System.Drawing.Point(20, 55);
-            this.rEx5.Name = "rEx5";
-            this.rEx5.Size = new System.Drawing.Size(259, 65);
-            this.rEx5.TabIndex = 1;
-            this.rEx5.Text = "";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(20, 142);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(671, 20);
-            this.label7.TabIndex = 2;
-            this.label7.Text = " Executarea acestei secvențe determină memorarea în variabila x a sumei elementel" +
-    "or situate :";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(121, 186);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(443, 20);
-            this.label8.TabIndex = 3;
-            this.label8.Text = "a) deasupra diagonalei principale, inclusiv diagonala principală";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(121, 239);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(279, 20);
-            this.label9.TabIndex = 4;
-            this.label9.Text = "b) strict deasupra diagonalei principale";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(121, 293);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(234, 20);
-            this.label10.TabIndex = 5;
-            this.label10.Text = "c) strict sub diagonala principală";
-            this.label10.Click += new System.EventHandler(this.label10_Click);
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(121, 344);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(287, 20);
-            this.label11.TabIndex = 6;
-            this.label11.Text = "d) strict deasupra diagonalei secundare";
-            // 
-            // radioButton5
-            // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Location = new System.Drawing.Point(85, 193);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(14, 13);
-            this.radioButton5.TabIndex = 7;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.UseVisualStyleBackColor = true;
-            // 
-            // radioButton6
-            // 
-            this.radioButton6.AutoSize = true;
-            this.radioButton6.Location = new System.Drawing.Point(85, 348);
-            this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(14, 13);
-            this.radioButton6.TabIndex = 8;
-            this.radioButton6.TabStop = true;
-            this.radioButton6.UseVisualStyleBackColor = true;
-            // 
-            // radioButton7
-            // 
-            this.radioButton7.AutoSize = true;
-            this.radioButton7.Location = new System.Drawing.Point(85, 300);
-            this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(14, 13);
-            this.radioButton7.TabIndex = 9;
-            this.radioButton7.TabStop = true;
-            this.radioButton7.UseVisualStyleBackColor = true;
-            // 
-            // radioButton8
-            // 
-            this.radioButton8.AutoSize = true;
-            this.radioButton8.Location = new System.Drawing.Point(85, 246);
-            this.radioButton8.Name = "radioButton8";
-            this.radioButton8.Size = new System.Drawing.Size(14, 13);
-            this.radioButton8.TabIndex = 10;
-            this.radioButton8.TabStop = true;
-            this.radioButton8.UseVisualStyleBackColor = true;
             // 
             // button5
             // 
             this.button5.BackgroundImage = global::matrici.Properties.Resources.gradient1;
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button5.Location = new System.Drawing.Point(526, 277);
-            this.button5.Margin = new System.Windows.Forms.Padding(2);
+            this.button5.Location = new System.Drawing.Point(325, 326);
+            this.button5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(111, 49);
             this.button5.TabIndex = 12;
             this.button5.Text = "Verifică";
             this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.button5.Click += new System.EventHandler(this.button5_Click_1);
+            // 
+            // cerDeasupraDiagP
+            // 
+            this.cerDeasupraDiagP.Location = new System.Drawing.Point(25, 30);
+            this.cerDeasupraDiagP.Name = "cerDeasupraDiagP";
+            this.cerDeasupraDiagP.Size = new System.Drawing.Size(759, 74);
+            this.cerDeasupraDiagP.TabIndex = 13;
+            this.cerDeasupraDiagP.Text = "label7";
+            // 
+            // rtDiagP
+            // 
+            this.rtDiagP.Location = new System.Drawing.Point(29, 118);
+            this.rtDiagP.Name = "rtDiagP";
+            this.rtDiagP.Size = new System.Drawing.Size(371, 139);
+            this.rtDiagP.TabIndex = 14;
+            this.rtDiagP.Text = "";
             // 
             // exersare4
             // 
@@ -582,7 +477,6 @@
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
             this.tabPage5.ResumeLayout(false);
-            this.tabPage5.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -622,17 +516,8 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Label exercitiul5;
-        private System.Windows.Forms.RichTextBox rEx5;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.RadioButton radioButton8;
-        private System.Windows.Forms.RadioButton radioButton7;
-        private System.Windows.Forms.RadioButton radioButton6;
-        private System.Windows.Forms.RadioButton radioButton5;
+        private System.Windows.Forms.RichTextBox rtDiagP;
+        private System.Windows.Forms.Label cerDeasupraDiagP;
     }
 }

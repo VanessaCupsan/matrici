@@ -145,6 +145,14 @@ int main()
             else t[9] = 0;
         }
 
+        private void button9_Click_1(object sender, EventArgs e)
+        {
+            if (radioButton11.Checked)
+                t[6] = 1;
+            else t[6] = 0;
+            tab.SelectTab(6);
+        }
+
         int linie, coloana, linie1, linie2, coloana1, coloana2, n, m;
 
         private void button4_Click(object sender, EventArgs e)
@@ -243,7 +251,7 @@ int main()
             coloana1 = r.Next(1, m-1);
             coloana2 = r.Next(coloana1, m);
             string comun = @"Ai o matrice a cu " + n.ToString() + " linii și " + m.ToString() + " coloane numerotate de la 1 și variabilele i și j declarate. Scrie o secvență de program care ";
-            string comun2 = @"Scrie codul în căsuța de mai jos, fără a folosi alte variabile decât cele prezentate, apoi apasă butonul evaluare.";
+            string comun2 = @"Scrie codul în căsuța de mai jos, fără a folosi alte variabile decât cele prezentate, apoi apasă butonul Raspunde.";
             cerLinie.Text = comun + "afișează elementele de pe linia " + linie.ToString() + ", separate prin câte un spațiu. " + comun2;
             cerColoana.Text = comun + "afișează elementele de pe coloana " + coloana.ToString() + ", separate prin câte un spațiu. " + comun2;
             cerArie.Text = comun + " afișează elementele din zona cuprinsă între linia " + linie1.ToString() + " și linia " + linie2.ToString() + ", respectiv coloana " + coloana1.ToString() + " și coloana " + coloana2.ToString() + ".";

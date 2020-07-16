@@ -59,6 +59,7 @@
       <DependentUpon>declarareMatrici.cs</DependentUpon>
     </Compile>
     <Compile Include="Evaluare.cs" />
+    <Compile Include="Evaluare2.cs" />
     <Compile Include="exersare1.cs">
       <SubType>Form</SubType>
     </Compile>

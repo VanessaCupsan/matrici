@@ -255,6 +255,9 @@
     <EmbeddedResource Include="suportTeoretic4.resx">
       <DependentUpon>suportTeoretic4.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="suportTeoretic5.resx">
+      <DependentUpon>suportTeoretic5.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="testare1.resx">
       <DependentUpon>testare1.cs</DependentUpon>
     </EmbeddedResource>

@@ -28,12 +28,75 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.rGenerareaMatricilor1 = new System.Windows.Forms.RichTextBox();
+            this.tabControl1.SuspendLayout();
+            this.tabPage1.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // tabControl1
+            // 
+            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Controls.Add(this.tabPage3);
+            this.tabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabControl1.Location = new System.Drawing.Point(-2, 0);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(778, 410);
+            this.tabControl1.TabIndex = 0;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Controls.Add(this.rGenerareaMatricilor1);
+            this.tabPage1.Location = new System.Drawing.Point(4, 29);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(770, 377);
+            this.tabPage1.TabIndex = 2;
+            this.tabPage1.Text = "Pătratul magic- definiție și scurtă istorie";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Location = new System.Drawing.Point(4, 29);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(770, 377);
+            this.tabPage3.TabIndex = 3;
+            this.tabPage3.Text = "Generarea pătratelor magice de diferite ordine";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // rGenerareaMatricilor1
+            // 
+            this.rGenerareaMatricilor1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.rGenerareaMatricilor1.Location = new System.Drawing.Point(23, 0);
+            this.rGenerareaMatricilor1.Name = "rGenerareaMatricilor1";
+            this.rGenerareaMatricilor1.Size = new System.Drawing.Size(749, 377);
+            this.rGenerareaMatricilor1.TabIndex = 1;
+            this.rGenerareaMatricilor1.Text = "";
+            // 
+            // suportTeoretic5
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(776, 408);
+            this.Controls.Add(this.tabControl1);
+            this.Name = "suportTeoretic5";
             this.Text = "suportTeoretic5";
+            this.Load += new System.EventHandler(this.suportTeoretic5_Load);
+            this.tabControl1.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.RichTextBox rGenerareaMatricilor1;
     }
 }

@@ -223,5 +223,192 @@ return 0; }";
             if (rCorect == rElev) return 1;
             else return 0;
         }
+        //******************************************************************************************************************
+        public int EvaluareGenerare(string codCorect, string codElev, int n, int m, int k)
+        {
+            // am generat codul elevului pentru evaluare
+            string s = @"#include <iostream>
+#include <fstream>
+using namespace std;
+ifstream fin(""test.txt"");
+int n, m, a[100][100], i, j, k;
+int main()
+        {
+            fin >> n >> m >> k;
+" + codElev + @"
+            for (i = 0; i <= n; i++)
+                {for (j = 0; j <= m; j++)
+                    cout << a[i][j] << "" "";
+                 cout << endl;
+                }
+return 0; }";
+            string sc = @"#include <iostream>
+#include <fstream>
+using namespace std;
+ifstream fin(""test.txt"");
+int n, m, a[100][100], i, j, k;
+int main()
+        {
+            fin >> n >> m >> k;
+" + codCorect + @"
+            for (i = 0; i <= n; i++)
+                {for (j = 0; j <= m; j++)
+                    cout << a[i][j] << "" "";
+                 cout << endl;
+                }
+return 0; }";
+            //generez fisierul de test
+            // pentru inceput sterg fisierele utilizate la testul anterior
+            try { File.Delete(Directory.GetCurrentDirectory() + @"\test.txt"); } catch { };
+            try { File.Delete(Directory.GetCurrentDirectory() + @"\codcorect.cpp"); } catch { };
+            try { File.Delete(Directory.GetCurrentDirectory() + @"\codelev.cpp"); } catch { };
+            // creez un fisier nou ce va contine o matrice cu n linii si m coloane
+            Random r = new Random();
+            int i, j;
+            string l;
+            try
+            {
+                StreamWriter sw = new StreamWriter(Directory.GetCurrentDirectory() + @"\test.txt");
+                sw.WriteLine(n.ToString() + " " + m.ToString() + " " + k.ToString());
+                sw.Close();
+            }
+            catch
+            {
+                MessageBox.Show("Nu am reușit să creez fișierul de test");
+                return 0;
+            }
+            // creez fisierul cu codul corect
+            try
+            {
+                StreamWriter fisierCodCorect = new StreamWriter(Directory.GetCurrentDirectory() + @"\codcorect.cpp");
+                fisierCodCorect.WriteLine(sc);
+                fisierCodCorect.Close();
+            }
+            catch
+            {
+                MessageBox.Show("Nu am reușit să creez fișierul cu codul corect");
+                return 0;
+            }
+            // creez fisierul cu codul elevului
+            try
+            {
+                StreamWriter fisierCodElev = new StreamWriter(Directory.GetCurrentDirectory() + @"\codelev.cpp");
+                fisierCodElev.WriteLine(s);
+                fisierCodElev.Close();
+            }
+            catch
+            {
+                MessageBox.Show("Nu am reușit să creez fișierul cu codul elevului");
+                return 0;
+            }
+            string rc = Compileaza("codcorect.cpp");
+            string rCorect = Ruleaza("test.txt");
+
+            string rCompilare = Compileaza("codelev.cpp");
+            if (rCompilare.Length > 4)
+            {
+                MessageBox.Show("Posibila eroare de compilare: " + rCompilare);
+                return 0;
+            }
+            string rElev = Ruleaza("test.txt");
+            if (rCorect == rElev) return 1;
+            else return 0;
+        }
+
+        //******************************************************************************************************************
+        public int EvaluareGenerare2(string codCorect, string codElev, int n, int m, int k)
+        {
+            // am generat codul elevului pentru evaluare
+            string s = @"#include <iostream>
+#include <fstream>
+using namespace std;
+ifstream fin(""test.txt"");
+int n, m, a[100][100], i, j, k;
+int main()
+        {
+            fin >> n >> m >> k;
+            for(i=0;i<n;i++)
+                for(j=0;j<m;j++)
+" + codElev + @"
+            for (i = 0; i <= n; i++)
+                {for (j = 0; j <= m; j++)
+                    cout << a[i][j] << "" "";
+                 cout << endl;
+                }
+return 0; }";
+            string sc = @"#include <iostream>
+#include <fstream>
+using namespace std;
+ifstream fin(""test.txt"");
+int n, m, a[100][100], i, j, k;
+int main()
+        {
+            fin >> n >> m >> k;
+            for(i=0;i<n;i++)
+                for(j=0;j<m;j++)
+" + codCorect + @"
+            for (i = 0; i <= n; i++)
+                {for (j = 0; j <= m; j++)
+                    cout << a[i][j] << "" "";
+                 cout << endl;
+                }
+return 0; }";
+            //generez fisierul de test
+            // pentru inceput sterg fisierele utilizate la testul anterior
+            try { File.Delete(Directory.GetCurrentDirectory() + @"\test.txt"); } catch { };
+            try { File.Delete(Directory.GetCurrentDirectory() + @"\codcorect.cpp"); } catch { };
+            try { File.Delete(Directory.GetCurrentDirectory() + @"\codelev.cpp"); } catch { };
+            // creez un fisier nou ce va contine o matrice cu n linii si m coloane
+            Random r = new Random();
+            int i, j;
+            string l;
+            try
+            {
+                StreamWriter sw = new StreamWriter(Directory.GetCurrentDirectory() + @"\test.txt");
+                sw.WriteLine(n.ToString() + " " + m.ToString() + " " + k.ToString());
+                sw.Close();
+            }
+            catch
+            {
+                MessageBox.Show("Nu am reușit să creez fișierul de test");
+                return 0;
+            }
+            // creez fisierul cu codul corect
+            try
+            {
+                StreamWriter fisierCodCorect = new StreamWriter(Directory.GetCurrentDirectory() + @"\codcorect.cpp");
+                fisierCodCorect.WriteLine(sc);
+                fisierCodCorect.Close();
+            }
+            catch
+            {
+                MessageBox.Show("Nu am reușit să creez fișierul cu codul corect");
+                return 0;
+            }
+            // creez fisierul cu codul elevului
+            try
+            {
+                StreamWriter fisierCodElev = new StreamWriter(Directory.GetCurrentDirectory() + @"\codelev.cpp");
+                fisierCodElev.WriteLine(s);
+                fisierCodElev.Close();
+            }
+            catch
+            {
+                MessageBox.Show("Nu am reușit să creez fișierul cu codul elevului");
+                return 0;
+            }
+            string rc = Compileaza("codcorect.cpp");
+            string rCorect = Ruleaza("test.txt");
+
+            string rCompilare = Compileaza("codelev.cpp");
+            if (rCompilare.Length > 4)
+            {
+                MessageBox.Show("Posibila eroare de compilare: " + rCompilare);
+                return 0;
+            }
+            string rElev = Ruleaza("test.txt");
+            if (rCorect == rElev) return 1;
+            else return 0;
+        }
     }
 }

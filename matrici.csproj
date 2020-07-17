@@ -215,6 +215,9 @@
     <EmbeddedResource Include="exersare4.resx">
       <DependentUpon>exersare4.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="exersare5.resx">
+      <DependentUpon>exersare5.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -269,6 +272,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="testare4.resx">
       <DependentUpon>testare4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="testare5.resx">
+      <DependentUpon>testare5.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

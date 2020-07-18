@@ -136,6 +136,9 @@
   <data name="DECLARARE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DECLARARE1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="tabel3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tabel3.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="TEORIE POZA" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TEORIE POZA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -184,14 +187,20 @@
   <data name="GENERAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GENERAR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="gradient5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gradient5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="poza pixeli buna" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\poza pixeli buna.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="poza zone bun" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\poza zone bun.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="gradient5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\gradient5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="tabel ex 3 exersare 4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tabel ex 3 exersare 4.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tabel2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tabel2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="poza parcurgere coloana" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\poza parcurgere coloana.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -201,9 +210,6 @@
   </data>
   <data name="poza parcurgere 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\poza parcurgere 2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="gradient4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\gradient4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="poza zone bun bun bun" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\poza zone bun bun bun.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -217,6 +223,12 @@
   <data name="gradient3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gradient3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="tabel2 bun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tabel2 bun.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buton 1 poza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buton 1 poza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="POZA EXERSARE" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\POZA EXERSARE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -226,14 +238,17 @@
   <data name="tabel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tabel.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="tabel4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tabel4.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="POZA PARCURGERE BUN 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\POZA PARCURGERE BUN 1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="gradient6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gradient6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="tabel ex 3 exersare 4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tabel ex 3 exersare 4.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="tabel31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tabel31.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="gradient8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gradient8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -274,20 +289,20 @@
   <data name="PATRATE 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PATRATE 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="tabel 13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tabel 13.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="GENERARE PIXELI" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GENERARE PIXELI.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="accesare matrici" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\accesare matrici.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="backround" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\backround.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="poza tabel 2 bun" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\poza tabel 2 bun.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="tabel 13" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tabel 13.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="poza intrebarea 4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\poza intrebarea 4.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tabel testare 2 ex 8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tabel testare 2 ex 8.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -295,17 +310,17 @@
   <data name="poza parcurgere linii si coloane 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\poza parcurgere linii si coloane 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="gradient7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\gradient7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="tabel1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tabel1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="backround 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\backround 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="buton 1 poza" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\buton 1 poza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="gradient4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gradient4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="poza parcurgere linii si coloane" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\poza parcurgere linii si coloane.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="backround" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\backround.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="exersare ex 1 bun1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\exersare ex 1 bun1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -325,6 +340,9 @@
   <data name="PARCURGEREA MATRICILOR" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PARCURGEREA MATRICILOR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="poza parcurgere linii si coloane" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\poza parcurgere linii si coloane.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="declarare matrici bun" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\declarare matrici bun.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -343,13 +361,16 @@
   <data name="tabel exersare 2 bun" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tabel exersare 2 bun.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="gradient7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gradient7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="INERCARE 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\INERCARE 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DECLARARE" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DECLARARE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="poza intrebarea 4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\poza intrebarea 4.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="albrechtdurer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\albrechtdurer.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

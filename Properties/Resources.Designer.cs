@@ -103,6 +103,16 @@ namespace matrici.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap albrechtdurer {
+            get {
+                object obj = ResourceManager.GetObject("albrechtdurer", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap backround {
             get {
                 object obj = ResourceManager.GetObject("backround", resourceCulture);
@@ -766,6 +776,66 @@ namespace matrici.Properties {
         internal static System.Drawing.Bitmap tabel_vecini_bun {
             get {
                 object obj = ResourceManager.GetObject("tabel vecini bun", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tabel1 {
+            get {
+                object obj = ResourceManager.GetObject("tabel1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tabel2 {
+            get {
+                object obj = ResourceManager.GetObject("tabel2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tabel2_bun {
+            get {
+                object obj = ResourceManager.GetObject("tabel2 bun", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tabel3 {
+            get {
+                object obj = ResourceManager.GetObject("tabel3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tabel31 {
+            get {
+                object obj = ResourceManager.GetObject("tabel31", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tabel4 {
+            get {
+                object obj = ResourceManager.GetObject("tabel4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -523,5 +523,26 @@
   <ItemGroup>
     <None Include="Resources\poza intrebarea 4.PNG" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tabel1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tabel2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tabel3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tabel31.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tabel2 bun.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tabel4.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\albrechtdurer.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

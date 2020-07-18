@@ -248,9 +248,9 @@
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(20, 37);
+            this.label1.Location = new System.Drawing.Point(11, 14);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1025, 81);
+            this.label1.Size = new System.Drawing.Size(1025, 31);
             this.label1.TabIndex = 0;
             this.label1.Text = " Care dintre tabelele de mai jos este un pătrat magic? Bifați căsuța din dreptul " +
     "răspunsului pe care îl considerați corect.";
@@ -280,7 +280,7 @@
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(405, 142);
+            this.radioButton3.Location = new System.Drawing.Point(405, 133);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(50, 29);
             this.radioButton3.TabIndex = 16;
@@ -291,7 +291,7 @@
             // radioButton4
             // 
             this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(414, 359);
+            this.radioButton4.Location = new System.Drawing.Point(395, 359);
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(51, 29);
             this.radioButton4.TabIndex = 17;
@@ -367,9 +367,9 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::matrici.Properties.Resources.tabel4;
-            this.pictureBox4.Location = new System.Drawing.Point(471, 289);
+            this.pictureBox4.Location = new System.Drawing.Point(452, 289);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(279, 186);
+            this.pictureBox4.Size = new System.Drawing.Size(328, 213);
             this.pictureBox4.TabIndex = 4;
             this.pictureBox4.TabStop = false;
             this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
@@ -377,9 +377,9 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::matrici.Properties.Resources.tabel31;
-            this.pictureBox3.Location = new System.Drawing.Point(471, 79);
+            this.pictureBox3.Location = new System.Drawing.Point(461, 65);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(213, 213);
+            this.pictureBox3.Size = new System.Drawing.Size(319, 218);
             this.pictureBox3.TabIndex = 3;
             this.pictureBox3.TabStop = false;
             // 
@@ -388,16 +388,16 @@
             this.pictureBox2.Image = global::matrici.Properties.Resources.tabel2_bun;
             this.pictureBox2.Location = new System.Drawing.Point(109, 289);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(207, 168);
+            this.pictureBox2.Size = new System.Drawing.Size(280, 221);
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::matrici.Properties.Resources.tabel1;
-            this.pictureBox1.Location = new System.Drawing.Point(109, 79);
+            this.pictureBox1.Location = new System.Drawing.Point(109, 65);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(176, 158);
+            this.pictureBox1.Size = new System.Drawing.Size(270, 218);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 

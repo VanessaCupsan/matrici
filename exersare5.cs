@@ -12,7 +12,7 @@ namespace matrici
 {
     public partial class exersare5 : Form
     {
-        int n, m,nExercitiul20,nExercitiul21,nExercitiul30,nExerictiul31;
+        int n, m,nExercitiul20,nExercitiul21;
 
         private void exemplu2_Click(object sender, EventArgs e)
         {

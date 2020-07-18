@@ -41,7 +41,7 @@ namespace matrici
             exercitiul4.Text = " În secvența de mai jos, variabila a memorează elementele unui tablou bidimensional cu n=" + nExercitiul4.ToString() + " linii și n=" + nExercitiul4.ToString() + " coloane, indexate de la 0, iar toate celelalte variabile sunt de tip întreg.";
             rEx4.LoadFile("ex4exersare4.rtf");
             //generare exercitiul 5
-            n = r.Next(3, 98);
+            n = r.Next(3, 5);
             string comun = @"Ai o matrice a cu n=" + n.ToString() + " linii și n=" + n.ToString() + " coloane numerotate de la 1 și variabilele i și j declarate. Scrie o secvență de program care ";
             string comun2 = @"Scrie codul în căsuța de mai jos, fără a folosi alte variabile decât cele prezentate, apoi apasă butonul evaluare.";
             cerDeasupraDiagP.Text = comun + "afișează elementele aflate strict deasupra diagonalei principale, separate prin câte un spațiu. " + comun2;
@@ -54,8 +54,8 @@ namespace matrici
 
         private void button5_Click_1(object sender, EventArgs e)
         {
-            Evaluare2 ev = new Evaluare2();
-            if (ev.EvaluareAfisare(codDiagP, rtDiagP.Text, n) == 1) MessageBox.Show("Corect");
+            Evaluare ev = new Evaluare();
+            if (ev.EvaluareAfisare(codDiagP, rtDiagP.Text, n,n) == 1) MessageBox.Show("Corect");
             else MessageBox.Show("Incorect");
         }
         string codDiagP = @"
@@ -63,10 +63,10 @@ namespace matrici
 #include <fstream>
 using namespace std;
 ifstream fin(""test.txt"");
-int n, a[100][100], i, j, s;
+int n, a[100][100], i, j, s,m;
 int main()
         {
-            fin >> n;
+            fin >> n>>m;
             for (i = 1; i <= n; i++)
                 for (j = 1; j <= n; j++)
                     fin >> a[i][j];

@@ -143,6 +143,7 @@ namespace matrici
             string stderr = erori.ToString();
             return stdout + " * " + stderr;
         }
+        //******************************************************************************************
         //n - nr linii, m - nr. coloane matrice
         public int EvaluareAfisare(string codCorect, string codElev, int n, int m)
         {
@@ -410,5 +411,6 @@ return 0; }";
             if (rCorect == rElev) return 1;
             else return 0;
         }
+
     }
 }

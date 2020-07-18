@@ -20,6 +20,7 @@ namespace matrici
         private void suportTeoretic5_Load(object sender, EventArgs e)
         {
             rGenerareaMatricilor1.LoadFile("generareaMatricilor1.rtf");
+            rGenerarePatrateMagice.LoadFile("generarePatrateMagice.rtf");
         }
     }
 }

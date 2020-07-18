@@ -32,7 +32,7 @@ namespace matrici
             Random r = new Random();
             n = r.Next(2, 30);
             m = r.Next(2, 30);
-            exercitiul1.Text = @" Completează secvența de program de mai jos astfel încât să construiască o matrice a cu n="+n.ToString()+ " linii și m="+m.ToString()+@" coloane în care a[i][j] memorează minimul dintre valorile i și j. Pentru n=4 și m=5 se afișează matricea din dreapta.
+            exercitiul1.Text = @" Completează secvența de program de mai jos astfel încât să construiască o matrice a cu n="+n.ToString()+ " linii și m="+m.ToString()+@" coloane în care a[i][j] memorează maximul dintre valorile i și j. Pentru n=4 și m=5 se afișează matricea din dreapta.
                                  for(i=0;i<n;i++)
                                     for(j=0;j<=m;j++)
                                         ...";

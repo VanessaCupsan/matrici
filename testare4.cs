@@ -70,7 +70,7 @@ namespace matrici
             p = r.Next(3, 98);
             string comun5 = @"Ai o matrice a cu n=" + p.ToString() + " linii și n=" + p.ToString() + " coloane numerotate de la 1 și variabilele i și j declarate. Scrie o secvență de program care ";
             string comun7 = @"Scrie codul în căsuța de mai jos, fără a folosi alte variabile decât cele prezentate, apoi apasă butonul răspunde.";
-            cerZonaV.Text = comun5 + "afișează elementele aflate sub diagonala principală, separate prin câte un spațiu. " + comun7;
+            cerZonaV.Text = comun5 + "afișează elementele aflate în zona de Vest a matricei, separate prin câte un spațiu. " + comun7;
         }
 
 
@@ -93,24 +93,24 @@ namespace matrici
 
         private void button5_Click(object sender, EventArgs e)
         {
-            Evaluare3 ev = new Evaluare3();
-            if (ev.EvaluareAfisare(codDiagS, rtDiagS.Text, n) == 1) t[7] = 1 ;
+            Evaluare ev = new Evaluare();
+            if (ev.EvaluareAfisare(codDiagS, rtDiagS.Text, n,n) == 1) t[7] = 1 ;
             else t[7]=0;
             tabControl1.SelectTab(7);
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            Evaluare4 ev = new Evaluare4();
-            if (ev.EvaluareAfisare(codSubDiagP, rtSubDiagP.Text, m) == 1) t[8] = 1;
+            Evaluare ev = new Evaluare();
+            if (ev.EvaluareAfisare(codSubDiagP, rtSubDiagP.Text, m,m) == 1) t[8] = 1;
             else t[8] = 0;
             tabControl1.SelectTab(8);
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            Evaluare5 ev = new Evaluare5();
-            if (ev.EvaluareAfisare(codZonaV, rtZonaV.Text, p) == 1) t[9] = 1;
+            Evaluare ev = new Evaluare();
+            if (ev.EvaluareAfisare(codZonaV, rtZonaV.Text, p,p) == 1) t[9] = 1;
             else t[9] = 0;
             MessageBox.Show(" Felicitări! Ai ajuns la sfârșitul testului.");
         }
@@ -120,10 +120,10 @@ namespace matrici
 #include <fstream>
 using namespace std;
 ifstream fin(""test.txt"");
-int n, a[100][100], i, j, s;
+int n, a[100][100], i, j, s,m;
 int main()
         {
-            fin >> n;
+            fin >> n>>m;
             for (i = 1; i <= n; i++)
                 for (j = 1; j <= n; j++)
                     fin >> a[i][j];
@@ -137,10 +137,10 @@ int main()
 #include <fstream>
 using namespace std;
 ifstream fin(""test.txt"");
-int n, a[100][100], i, j, s;
+int n, a[100][100], i, j, s,m;
 int main()
         {
-            fin >> n;
+            fin >> n>>m;
             for (i = 1; i <= n; i++)
                 for (j = 1; j <= n; j++)
                     fin >> a[i][j];
@@ -156,10 +156,10 @@ int main()
 #include <fstream>
 using namespace std;
 ifstream fin(""test.txt"");
-int n, a[100][100], i, j, s;
+int n, a[100][100], i, j, s,m;
 int main()
         {
-            fin >> n;
+            fin >> n>>m;
             for (i = 1; i <= n; i++)
                 for (j = 1; j <= n; j++)
                     fin >> a[i][j];

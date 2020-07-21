@@ -68,6 +68,7 @@
             this.rGenerareaMatricilor1.Location = new System.Drawing.Point(23, 0);
             this.rGenerareaMatricilor1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rGenerareaMatricilor1.Name = "rGenerareaMatricilor1";
+            this.rGenerareaMatricilor1.ReadOnly = true;
             this.rGenerareaMatricilor1.Size = new System.Drawing.Size(913, 508);
             this.rGenerareaMatricilor1.TabIndex = 1;
             this.rGenerareaMatricilor1.Text = "";

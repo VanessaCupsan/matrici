@@ -52,6 +52,12 @@
     <Compile Include="accesareElemente.Designer.cs">
       <DependentUpon>accesareElemente.cs</DependentUpon>
     </Compile>
+    <Compile Include="codSumePartiale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="codSumePartiale.Designer.cs">
+      <DependentUpon>codSumePartiale.cs</DependentUpon>
+    </Compile>
     <Compile Include="declarareMatrici.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +98,12 @@
     </Compile>
     <Compile Include="exersare5.Designer.cs">
       <DependentUpon>exersare5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="exersare6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="exersare6.Designer.cs">
+      <DependentUpon>exersare6.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -167,6 +179,12 @@
     <Compile Include="suportTeoretic5.Designer.cs">
       <DependentUpon>suportTeoretic5.cs</DependentUpon>
     </Compile>
+    <Compile Include="suportTeoretic6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="suportTeoretic6.Designer.cs">
+      <DependentUpon>suportTeoretic6.cs</DependentUpon>
+    </Compile>
     <Compile Include="testare1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -197,8 +215,17 @@
     <Compile Include="testare5.Designer.cs">
       <DependentUpon>testare5.cs</DependentUpon>
     </Compile>
+    <Compile Include="testare6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="testare6.Designer.cs">
+      <DependentUpon>testare6.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="accesareElemente.resx">
       <DependentUpon>accesareElemente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="codSumePartiale.resx">
+      <DependentUpon>codSumePartiale.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="declarareMatrici.resx">
       <DependentUpon>declarareMatrici.cs</DependentUpon>
@@ -260,6 +287,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="suportTeoretic5.resx">
       <DependentUpon>suportTeoretic5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="suportTeoretic6.resx">
+      <DependentUpon>suportTeoretic6.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="testare1.resx">
       <DependentUpon>testare1.cs</DependentUpon>
@@ -546,6 +576,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\tabel intrebare 7 testare 5.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gradient9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gradient10.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

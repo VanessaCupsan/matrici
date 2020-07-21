@@ -283,6 +283,16 @@ namespace matrici.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap gradient10 {
+            get {
+                object obj = ResourceManager.GetObject("gradient10", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap gradient2 {
             get {
                 object obj = ResourceManager.GetObject("gradient2", resourceCulture);
@@ -346,6 +356,16 @@ namespace matrici.Properties {
         internal static System.Drawing.Bitmap gradient8 {
             get {
                 object obj = ResourceManager.GetObject("gradient8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gradient9 {
+            get {
+                object obj = ResourceManager.GetObject("gradient9", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -309,6 +309,9 @@
     <EmbeddedResource Include="testare5.resx">
       <DependentUpon>testare5.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="testare6.resx">
+      <DependentUpon>testare6.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -591,6 +594,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\tabel 2 ex 1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tabel intrebarea 3.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

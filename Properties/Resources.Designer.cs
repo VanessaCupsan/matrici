@@ -673,6 +673,26 @@ namespace matrici.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap tabel_2_ex_1 {
+            get {
+                object obj = ResourceManager.GetObject("tabel 2 ex 1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tabel_ex_1_ex6 {
+            get {
+                object obj = ResourceManager.GetObject("tabel ex 1 ex6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap tabel_ex_2_exersare_bun {
             get {
                 object obj = ResourceManager.GetObject("tabel ex 2 exersare bun", resourceCulture);

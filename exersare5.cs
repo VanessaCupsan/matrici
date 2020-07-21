@@ -77,7 +77,7 @@ namespace matrici
             m = r.Next(2, 30);
             exercitiul1.Text = @" Completează secvența de program de mai jos astfel încât să construiască o matrice a cu n="+n.ToString()+ " linii și m="+m.ToString()+@" coloane în care a[i][j] memorează maximul dintre valorile i și j. Pentru n=4 și m=5 se afișează matricea din dreapta.
                                  for(i=0;i<n;i++)
-                                    for(j=0;j<=m;j++)
+                                    for(j=0;j<m;j++)
                                         ...";
             exemplu1.Text = @"0 1 2 3 4
 1 1 2 3 4
@@ -88,7 +88,7 @@ namespace matrici
             nExercitiul21 = r.Next(2, 30);
             exercitiul2.Text = @" Completează secvența de program de mai jos astfel încât să construiască o matrice a cu n=" + nExercitiul20.ToString() + " linii și m=" + nExercitiul21.ToString() + @" coloane în care a[i][j] memorează suma dintre valorile i și j. Pentru n=4 și m=5 se afișează matricea din dreapta.
                                  for(i=0;i<n;i++)
-                                    for(j=0;j<=m;j++)
+                                    for(j=0;j<m;j++)
                                         ...";
             exemplu2.Text = @"0 1 2 3 4
 1 2 3 4 5

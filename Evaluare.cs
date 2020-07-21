@@ -316,8 +316,8 @@ return 0; }";
             else return 0;
         }
 
-        //******************************************************************************************************************
-        public int EvaluareGenerare2(string codCorect, string codElev, int n, int m, int k)
+            //******************************************************************************************************************
+            public int EvaluareGenerare2(string codCorect, string codElev, int n, int m, int k)
         {
             // am generat codul elevului pentru evaluare
             string s = @"#include <iostream>

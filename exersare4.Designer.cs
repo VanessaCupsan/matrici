@@ -57,6 +57,7 @@
             this.rEx4 = new System.Windows.Forms.RichTextBox();
             this.exercitiul4 = new System.Windows.Forms.Label();
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.label7 = new System.Windows.Forms.Label();
             this.rtDiagP = new System.Windows.Forms.RichTextBox();
             this.cerDeasupraDiagP = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
@@ -65,7 +66,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
-            this.label7 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -278,7 +278,7 @@
             // 
             // exercitiul3
             // 
-            this.exercitiul3.Location = new System.Drawing.Point(14, 340);
+            this.exercitiul3.Location = new System.Drawing.Point(14, 364);
             this.exercitiul3.Name = "exercitiul3";
             this.exercitiul3.Size = new System.Drawing.Size(764, 48);
             this.exercitiul3.TabIndex = 2;
@@ -364,6 +364,15 @@
             this.tabPage5.Text = "Exercițiul 5";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(25, 135);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(464, 20);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "!! În algoritm folosiți n când va referiți la numărul de linii/coloane. !!";
+            // 
             // rtDiagP
             // 
             this.rtDiagP.Location = new System.Drawing.Point(29, 158);
@@ -425,7 +434,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::matrici.Properties.Resources.tabel_ex_3_exersare_4;
-            this.pictureBox1.Location = new System.Drawing.Point(18, 68);
+            this.pictureBox1.Location = new System.Drawing.Point(18, 104);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(258, 257);
             this.pictureBox1.TabIndex = 1;
@@ -459,15 +468,6 @@
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click_1);
             // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(25, 135);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(464, 20);
-            this.label7.TabIndex = 15;
-            this.label7.Text = "!! În algoritm folosiți n când va referiți la numărul de linii/coloane. !!";
-            // 
             // exersare4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -475,6 +475,7 @@
             this.ClientSize = new System.Drawing.Size(800, 497);
             this.Controls.Add(this.tabControl1);
             this.Name = "exersare4";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "exersare4";
             this.Load += new System.EventHandler(this.exersare4_Load);
             this.tabControl1.ResumeLayout(false);

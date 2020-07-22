@@ -58,9 +58,9 @@
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.button3 = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.checkBox15 = new System.Windows.Forms.CheckBox();
             this.checkBox14 = new System.Windows.Forms.CheckBox();
@@ -77,9 +77,9 @@
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label11 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -108,6 +108,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.BackgroundImage = global::matrici.Properties.Resources.poza_fundal_bun_bun;
             this.tabPage1.Controls.Add(this.button2);
             this.tabPage1.Controls.Add(this.label4);
             this.tabPage1.Controls.Add(this.butonRadio4);
@@ -214,6 +215,7 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.BackgroundImage = global::matrici.Properties.Resources.poza_fundal_bun_bun;
             this.tabPage2.Controls.Add(this.raspuns2);
             this.tabPage2.Controls.Add(this.maskedTextBox1);
             this.tabPage2.Controls.Add(this.label5);
@@ -244,7 +246,7 @@
             this.maskedTextBox1.Location = new System.Drawing.Point(319, 290);
             this.maskedTextBox1.Mask = "0000000000";
             this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(100, 26);
+            this.maskedTextBox1.Size = new System.Drawing.Size(67, 26);
             this.maskedTextBox1.TabIndex = 2;
             this.maskedTextBox1.ValidatingType = typeof(int);
             // 
@@ -266,6 +268,7 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.BackgroundImage = global::matrici.Properties.Resources.poza_fundal_bun_bun;
             this.tabPage3.Controls.Add(this.label8);
             this.tabPage3.Controls.Add(this.label7);
             this.tabPage3.Controls.Add(this.label6);
@@ -286,18 +289,19 @@
             // 
             // label8
             // 
-            this.label8.ForeColor = System.Drawing.Color.Red;
-            this.label8.Location = new System.Drawing.Point(27, 296);
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.LawnGreen;
+            this.label8.Location = new System.Drawing.Point(632, 57);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(285, 20);
+            this.label8.Size = new System.Drawing.Size(202, 90);
             this.label8.TabIndex = 19;
             this.label8.Text = "Pot exista mai multe propoziții corecte !\r\n";
             // 
             // label7
             // 
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.Red;
-            this.label7.Location = new System.Drawing.Point(26, 266);
+            this.label7.ForeColor = System.Drawing.Color.Chartreuse;
+            this.label7.Location = new System.Drawing.Point(678, 27);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(110, 30);
             this.label7.TabIndex = 18;
@@ -373,11 +377,12 @@
             // 
             // tabPage4
             // 
+            this.tabPage4.BackgroundImage = global::matrici.Properties.Resources.poza_fundal_bun_bun;
             this.tabPage4.Controls.Add(this.numericUpDown2);
             this.tabPage4.Controls.Add(this.numericUpDown1);
-            this.tabPage4.Controls.Add(this.button3);
             this.tabPage4.Controls.Add(this.label10);
             this.tabPage4.Controls.Add(this.label9);
+            this.tabPage4.Controls.Add(this.button3);
             this.tabPage4.Location = new System.Drawing.Point(4, 29);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
@@ -433,19 +438,6 @@
             0});
             this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
             // 
-            // button3
-            // 
-            this.button3.BackgroundImage = global::matrici.Properties.Resources.gradient3;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button3.Location = new System.Drawing.Point(359, 317);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(109, 48);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "Verifică";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click_1);
-            // 
             // label10
             // 
             this.label10.Location = new System.Drawing.Point(60, 84);
@@ -464,8 +456,22 @@
     "loane. Pentru a crea tabloul bidimensional apăsați pe săgetuțe până când se va a" +
     "junge la numerele dorite.\r\n";
             // 
+            // button3
+            // 
+            this.button3.BackgroundImage = global::matrici.Properties.Resources.gradient3;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button3.Location = new System.Drawing.Point(359, 317);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(109, 48);
+            this.button3.TabIndex = 4;
+            this.button3.Text = "Verifică";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click_1);
+            // 
             // tabPage5
             // 
+            this.tabPage5.BackgroundImage = global::matrici.Properties.Resources.poza_fundal_bun_bun;
             this.tabPage5.Controls.Add(this.checkBox15);
             this.tabPage5.Controls.Add(this.checkBox14);
             this.tabPage5.Controls.Add(this.checkBox13);
@@ -481,9 +487,9 @@
             this.tabPage5.Controls.Add(this.checkBox1);
             this.tabPage5.Controls.Add(this.label13);
             this.tabPage5.Controls.Add(this.label12);
+            this.tabPage5.Controls.Add(this.label11);
             this.tabPage5.Controls.Add(this.button4);
             this.tabPage5.Controls.Add(this.pictureBox1);
-            this.tabPage5.Controls.Add(this.label11);
             this.tabPage5.Location = new System.Drawing.Point(4, 29);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
@@ -612,10 +618,11 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.ForeColor = System.Drawing.Color.Red;
-            this.label13.Location = new System.Drawing.Point(37, 206);
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.LawnGreen;
+            this.label13.Location = new System.Drawing.Point(17, 175);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(208, 20);
+            this.label13.Size = new System.Drawing.Size(235, 20);
             this.label13.TabIndex = 17;
             this.label13.Text = "Numerotarea începe de la 0.";
             // 
@@ -623,12 +630,21 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.Red;
-            this.label12.Location = new System.Drawing.Point(36, 170);
+            this.label12.ForeColor = System.Drawing.Color.LawnGreen;
+            this.label12.Location = new System.Drawing.Point(36, 138);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(121, 25);
             this.label12.TabIndex = 16;
             this.label12.Text = "ATENȚIE !";
+            // 
+            // label11
+            // 
+            this.label11.Location = new System.Drawing.Point(19, 35);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(214, 108);
+            this.label11.TabIndex = 0;
+            this.label11.Text = "    Bifați căsuțele care indică : \r\n        a) coloana 3\r\n        b) coloana 0\r\n " +
+    "       c) linia 2\r\n        d) linia 1";
             // 
             // button4
             // 
@@ -652,23 +668,15 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
-            // label11
-            // 
-            this.label11.Location = new System.Drawing.Point(19, 35);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(479, 108);
-            this.label11.TabIndex = 0;
-            this.label11.Text = "    Bifați căsuțele care indică : \r\n        a) coloana 3\r\n        b) coloana 0\r\n " +
-    "       c) linia 2\r\n        d) linia 1";
-            // 
             // exersare1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(867, 424);
             this.Controls.Add(this.tabControl1);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "exersare1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "exersare1";
             this.Load += new System.EventHandler(this.exersare1_Load);
             this.tabControl1.ResumeLayout(false);

@@ -74,7 +74,7 @@ namespace matrici
             corect = nIntrebare2 * (nIntrebare2 - 1) / 2;
             try 
             {
-                raspuns2numar = Int32.Parse(raspuns2.Text);
+                raspuns2numar = Int32.Parse(maskedTextBox1.Text);
             }
             catch
             {

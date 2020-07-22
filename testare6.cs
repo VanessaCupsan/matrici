@@ -111,7 +111,7 @@ namespace matrici
             intrebarea1.Text = " Cum se poate declara o matrice a cu exact " + nIntrebare1.ToString() + " elemente, toate fiind caractere ?";
             //generare intrebarea 2
             nIntrebare2 = r.Next(1, 5);
-            intrebarea2.Text = " Creați, utilizând instrumentul de mai jos, un tablou bidimensional cu numere întregi pozitive care ocupă" + (nIntrebare2 * 16).ToString() + " octeți.";
+            intrebarea2.Text = " Creați, utilizând instrumentul de mai jos, un tablou bidimensional cu numere întregi pozitive care ocupă " + (nIntrebare2 * 16).ToString() + " octeți.";
             //generare intrebarea 3
             nIntrebare30 = r.Next(0, 3);
             nIntrebare31 = r.Next(0, 3);

@@ -93,7 +93,7 @@ int main()
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (raspuns3.Text == "*(*(v+i)+j)")
+            if (raspuns3.Text == "*(*(a+i)+j)")
                 MessageBox.Show(" Răspuns corect.");
             else MessageBox.Show(" Folosind pointerii, elementul de pe linia i și coloana j se mai poate scrie scrie și ca : *(*(v+i)+j).");
         }

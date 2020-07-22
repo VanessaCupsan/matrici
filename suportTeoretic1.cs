@@ -71,6 +71,11 @@ namespace matrici
                 }
         }
 
+        private void richTextBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void richTextBox2_TextChanged(object sender, EventArgs e)
         {
 

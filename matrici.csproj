@@ -257,6 +257,9 @@
     <EmbeddedResource Include="matriciPatratice.resx">
       <DependentUpon>matriciPatratice.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="parcurgereaMatricilor.resx">
+      <DependentUpon>parcurgereaMatricilor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="parcurgereMatrici.resx">
       <DependentUpon>parcurgereMatrici.cs</DependentUpon>
     </EmbeddedResource>
@@ -597,6 +600,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\tabel intrebarea 3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poza fundal scris.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gradient11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poza fundal scris1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poza fundal bun.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poza fundal bun bun.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poza fundal bun bun1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poza fundal bun bun2.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

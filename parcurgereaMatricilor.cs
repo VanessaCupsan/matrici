@@ -16,5 +16,10 @@ namespace matrici
         {
             InitializeComponent();
         }
+
+        private void parcurgereaMatricilor_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

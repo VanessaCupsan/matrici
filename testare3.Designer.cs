@@ -466,11 +466,10 @@
             // 
             // intrebare30
             // 
-            this.intrebare30.AutoSize = true;
             this.intrebare30.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.intrebare30.Location = new System.Drawing.Point(26, 25);
+            this.intrebare30.Location = new System.Drawing.Point(26, 13);
             this.intrebare30.Name = "intrebare30";
-            this.intrebare30.Size = new System.Drawing.Size(51, 20);
+            this.intrebare30.Size = new System.Drawing.Size(890, 62);
             this.intrebare30.TabIndex = 0;
             this.intrebare30.Text = "label3";
             // 
@@ -967,6 +966,7 @@
             this.Controls.Add(this.evaluare);
             this.Controls.Add(this.tab);
             this.Name = "testare3";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "testare3";
             this.Load += new System.EventHandler(this.testare3_Load);
             this.tab.ResumeLayout(false);

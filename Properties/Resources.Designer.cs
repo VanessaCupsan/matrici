@@ -103,6 +103,16 @@ namespace matrici.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap alb {
+            get {
+                object obj = ResourceManager.GetObject("alb", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap albrechtdurer {
             get {
                 object obj = ResourceManager.GetObject("albrechtdurer", resourceCulture);
@@ -426,6 +436,66 @@ namespace matrici.Properties {
         internal static System.Drawing.Bitmap POZA_EXERSARE {
             get {
                 object obj = ResourceManager.GetObject("POZA EXERSARE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap poza_fundal_bun {
+            get {
+                object obj = ResourceManager.GetObject("poza fundal bun", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap poza_fundal_bun_bun {
+            get {
+                object obj = ResourceManager.GetObject("poza fundal bun bun", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap poza_fundal_bun_bun1 {
+            get {
+                object obj = ResourceManager.GetObject("poza fundal bun bun1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap poza_fundal_bun_bun2 {
+            get {
+                object obj = ResourceManager.GetObject("poza fundal bun bun2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap poza_fundal_scris {
+            get {
+                object obj = ResourceManager.GetObject("poza fundal scris", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap poza_fundal_scris1 {
+            get {
+                object obj = ResourceManager.GetObject("poza fundal scris1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

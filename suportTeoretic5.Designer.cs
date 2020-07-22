@@ -43,21 +43,19 @@
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabControl1.Location = new System.Drawing.Point(-3, 0);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabControl1.Location = new System.Drawing.Point(-2, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(969, 546);
+            this.tabControl1.Size = new System.Drawing.Size(727, 444);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
             // 
             this.tabPage1.Controls.Add(this.rGenerareaMatricilor1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 34);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage1.Location = new System.Drawing.Point(4, 29);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPage1.Size = new System.Drawing.Size(961, 508);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage1.Size = new System.Drawing.Size(719, 411);
             this.tabPage1.TabIndex = 2;
             this.tabPage1.Text = "Pătratul magic- definiție și scurtă istorie";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -65,22 +63,20 @@
             // rGenerareaMatricilor1
             // 
             this.rGenerareaMatricilor1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.rGenerareaMatricilor1.Location = new System.Drawing.Point(23, 0);
-            this.rGenerareaMatricilor1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rGenerareaMatricilor1.Location = new System.Drawing.Point(17, 0);
             this.rGenerareaMatricilor1.Name = "rGenerareaMatricilor1";
             this.rGenerareaMatricilor1.ReadOnly = true;
-            this.rGenerareaMatricilor1.Size = new System.Drawing.Size(913, 508);
+            this.rGenerareaMatricilor1.Size = new System.Drawing.Size(685, 413);
             this.rGenerareaMatricilor1.TabIndex = 1;
             this.rGenerareaMatricilor1.Text = "";
             // 
             // tabPage3
             // 
             this.tabPage3.Controls.Add(this.rGenerarePatrateMagice);
-            this.tabPage3.Location = new System.Drawing.Point(4, 34);
-            this.tabPage3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage3.Location = new System.Drawing.Point(4, 29);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPage3.Size = new System.Drawing.Size(961, 508);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage3.Size = new System.Drawing.Size(719, 411);
             this.tabPage3.TabIndex = 3;
             this.tabPage3.Text = "Generarea pătratelor magice de diferite ordine";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -88,20 +84,21 @@
             // rGenerarePatrateMagice
             // 
             this.rGenerarePatrateMagice.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.rGenerarePatrateMagice.Location = new System.Drawing.Point(24, 0);
+            this.rGenerarePatrateMagice.Location = new System.Drawing.Point(18, 0);
+            this.rGenerarePatrateMagice.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.rGenerarePatrateMagice.Name = "rGenerarePatrateMagice";
-            this.rGenerarePatrateMagice.Size = new System.Drawing.Size(911, 508);
+            this.rGenerarePatrateMagice.Size = new System.Drawing.Size(683, 413);
             this.rGenerarePatrateMagice.TabIndex = 0;
             this.rGenerarePatrateMagice.Text = "";
             // 
             // suportTeoretic5
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(965, 545);
+            this.ClientSize = new System.Drawing.Size(724, 443);
             this.Controls.Add(this.tabControl1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "suportTeoretic5";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "suportTeoretic5";
             this.Load += new System.EventHandler(this.suportTeoretic5_Load);
             this.tabControl1.ResumeLayout(false);

@@ -95,7 +95,7 @@ namespace matrici
 2 3 4 5 6
 3 4 5 6 7";
             //generare exercitiul 3
-            cerGen.Text = @"Variabilele i și j sunt de tip întreg, iar variabila a memorează un tablou bidimensional cu " + n.ToString() + " linii și " + m.ToString() + " coloane, numerotate începând de la 0, cu elemente numere întregi, inițial toate nule. Fără a utiliza alte variabile decât cele menționate, scrieți o secvență de instrucțiuni astfel încât, în urma executării acesteia, variabila a să un tabloul asemămător cu cel alăturat, dacă numărul de linii ar fi 4, iar numărul de coloane 5.";
+            cerGen.Text = @"Variabilele i și j sunt de tip întreg, iar variabila a memorează un tablou bidimensional cu " + n.ToString() + " linii și " + m.ToString() + " coloane, numerotate începând de la 0, cu elemente numere întregi, inițial toate nule. Fără a utiliza alte variabile decât cele menționate, scrieți o secvență de instrucțiuni astfel încât, în urma executării acesteia, variabila a să memoreze un tablou asemănător cu cel alăturat, dacă numărul de linii ar fi 4, iar numărul de coloane 5.";
             exemplu3.Text = @"5 4 3 2 1
 10 9 8 7 6
 15 14 13 12 11

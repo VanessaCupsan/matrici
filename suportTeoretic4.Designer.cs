@@ -36,8 +36,8 @@
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.rDiagonalaSecundara = new System.Windows.Forms.RichTextBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.rZoneleMatricei = new System.Windows.Forms.RichTextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.rZoneleMatricei = new System.Windows.Forms.RichTextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -133,15 +133,6 @@
             this.tabPage4.Text = "Zonele matricei";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
-            // rZoneleMatricei
-            // 
-            this.rZoneleMatricei.Location = new System.Drawing.Point(0, 0);
-            this.rZoneleMatricei.Name = "rZoneleMatricei";
-            this.rZoneleMatricei.ReadOnly = true;
-            this.rZoneleMatricei.Size = new System.Drawing.Size(796, 653);
-            this.rZoneleMatricei.TabIndex = 0;
-            this.rZoneleMatricei.Text = "";
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::matrici.Properties.Resources.poza_zone_bun_bun_bun;
@@ -151,6 +142,15 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
+            // rZoneleMatricei
+            // 
+            this.rZoneleMatricei.Location = new System.Drawing.Point(0, 0);
+            this.rZoneleMatricei.Name = "rZoneleMatricei";
+            this.rZoneleMatricei.ReadOnly = true;
+            this.rZoneleMatricei.Size = new System.Drawing.Size(796, 653);
+            this.rZoneleMatricei.TabIndex = 0;
+            this.rZoneleMatricei.Text = "";
+            // 
             // suportTeoretic4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -158,6 +158,7 @@
             this.ClientSize = new System.Drawing.Size(800, 687);
             this.Controls.Add(this.tabControl1);
             this.Name = "suportTeoretic4";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "suportTeoretic4";
             this.Load += new System.EventHandler(this.suportTeoretic4_Load);
             this.tabControl1.ResumeLayout(false);

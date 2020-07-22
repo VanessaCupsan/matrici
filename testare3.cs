@@ -143,6 +143,7 @@ int main()
             Evaluare ev = new Evaluare();
             if (ev.EvaluareAfisare(codArie, rtArie.Text, n, m) == 1) t[9] = 1;
             else t[9] = 0;
+            MessageBox.Show(" Felicitări, ai ajuns la finalul testului !");
         }
 
         private void button9_Click_1(object sender, EventArgs e)

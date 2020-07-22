@@ -13,7 +13,7 @@ namespace matrici
     public partial class exersare3 : Form
     {
         int[,] a = { { 3, 2, 1, 0 }, { 6, 5, 4, 3 }, { 9, 8, 7, 6 } };
-        int nIntrebare1,nIntrebare30,nIntrebare31,nIntrebare40,nIntrebare41;
+        int nIntrebare1,nIntrebare30,nIntrebare31,nIntrebare40,nIntrebare41,nExerctiul50,nExercitiul51;
         int[,] v;
         private void button3_Click(object sender, EventArgs e)
         {
@@ -31,6 +31,30 @@ namespace matrici
             else MessageBox.Show(" Răspunsul corect este " + s.ToString() + ".");
         }
 
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Evaluare ev = new Evaluare();
+            if (ev.EvaluareAfisare(codInt, rEx5.Text, nExerctiul50, nExercitiul51) == 1) MessageBox.Show("Corect");
+            else MessageBox.Show("Incorect");
+        }
+        string codInt = @"
+#include <iostream>
+#include <fstream>
+using namespace std;
+ifstream fin(""test.txt"");
+int n, a[100][100], i, j, s,m;
+int main()
+        {
+            fin >> n>>m;
+            for (i = 1; i <= n; i++)
+                for (j = 1; j <= m; j++)
+                    fin >> a[i][j];
+            for(i = 2; i<=n-1; i++)
+                for(j= 2; j<= m-1; j++)
+                cout <<a[i][j]<<"" "";
+            return 0;
+        }
+            ";
         public exersare3()
         {
             InitializeComponent();
@@ -68,7 +92,12 @@ namespace matrici
             nIntrebare41 = r.Next(3, 15);
             intrebare40.Text = " În secvența de mai jos, variabila a memorează un tablou bidimensional cu n=" + nIntrebare40.ToString() + " linii și m=" + nIntrebare40.ToString() + " coloane, numerotate de la 1, cu elemente reale.Variabila p este reală, iar i este de tip întreg.";
             rEx4.LoadFile("ex4e3.rtf");
-
+            //generare exercitiul 5
+            nExerctiul50 = r.Next(3, 30);
+            nExercitiul51 = r.Next(3, 30);
+            string comun = @"Ai o matrice a cu n=" + nExerctiul50.ToString() + " linii și n=" + nExercitiul51.ToString() + " coloane numerotate de la 1 și variabilele i și j declarate. Scrie o secvență de program care ";
+            string comun2 = @"Scrie codul în căsuța de mai jos, fără a folosi alte variabile decât cele prezentate, apoi apasă butonul evaluare.";
+            exerctiul5.Text = comun + "afișează elementele în interiorul matricei a, separate prin câte un spațiu. " + comun2;
 
 
 

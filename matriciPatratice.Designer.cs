@@ -88,6 +88,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "matriciPatratice";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "matriciPatratice";
             this.Load += new System.EventHandler(this.matriciPatratice_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

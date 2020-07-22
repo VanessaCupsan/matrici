@@ -74,7 +74,7 @@ namespace matrici
             intrebare7.Text = " int a[ " + nIntrebare70.ToString() + " ][ " + nIntrebare71.ToString() + " ] ;";
             //generez intrebarea 8
             nIntrebare8 = r.Next(1,5);
-            intrebare8.Text = " Creați, utilizând instrumentul de mai jos, un tablou bidimensional cu numere întregi pozitive care ocupă" + (nIntrebare8*16).ToString() + " octeți.";
+            intrebare8.Text = " Creați, utilizând instrumentul de mai jos, un tablou bidimensional cu numere întregi pozitive care ocupă " + (nIntrebare8*16).ToString() + " octeți.";
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -140,7 +140,7 @@ namespace matrici
 
         private void button3_Click(object sender, EventArgs e)
         {
-            if (radioButton5.Checked)
+            if (radioButton7.Checked)
                 t[5] = 1;
             else t[5] = 0;
             tabControl1.SelectTab(5);
@@ -165,6 +165,12 @@ namespace matrici
             if (radioButton10.Checked)
                 t[9] = 1;
             else t[9] = 0;
+            MessageBox.Show(" Felicitări, ai ajuns la sfârșitul testului !");
+        }
+
+        private void label13_Click_1(object sender, EventArgs e)
+        {
+
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -240,7 +246,7 @@ namespace matrici
             {
                 nrElemente = 0;
             }
-            if (nrElemente ==(nIntrebare2-2)*(nIntrebare21-2))
+            if (nrElemente ==(nIntrebare2*nIntrebare21-2*nIntrebare2-2*nIntrebare21))
                 t[2] = 1;
             else t[2] = 0;
             tabControl1.SelectTab(2);

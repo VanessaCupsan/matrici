@@ -44,7 +44,7 @@ namespace matrici
             intrebarea24.Text= " d) " + ((((nIntrebare2 - 1) * nIntrebare2) / 2)+nIntrebare2).ToString();
             //generare intrebare 3
             nIntrebare3 = r.Next(3, 6);
-            intrebarea3.Text=" Fie o matrice a cu "+nIntrebare3.ToString()+ " linii și "+nIntrebare3.ToString()+ " coloane indexate de la 1. Pentru fiecare element a[i][j] expresia a[i][j]=2*(i+10)-j este nenula. Aflați suma elementelor de pe diagonala secundară .";
+            intrebarea3.Text=" Fie o matrice a cu "+nIntrebare3.ToString()+ " linii și "+nIntrebare3.ToString()+ " coloane indexate de la 0. Pentru fiecare element a[i][j] expresia a[i][j]=2*(i+10)-j este nenula. Aflați suma elementelor de pe diagonala secundară .";
             //generare intrebare 4
             rIntrebare4.LoadFile("intrebare4.rtf");
             nIntrebare4 = r.Next(3, 6);
@@ -132,6 +132,15 @@ int main()
             return 0;
         }
             ";
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            if (Int32.Parse(raspuns1.Text) == nIntrebare1 + 1)
+                t[1] = 1;
+            else t[1] = 0;
+            tabControl1.SelectTab(1);
+        }
+
         string codSubDiagP = @"
 #include <iostream>
 #include <fstream>
@@ -202,6 +211,7 @@ int main()
             if (Int32.Parse(raspuns3.Text) == s)
                 t[3] = 1;
             else t[3] = 0;
+            MessageBox.Show(s.ToString());
             tabControl1.SelectTab(3);
         }
 

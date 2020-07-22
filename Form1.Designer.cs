@@ -43,7 +43,7 @@
             this.matriciPatratice.Font = new System.Drawing.Font("Bell MT", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.matriciPatratice.ForeColor = System.Drawing.Color.LightGreen;
             this.matriciPatratice.Location = new System.Drawing.Point(680, 10);
-            this.matriciPatratice.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.matriciPatratice.Margin = new System.Windows.Forms.Padding(2);
             this.matriciPatratice.Name = "matriciPatratice";
             this.matriciPatratice.Size = new System.Drawing.Size(317, 275);
             this.matriciPatratice.TabIndex = 5;
@@ -58,7 +58,7 @@
             this.generareMatrici.Font = new System.Drawing.Font("Bell MT", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.generareMatrici.ForeColor = System.Drawing.Color.PaleGreen;
             this.generareMatrici.Location = new System.Drawing.Point(9, 316);
-            this.generareMatrici.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.generareMatrici.Margin = new System.Windows.Forms.Padding(2);
             this.generareMatrici.Name = "generareMatrici";
             this.generareMatrici.Size = new System.Drawing.Size(303, 275);
             this.generareMatrici.TabIndex = 4;
@@ -74,7 +74,7 @@
             this.problemeDiverse.Font = new System.Drawing.Font("Bell MT", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.problemeDiverse.ForeColor = System.Drawing.Color.LightGreen;
             this.problemeDiverse.Location = new System.Drawing.Point(680, 316);
-            this.problemeDiverse.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.problemeDiverse.Margin = new System.Windows.Forms.Padding(2);
             this.problemeDiverse.Name = "problemeDiverse";
             this.problemeDiverse.Size = new System.Drawing.Size(317, 275);
             this.problemeDiverse.TabIndex = 3;
@@ -90,7 +90,7 @@
             this.parcurgereMatriciOarecare.Font = new System.Drawing.Font("Bell MT", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.parcurgereMatriciOarecare.ForeColor = System.Drawing.Color.LightGreen;
             this.parcurgereMatriciOarecare.Location = new System.Drawing.Point(350, 316);
-            this.parcurgereMatriciOarecare.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.parcurgereMatriciOarecare.Margin = new System.Windows.Forms.Padding(2);
             this.parcurgereMatriciOarecare.Name = "parcurgereMatriciOarecare";
             this.parcurgereMatriciOarecare.Size = new System.Drawing.Size(297, 275);
             this.parcurgereMatriciOarecare.TabIndex = 2;
@@ -106,7 +106,7 @@
             this.accesareaElementelor.Font = new System.Drawing.Font("Bell MT", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.accesareaElementelor.ForeColor = System.Drawing.Color.PaleGreen;
             this.accesareaElementelor.Location = new System.Drawing.Point(350, 10);
-            this.accesareaElementelor.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.accesareaElementelor.Margin = new System.Windows.Forms.Padding(2);
             this.accesareaElementelor.Name = "accesareaElementelor";
             this.accesareaElementelor.Size = new System.Drawing.Size(297, 275);
             this.accesareaElementelor.TabIndex = 1;
@@ -122,7 +122,7 @@
             this.declarareMatrici.Font = new System.Drawing.Font("Bell MT", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.declarareMatrici.ForeColor = System.Drawing.Color.PaleGreen;
             this.declarareMatrici.Location = new System.Drawing.Point(9, 10);
-            this.declarareMatrici.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.declarareMatrici.Margin = new System.Windows.Forms.Padding(2);
             this.declarareMatrici.Name = "declarareMatrici";
             this.declarareMatrici.Size = new System.Drawing.Size(303, 275);
             this.declarareMatrici.TabIndex = 0;
@@ -145,8 +145,9 @@
             this.Controls.Add(this.parcurgereMatriciOarecare);
             this.Controls.Add(this.accesareaElementelor);
             this.Controls.Add(this.declarareMatrici);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "matrici";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Matrici";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);

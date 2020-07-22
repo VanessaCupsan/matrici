@@ -63,31 +63,28 @@
             this.tabPage5.Controls.Add(this.button2);
             this.tabPage5.Controls.Add(this.rAfisare);
             this.tabPage5.Controls.Add(this.richTextBox4);
-            this.tabPage5.Location = new System.Drawing.Point(4, 34);
-            this.tabPage5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage5.Location = new System.Drawing.Point(4, 29);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPage5.Size = new System.Drawing.Size(1064, 891);
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage5.Size = new System.Drawing.Size(796, 722);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Afișare";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
-            this.label2.Location = new System.Drawing.Point(27, 146);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(20, 119);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(1027, 68);
+            this.label2.Size = new System.Drawing.Size(770, 55);
             this.label2.TabIndex = 4;
             this.label2.Text = "Apasă butonul \" Apasă-mă\" pentru a vedea algoritmul. Pentru a-l rula, copiază-l ș" +
     "i introduce-l in Codeblocks.";
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(464, 257);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Location = new System.Drawing.Point(348, 209);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(147, 53);
+            this.button2.Size = new System.Drawing.Size(110, 43);
             this.button2.TabIndex = 2;
             this.button2.Text = " Apasă-mă";
             this.button2.UseVisualStyleBackColor = true;
@@ -95,19 +92,17 @@
             // 
             // rAfisare
             // 
-            this.rAfisare.Location = new System.Drawing.Point(225, 363);
-            this.rAfisare.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rAfisare.Location = new System.Drawing.Point(169, 295);
             this.rAfisare.Name = "rAfisare";
-            this.rAfisare.Size = new System.Drawing.Size(615, 302);
+            this.rAfisare.Size = new System.Drawing.Size(462, 246);
             this.rAfisare.TabIndex = 1;
             this.rAfisare.Text = "";
             // 
             // richTextBox4
             // 
             this.richTextBox4.Location = new System.Drawing.Point(0, 0);
-            this.richTextBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.richTextBox4.Name = "richTextBox4";
-            this.richTextBox4.Size = new System.Drawing.Size(1060, 893);
+            this.richTextBox4.Size = new System.Drawing.Size(796, 726);
             this.richTextBox4.TabIndex = 0;
             this.richTextBox4.Text = resources.GetString("richTextBox4.Text");
             this.richTextBox4.TextChanged += new System.EventHandler(this.richTextBox4_TextChanged);
@@ -118,31 +113,28 @@
             this.tabPage4.Controls.Add(this.button1);
             this.tabPage4.Controls.Add(this.rCitire);
             this.tabPage4.Controls.Add(this.richTextBox3);
-            this.tabPage4.Location = new System.Drawing.Point(4, 34);
-            this.tabPage4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage4.Location = new System.Drawing.Point(4, 29);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPage4.Size = new System.Drawing.Size(1064, 891);
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage4.Size = new System.Drawing.Size(796, 722);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Citire";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(60, 154);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(45, 125);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(909, 68);
+            this.label1.Size = new System.Drawing.Size(682, 55);
             this.label1.TabIndex = 3;
             this.label1.Text = "Apasă butonul \" Apasă-mă\" pentru a vedea algoritmul. Pentru a-l rula, copiază-l ș" +
     "i introduce-l in Codeblocks.";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(464, 257);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Location = new System.Drawing.Point(348, 209);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(147, 53);
+            this.button1.Size = new System.Drawing.Size(110, 43);
             this.button1.TabIndex = 2;
             this.button1.Text = "Apasă-mă";
             this.button1.UseVisualStyleBackColor = true;
@@ -150,19 +142,17 @@
             // 
             // rCitire
             // 
-            this.rCitire.Location = new System.Drawing.Point(225, 363);
-            this.rCitire.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rCitire.Location = new System.Drawing.Point(169, 295);
             this.rCitire.Name = "rCitire";
-            this.rCitire.Size = new System.Drawing.Size(615, 302);
+            this.rCitire.Size = new System.Drawing.Size(462, 246);
             this.rCitire.TabIndex = 1;
             this.rCitire.Text = "";
             // 
             // richTextBox3
             // 
-            this.richTextBox3.Location = new System.Drawing.Point(44, 0);
-            this.richTextBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.richTextBox3.Location = new System.Drawing.Point(33, 0);
             this.richTextBox3.Name = "richTextBox3";
-            this.richTextBox3.Size = new System.Drawing.Size(972, 893);
+            this.richTextBox3.Size = new System.Drawing.Size(730, 726);
             this.richTextBox3.TabIndex = 0;
             this.richTextBox3.Text = resources.GetString("richTextBox3.Text");
             this.richTextBox3.TextChanged += new System.EventHandler(this.richTextBox3_TextChanged);
@@ -172,11 +162,10 @@
             this.tabPage2.Controls.Add(this.pictureBox4);
             this.tabPage2.Controls.Add(this.pictureBox3);
             this.tabPage2.Controls.Add(this.richTextBox1);
-            this.tabPage2.Location = new System.Drawing.Point(4, 34);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage2.Location = new System.Drawing.Point(4, 29);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPage2.Size = new System.Drawing.Size(1064, 891);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage2.Size = new System.Drawing.Size(796, 722);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Parcurgerea unei linii și a unei coloane";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -184,30 +173,27 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::matrici.Properties.Resources.poza_parcurgere_linii_si_coloane_2;
-            this.pictureBox4.Location = new System.Drawing.Point(321, 592);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox4.Location = new System.Drawing.Point(241, 481);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(411, 123);
+            this.pictureBox4.Size = new System.Drawing.Size(308, 100);
             this.pictureBox4.TabIndex = 2;
             this.pictureBox4.TabStop = false;
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = global::matrici.Properties.Resources.poza_parcurgere_linii_si_coloane;
-            this.pictureBox3.Location = new System.Drawing.Point(325, 202);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Location = new System.Drawing.Point(244, 164);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(407, 121);
+            this.pictureBox3.Size = new System.Drawing.Size(305, 98);
             this.pictureBox3.TabIndex = 1;
             this.pictureBox3.TabStop = false;
             // 
             // richTextBox1
             // 
             this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox1.Location = new System.Drawing.Point(44, 9);
-            this.richTextBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.richTextBox1.Location = new System.Drawing.Point(33, 7);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(1023, 885);
+            this.richTextBox1.Size = new System.Drawing.Size(767, 719);
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
             // 
@@ -216,40 +202,36 @@
             this.tabPage1.Controls.Add(this.rSuportTeoretic31);
             this.tabPage1.Controls.Add(this.rSuportTeoretic30);
             this.tabPage1.Controls.Add(this.richTextBox2);
-            this.tabPage1.Location = new System.Drawing.Point(4, 34);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage1.Location = new System.Drawing.Point(4, 29);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPage1.Size = new System.Drawing.Size(1064, 891);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage1.Size = new System.Drawing.Size(796, 722);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Parcurgerea matricei";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // rSuportTeoretic31
             // 
-            this.rSuportTeoretic31.Location = new System.Drawing.Point(196, 498);
-            this.rSuportTeoretic31.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rSuportTeoretic31.Location = new System.Drawing.Point(147, 405);
             this.rSuportTeoretic31.Name = "rSuportTeoretic31";
-            this.rSuportTeoretic31.Size = new System.Drawing.Size(439, 281);
+            this.rSuportTeoretic31.Size = new System.Drawing.Size(330, 229);
             this.rSuportTeoretic31.TabIndex = 4;
             this.rSuportTeoretic31.Text = "";
             // 
             // rSuportTeoretic30
             // 
-            this.rSuportTeoretic30.Location = new System.Drawing.Point(196, 58);
-            this.rSuportTeoretic30.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rSuportTeoretic30.Location = new System.Drawing.Point(147, 47);
             this.rSuportTeoretic30.Name = "rSuportTeoretic30";
-            this.rSuportTeoretic30.Size = new System.Drawing.Size(439, 281);
+            this.rSuportTeoretic30.Size = new System.Drawing.Size(330, 229);
             this.rSuportTeoretic30.TabIndex = 3;
             this.rSuportTeoretic30.Text = "";
             // 
             // richTextBox2
             // 
             this.richTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox2.Location = new System.Drawing.Point(42, 8);
-            this.richTextBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.richTextBox2.Location = new System.Drawing.Point(32, 6);
             this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(1008, 889);
+            this.richTextBox2.Size = new System.Drawing.Size(756, 722);
             this.richTextBox2.TabIndex = 0;
             this.richTextBox2.Text = resources.GetString("richTextBox2.Text");
             this.richTextBox2.TextChanged += new System.EventHandler(this.richTextBox2_TextChanged);
@@ -262,20 +244,19 @@
             this.tabControl1.Controls.Add(this.tabPage5);
             this.tabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabControl1.Location = new System.Drawing.Point(0, -1);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1072, 929);
+            this.tabControl1.Size = new System.Drawing.Size(804, 755);
             this.tabControl1.TabIndex = 0;
             // 
             // suportTeoretic3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 924);
+            this.ClientSize = new System.Drawing.Size(800, 687);
             this.Controls.Add(this.tabControl1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "suportTeoretic3";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "suportTeoretic3";
             this.Load += new System.EventHandler(this.suportTeoretic3_Load);
             this.tabPage5.ResumeLayout(false);

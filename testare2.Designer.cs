@@ -1343,6 +1343,7 @@
             this.Controls.Add(this.evaluare);
             this.Controls.Add(this.tabControl1);
             this.Name = "testare2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "testare2";
             this.Load += new System.EventHandler(this.testare2_Load);
             this.tabControl1.ResumeLayout(false);

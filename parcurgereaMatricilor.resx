@@ -117,10 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label3.Text" xml:space="preserve">
-    <value> În secvența de mai jos, variabilele i și j sunt de tip întreg, iar variabila v memorează o matrice în care prima linie și prima coloană sunt numerotate cu 1.Toate elementele matricei primesc valori în urma executării secvenței. </value>
-  </data>
-  <data name="label9.Text" xml:space="preserve">
-    <value>c) pentru determinarea sumei elementelor din submatricea cu colțul stânga sus( is,js ) și colțul dreapta jos ( id,jd ) se va folosi o formulă prin intermediul căreia se va genera o matrice s cu care se va calcula suma.</value>
-  </data>
 </root>

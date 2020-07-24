@@ -96,7 +96,7 @@ int main()
             nExerctiul50 = r.Next(3, 30);
             nExercitiul51 = r.Next(3, 30);
             string comun = @"Ai o matrice a cu n=" + nExerctiul50.ToString() + " linii și n=" + nExercitiul51.ToString() + " coloane numerotate de la 1 și variabilele i și j declarate. Scrie o secvență de program care ";
-            string comun2 = @"Scrie codul în căsuța de mai jos, fără a folosi alte variabile decât cele prezentate, apoi apasă butonul evaluare.";
+            string comun2 = @"Scrie codul în căsuța de mai jos, fără a folosi alte variabile decât cele prezentate, apoi apasă butonul Verifică.";
             exerctiul5.Text = comun + "afișează elementele în interiorul matricei a, separate prin câte un spațiu. " + comun2;
 
 

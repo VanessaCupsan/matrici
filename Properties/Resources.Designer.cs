@@ -483,6 +483,16 @@ namespace matrici.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap poza_fundal_bun_bun3 {
+            get {
+                object obj = ResourceManager.GetObject("poza fundal bun bun3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap poza_fundal_scris {
             get {
                 object obj = ResourceManager.GetObject("poza fundal scris", resourceCulture);

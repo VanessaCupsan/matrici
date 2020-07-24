@@ -177,6 +177,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.BackgroundImage = global::matrici.Properties.Resources.poza_fundal_bun_bun;
             this.tabPage1.Controls.Add(this.button5);
             this.tabPage1.Controls.Add(this.raspuns11);
             this.tabPage1.Controls.Add(this.raspuns10);
@@ -249,6 +250,7 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.BackgroundImage = global::matrici.Properties.Resources.poza_fundal_bun_bun;
             this.tabPage2.Controls.Add(this.raspuns21);
             this.tabPage2.Controls.Add(this.raspuns20);
             this.tabPage2.Controls.Add(this.button1);
@@ -320,6 +322,7 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.BackgroundImage = global::matrici.Properties.Resources.poza_fundal_bun_bun;
             this.tabPage3.Controls.Add(this.button2);
             this.tabPage3.Controls.Add(this.radioButton4);
             this.tabPage3.Controls.Add(this.radioButton3);
@@ -445,6 +448,7 @@
             // 
             // tabPage4
             // 
+            this.tabPage4.BackgroundImage = global::matrici.Properties.Resources.poza_fundal_bun_bun;
             this.tabPage4.Controls.Add(this.a31);
             this.tabPage4.Controls.Add(this.a32);
             this.tabPage4.Controls.Add(this.a33);
@@ -709,6 +713,7 @@
             // 
             // tabPage5
             // 
+            this.tabPage5.BackgroundImage = global::matrici.Properties.Resources.poza_fundal_bun_bun;
             this.tabPage5.Controls.Add(this.pictureBox2);
             this.tabPage5.Controls.Add(this.button4);
             this.tabPage5.Controls.Add(this.raspuns51);
@@ -818,6 +823,7 @@
             // 
             // tabPage6
             // 
+            this.tabPage6.BackgroundImage = global::matrici.Properties.Resources.poza_fundal_bun_bun;
             this.tabPage6.Controls.Add(this.button7);
             this.tabPage6.Controls.Add(this.raspuns012);
             this.tabPage6.Controls.Add(this.raspuns013);
@@ -1046,6 +1052,7 @@
             // 
             // tabPage7
             // 
+            this.tabPage7.BackgroundImage = global::matrici.Properties.Resources.poza_fundal_bun_bun;
             this.tabPage7.Controls.Add(this.button8);
             this.tabPage7.Controls.Add(this.raspuns72);
             this.tabPage7.Controls.Add(this.raspuns71);
@@ -1140,6 +1147,7 @@
             // 
             // tabPage8
             // 
+            this.tabPage8.BackgroundImage = global::matrici.Properties.Resources.poza_fundal_bun_bun;
             this.tabPage8.Controls.Add(this.label17);
             this.tabPage8.Controls.Add(this.label15);
             this.tabPage8.Controls.Add(this.raspuns81);
@@ -1254,6 +1262,7 @@
             // 
             // tabPage9
             // 
+            this.tabPage9.BackgroundImage = global::matrici.Properties.Resources.poza_fundal_bun_bun;
             this.tabPage9.Controls.Add(this.raspuns91);
             this.tabPage9.Controls.Add(this.raspuns90);
             this.tabPage9.Controls.Add(this.button9);

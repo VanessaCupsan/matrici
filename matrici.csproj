@@ -625,5 +625,8 @@
   <ItemGroup>
     <None Include="Resources\poza fundal bun bun2.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poza fundal bun bun3.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

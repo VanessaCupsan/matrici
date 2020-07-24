@@ -59,6 +59,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.rIntrebare4 = new System.Windows.Forms.RichTextBox();
             this.intrebarea4 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.button9 = new System.Windows.Forms.Button();
             this.rEx5 = new System.Windows.Forms.RichTextBox();
@@ -99,20 +100,19 @@
             this.rtZonaV = new System.Windows.Forms.RichTextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.cerZonaV = new System.Windows.Forms.Label();
-            this.evaluare = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.evaluare = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.tabPage4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabPage5.SuspendLayout();
             this.tabPage6.SuspendLayout();
             this.tabPage7.SuspendLayout();
             this.tabPage8.SuspendLayout();
             this.tabPage9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -136,13 +136,14 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.BackgroundImage = global::matrici.Properties.Resources.poza_fundal_bun_bun;
             this.tabPage1.Controls.Add(this.button10);
             this.tabPage1.Controls.Add(this.intrebare1);
             this.tabPage1.Controls.Add(this.label1);
             this.tabPage1.Controls.Add(this.raspuns1);
             this.tabPage1.Location = new System.Drawing.Point(4, 29);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(920, 444);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Întrebarea 1";
@@ -187,6 +188,7 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.BackgroundImage = global::matrici.Properties.Resources.poza_fundal_bun_bun;
             this.tabPage2.Controls.Add(this.radioButton4);
             this.tabPage2.Controls.Add(this.radioButton3);
             this.tabPage2.Controls.Add(this.radioButton2);
@@ -200,7 +202,7 @@
             this.tabPage2.Controls.Add(this.intrebarea2);
             this.tabPage2.Location = new System.Drawing.Point(4, 29);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(920, 444);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Întrebarea 2";
@@ -311,13 +313,14 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.BackgroundImage = global::matrici.Properties.Resources.poza_fundal_bun_bun;
             this.tabPage3.Controls.Add(this.button2);
             this.tabPage3.Controls.Add(this.raspuns3);
             this.tabPage3.Controls.Add(this.label3);
             this.tabPage3.Controls.Add(this.intrebarea3);
             this.tabPage3.Location = new System.Drawing.Point(4, 29);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage3.Size = new System.Drawing.Size(920, 444);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Întrebarea 3";
@@ -363,6 +366,7 @@
             // 
             // tabPage4
             // 
+            this.tabPage4.BackgroundImage = global::matrici.Properties.Resources.poza_fundal_bun_bun;
             this.tabPage4.Controls.Add(this.label6);
             this.tabPage4.Controls.Add(this.button3);
             this.tabPage4.Controls.Add(this.raspuns4);
@@ -373,7 +377,7 @@
             this.tabPage4.Controls.Add(this.pictureBox1);
             this.tabPage4.Location = new System.Drawing.Point(4, 29);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage4.Size = new System.Drawing.Size(920, 444);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Întrebarea 4";
@@ -442,8 +446,18 @@
             this.intrebarea4.TabIndex = 0;
             this.intrebarea4.Text = "label4";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::matrici.Properties.Resources.poza_intrebarea_4;
+            this.pictureBox1.Location = new System.Drawing.Point(396, 74);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(206, 204);
+            this.pictureBox1.TabIndex = 20;
+            this.pictureBox1.TabStop = false;
+            // 
             // tabPage5
             // 
+            this.tabPage5.BackgroundImage = global::matrici.Properties.Resources.poza_fundal_bun_bun;
             this.tabPage5.Controls.Add(this.button9);
             this.tabPage5.Controls.Add(this.rEx5);
             this.tabPage5.Controls.Add(this.radioButton8);
@@ -458,7 +472,7 @@
             this.tabPage5.Controls.Add(this.exercitiul5);
             this.tabPage5.Location = new System.Drawing.Point(4, 29);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage5.Size = new System.Drawing.Size(920, 444);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Întrebarea 5";
@@ -579,6 +593,7 @@
             // 
             // tabPage6
             // 
+            this.tabPage6.BackgroundImage = global::matrici.Properties.Resources.poza_fundal_bun_bun;
             this.tabPage6.Controls.Add(this.radioButton12);
             this.tabPage6.Controls.Add(this.radioButton11);
             this.tabPage6.Controls.Add(this.radioButton10);
@@ -591,7 +606,7 @@
             this.tabPage6.Controls.Add(this.intrebare6);
             this.tabPage6.Location = new System.Drawing.Point(4, 29);
             this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage6.Size = new System.Drawing.Size(920, 444);
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "Întrebarea 6";
@@ -694,13 +709,14 @@
             // 
             // tabPage7
             // 
+            this.tabPage7.BackgroundImage = global::matrici.Properties.Resources.poza_fundal_bun_bun;
             this.tabPage7.Controls.Add(this.button5);
             this.tabPage7.Controls.Add(this.rtDiagS);
             this.tabPage7.Controls.Add(this.label12);
             this.tabPage7.Controls.Add(this.cerDiagSec);
             this.tabPage7.Location = new System.Drawing.Point(4, 29);
             this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage7.Size = new System.Drawing.Size(920, 444);
             this.tabPage7.TabIndex = 6;
             this.tabPage7.Text = "Întrebarea 7";
@@ -744,13 +760,14 @@
             // 
             // tabPage8
             // 
+            this.tabPage8.BackgroundImage = global::matrici.Properties.Resources.poza_fundal_bun_bun;
             this.tabPage8.Controls.Add(this.button6);
             this.tabPage8.Controls.Add(this.rtSubDiagP);
             this.tabPage8.Controls.Add(this.label13);
             this.tabPage8.Controls.Add(this.cerSubDiagP);
             this.tabPage8.Location = new System.Drawing.Point(4, 29);
             this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage8.Size = new System.Drawing.Size(920, 444);
             this.tabPage8.TabIndex = 7;
             this.tabPage8.Text = "Întrebarea 8";
@@ -794,6 +811,7 @@
             // 
             // tabPage9
             // 
+            this.tabPage9.BackgroundImage = global::matrici.Properties.Resources.poza_fundal_bun_bun;
             this.tabPage9.Controls.Add(this.label15);
             this.tabPage9.Controls.Add(this.button7);
             this.tabPage9.Controls.Add(this.rtZonaV);
@@ -802,7 +820,7 @@
             this.tabPage9.Controls.Add(this.pictureBox2);
             this.tabPage9.Location = new System.Drawing.Point(4, 29);
             this.tabPage9.Name = "tabPage9";
-            this.tabPage9.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage9.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage9.Size = new System.Drawing.Size(920, 444);
             this.tabPage9.TabIndex = 8;
             this.tabPage9.Text = "Întrebarea 9";
@@ -854,6 +872,15 @@
             this.cerZonaV.TabIndex = 0;
             this.cerZonaV.Text = "label14";
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::matrici.Properties.Resources.poza_intrebarea_4;
+            this.pictureBox2.Location = new System.Drawing.Point(569, 129);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(226, 233);
+            this.pictureBox2.TabIndex = 30;
+            this.pictureBox2.TabStop = false;
+            // 
             // evaluare
             // 
             this.evaluare.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -864,24 +891,6 @@
             this.evaluare.Text = "Evaluați";
             this.evaluare.UseVisualStyleBackColor = true;
             this.evaluare.Click += new System.EventHandler(this.evaluare_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::matrici.Properties.Resources.poza_intrebarea_4;
-            this.pictureBox1.Location = new System.Drawing.Point(396, 74);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(206, 204);
-            this.pictureBox1.TabIndex = 20;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::matrici.Properties.Resources.poza_intrebarea_4;
-            this.pictureBox2.Location = new System.Drawing.Point(566, 109);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(226, 233);
-            this.pictureBox2.TabIndex = 30;
-            this.pictureBox2.TabStop = false;
             // 
             // testare4
             // 
@@ -903,6 +912,7 @@
             this.tabPage3.PerformLayout();
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabPage5.ResumeLayout(false);
             this.tabPage5.PerformLayout();
             this.tabPage6.ResumeLayout(false);
@@ -913,7 +923,6 @@
             this.tabPage8.PerformLayout();
             this.tabPage9.ResumeLayout(false);
             this.tabPage9.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 

@@ -114,7 +114,16 @@ int main()
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (Int32.Parse(raspuns1.Text) == 0)
+            int n;
+            try
+            {
+                n = Int32.Parse(raspuns1.Text);
+            }
+            catch
+            {
+                n = -20;
+            }
+            if (n == 0)
                 MessageBox.Show(" Răspuns corect.");
             else MessageBox.Show(" Întrucât elementul a[i][j] se află pe diagonala principală, i=j. De aceea, valoarea expresiei i-j este 0.");
         }

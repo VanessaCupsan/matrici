@@ -40,7 +40,7 @@ namespace matrici
             {
 
             }
-            // creez pocesul
+            // creez procesul
             Process proc = new Process();
             proc.StartInfo.FileName = compilator;
             proc.StartInfo.Arguments = " " + fisier + " -o " + dirComp + @"\test2020.exe";
@@ -91,7 +91,7 @@ namespace matrici
             {
 
             }
-            // creez pocesul
+            // creez procesul
             Process proc = new Process();
             proc.StartInfo.FileName = dirComp + @"\test2020.exe";
             proc.StartInfo.Arguments = "";

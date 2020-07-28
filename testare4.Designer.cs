@@ -386,16 +386,16 @@
             // label6
             // 
             this.label6.ForeColor = System.Drawing.Color.Red;
-            this.label6.Location = new System.Drawing.Point(605, 117);
+            this.label6.Location = new System.Drawing.Point(678, 112);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(315, 90);
+            this.label6.Size = new System.Drawing.Size(265, 98);
             this.label6.TabIndex = 21;
             this.label6.Text = "Zona de NORD nu cuprinde și diagonalele.";
             // 
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(691, 266);
+            this.button3.Location = new System.Drawing.Point(453, 352);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(96, 44);
             this.button3.TabIndex = 19;
@@ -405,7 +405,7 @@
             // 
             // raspuns4
             // 
-            this.raspuns4.Location = new System.Drawing.Point(591, 284);
+            this.raspuns4.Location = new System.Drawing.Point(360, 370);
             this.raspuns4.Mask = "00000000";
             this.raspuns4.Name = "raspuns4";
             this.raspuns4.Size = new System.Drawing.Size(39, 26);
@@ -415,7 +415,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(368, 290);
+            this.label4.Location = new System.Drawing.Point(133, 373);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(184, 20);
             this.label4.TabIndex = 4;
@@ -423,7 +423,7 @@
             // 
             // label5
             // 
-            this.label5.Location = new System.Drawing.Point(27, 350);
+            this.label5.Location = new System.Drawing.Point(27, 326);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(779, 43);
             this.label5.TabIndex = 3;
@@ -449,9 +449,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::matrici.Properties.Resources.poza_intrebarea_4;
-            this.pictureBox1.Location = new System.Drawing.Point(396, 74);
+            this.pictureBox1.Location = new System.Drawing.Point(453, 89);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(206, 204);
+            this.pictureBox1.Size = new System.Drawing.Size(219, 217);
             this.pictureBox1.TabIndex = 20;
             this.pictureBox1.TabStop = false;
             // 

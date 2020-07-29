@@ -357,7 +357,7 @@
             // 
             // intrebarea3
             // 
-            this.intrebarea3.BackColor = System.Drawing.Color.White;
+            this.intrebarea3.BackColor = System.Drawing.Color.Transparent;
             this.intrebarea3.Location = new System.Drawing.Point(29, 31);
             this.intrebarea3.Name = "intrebarea3";
             this.intrebarea3.Size = new System.Drawing.Size(883, 89);

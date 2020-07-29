@@ -25,7 +25,7 @@ namespace matrici
             Random r = new Random();
             //generare exercitiul 1
             nExercitiul10 = r.Next(3, 100);
-            exercitiul1.Text = " Se dă tabloul bidimensioanl a, cu " + nExercitiul10.ToString() + " linii și " + nExercitiul10.ToString() + " coloane indexate de la 1. Știind că notăm cu a[i][j] elementul aflat pe linia i și coloana j, care este valoarea expresiei i-j dacă a[i][j] se află pe diagonala principală a matricei ?";
+            exercitiul1.Text = " Se dă tabloul bidimensional a, cu " + nExercitiul10.ToString() + " linii și " + nExercitiul10.ToString() + " coloane indexate de la 1. Știind că notăm cu a[i][j] elementul aflat pe linia i și coloana j, care este valoarea expresiei i-j dacă a[i][j] se află pe diagonala principală a matricei ?";
             //generare exercitiul 2
             nExercitiul2 = r.Next(3, 100);
             exercitiul2.Text = " Fiind dat un tablou bidimensional cu n="+nExercitiul2.ToString()+" linii și n="+nExercitiul2.ToString()+" coloane, câte elemente se găsesc strict deasupra diagonalei secundare ?";

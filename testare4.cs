@@ -135,7 +135,16 @@ int main()
 
         private void button10_Click(object sender, EventArgs e)
         {
-            if (Int32.Parse(raspuns1.Text) == nIntrebare1 + 1)
+            int x;
+            try
+            {
+                x = Int32.Parse(raspuns1.Text);
+            }
+            catch
+            {
+                x = 0;
+            }
+            if (x == nIntrebare1 + 1)
                 t[1] = 1;
             else t[1] = 0;
             tabControl1.SelectTab(1);
@@ -182,6 +191,15 @@ int main()
 
         private void button3_Click(object sender, EventArgs e)
         {
+            int x;
+            try
+            {
+                x = Int32.Parse(raspuns4.Text);
+            }
+            catch
+            {
+                x = 0;
+            }
             v = new int[nIntrebare4, nIntrebare4];
             int i, j,suma=0;
             for(i=0;i<nIntrebare4;i++)
@@ -193,7 +211,7 @@ int main()
                         suma=suma+v[i,j];
                     }
                 }
-            if (Int32.Parse(raspuns4.Text) == suma)
+            if (x == suma)
                 t[4] = 1;
             else t[4] = 0;
             tabControl1.SelectTab(4);
@@ -201,6 +219,15 @@ int main()
 
         private void button2_Click_1(object sender, EventArgs e)
         {
+            int x;
+            try
+            {
+                x = Int32.Parse(raspuns3.Text);
+            }
+            catch
+            {
+                x = -20;
+            }
             a = new int[nIntrebare3, nIntrebare3];
             int i, j, s = 0;
             for (i = 0; i < nIntrebare3; i++)
@@ -208,11 +235,10 @@ int main()
                     a[i, j] = 2 * (i + 10) - j;
             for (i = 0; i < nIntrebare3; i++)
                 s += a[i,nIntrebare3 - i-1];
-            if (Int32.Parse(raspuns3.Text) == s)
+            if (x == s)
                 t[3] = 1;
             else t[3] = 0;
-            MessageBox.Show(s.ToString());
-            tabControl1.SelectTab(3);
+           tabControl1.SelectTab(3);
         }
 
         private void button1_Click(object sender, EventArgs e)
